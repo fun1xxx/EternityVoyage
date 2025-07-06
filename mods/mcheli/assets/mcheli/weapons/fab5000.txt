@@ -1,0 +1,22 @@
+DisplayName = FAB-5000
+Type = Bomb
+Power = 600
+Acceleration = 0.05
+Explosion = 50
+ExplosionBlock = 40
+ExplosionInWater = 40
+Flaming = true
+Sight = None
+Delay = 8
+Sound = bomb_snd
+ModelBullet = fab500sh
+Gravity = -0.01
+
+ReloadTime = 200
+Round = 4
+
+MaxAmmo = 12
+SuppliedNum = 4
+Item =  8, iron_ingot
+Item =  10, gunpowder
+Item =  30, tnt

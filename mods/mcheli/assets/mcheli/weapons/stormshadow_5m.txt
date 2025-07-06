@@ -1,0 +1,24 @@
+DisplayName = Storm Shadow [Piercing 5m]
+Type = TVMissile
+Power = 250
+Acceleration = 1.8
+Explosion = 90
+ExplosionBlock = 25
+Flaming = false
+Sight = MoveSight
+ModeNum = 2
+ReloadTime = 300
+SoundVolume = 3
+Sound = bomb_snd
+ModelBullet = stormshadow
+DisableSmoke = true
+Piercing  = 5
+
+DamageFactor = Player, 5.0
+
+Round = 1
+MaxAmmo = 2
+SuppliedNum = 1
+Item =  4, iron_ingot
+Item =  20, tnt
+Item =  4, redstone

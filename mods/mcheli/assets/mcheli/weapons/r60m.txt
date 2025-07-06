@@ -1,0 +1,20 @@
+DisplayName = R-60M
+Type = AAMissile
+Power = 200
+Acceleration = 3
+Explosion = 4
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 2
+LockTime = 12
+ProximityFuseDist = 1
+ModelBullet = r60m
+Sound = r60m_fire
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

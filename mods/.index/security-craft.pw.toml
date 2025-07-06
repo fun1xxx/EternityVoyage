@@ -1,0 +1,16 @@
+filename = '[1.7.10] SecurityCraft v1.8.13.jar'
+name = 'Security Craft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '5f1083b06139dbd4d6b5cc153b0ff24e5071aaf8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2818228
+project-id = 64760

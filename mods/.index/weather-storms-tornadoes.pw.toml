@@ -1,0 +1,16 @@
+filename = 'weather2-1.7.10-2.3.20.jar'
+name = 'Weather, Storms & Tornadoes'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'fb76404ae8525da641e24c701ea8d2cde3619ba7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2513048
+project-id = 237746

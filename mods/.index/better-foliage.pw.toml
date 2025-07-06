@@ -1,0 +1,16 @@
+filename = 'BetterFoliage-MC1.7.10-2.0.17.jar'
+name = 'Better Foliage'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '22861434405ab55a947390715951e000bcf98936'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2500869
+project-id = 228529

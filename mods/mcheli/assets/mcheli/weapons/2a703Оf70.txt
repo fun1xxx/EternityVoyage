@@ -1,0 +1,32 @@
+DisplayName = 	100mm 2A70  [3OF70]
+Type = MachineGun1
+Power = 55
+ModelBullet = bullet105mm
+Acceleration = 6.0
+Explosion = 3
+Flaming = false
+Sight = MoveSight
+Delay = 95
+Round = 1
+SoundVolume = 2
+SoundPitch = 1.0
+Sound = 2a70fire
+Accuracy = 1.0
+ModeNum = 2
+Recoil = 0.9
+DamageFactor = helicopter, 1.5
+DamageFactor = plane,      1.5
+DamageFactor = vehicle,    0.8
+DamageFactor = car,       1.0
+DamageFactor = tank,      0.5
+
+AddMuzzleFlash      =   1.1,       2.10,        7,  220,254,159,74
+AddMuzzleFlash      =   1.0,       2.00,        5,  220,254,219,184
+AddMuzzleFlash      =  1.0,      2.00,        5,  220,254,219,184
+AddMuzzleFlashSmoke   = 1.2, 30,  12.0,  4.0, 65,  220,160,140,120
+AddMuzzleFlashSmoke   = 1.2,  20,  13.0,  7.0, 55,  200,190,170,150
+
+MaxAmmo = 12
+SuppliedNum = 24
+Item =  2, iron_ingot
+Item =  2, gunpowder

@@ -1,0 +1,21 @@
+DisplayName = 80mm b8
+Type = Rocket
+Power = 100
+ModelBullet = hydra70
+Acceleration = 6.0
+Explosion = 3
+Sound = rocket_snd
+Flaming = false
+Sight = MoveSight
+Delay = 2
+ReloadTime = 100
+Round = 14
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 14
+SuppliedNum = 19
+Item =  3, iron_ingot
+Item =  3, gunpowder

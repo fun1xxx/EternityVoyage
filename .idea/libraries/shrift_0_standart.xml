@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="shrift-0-standart">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/resourcepacks/shrift-0-standart.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

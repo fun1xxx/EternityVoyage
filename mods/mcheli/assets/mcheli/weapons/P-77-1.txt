@@ -1,0 +1,22 @@
+DisplayName = P-77-1
+Type = AAMissile
+Power = 100
+Acceleration = 10
+Explosion = 6
+Flaming = false
+Sight = MissileSight
+Delay = 30
+LockTime = 9
+Round = 10
+ReloadTime = 65
+ProximityFuseDist = 4
+Sound = missile_3_snd
+
+DamageFactor = plane, 26.0
+DamageFactor = helicopter, 30.0
+
+MaxAmmo = 10
+SuppliedNum = 10
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

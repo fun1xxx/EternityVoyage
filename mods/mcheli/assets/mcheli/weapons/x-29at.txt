@@ -1,0 +1,19 @@
+DisplayName = x-29AT
+Type = ATMissile
+Power = 600
+Acceleration = 8.0
+Explosion = 12
+LockTime = 1
+ExplosionBlock = 8
+Flaming = falce
+Sight = MoveSight
+Delay = 150
+ModelBullet = x-29
+Sound = racketx
+DisableSmoke = True
+
+MaxAmmo = 4
+SuppliedNum = 4
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  4, redstone

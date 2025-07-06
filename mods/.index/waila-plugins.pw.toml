@@ -1,0 +1,16 @@
+filename = 'WAILAPlugins-MC1.7.10-0.2.0-25.jar'
+name = 'WAILA Plugins'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '41a59ef754f01fdf8259751b63d3658b2c8a7438'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2351717
+project-id = 226119

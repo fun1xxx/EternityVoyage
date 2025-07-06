@@ -1,0 +1,18 @@
+DisplayName = PG-9
+Type = MachineGun1
+Power = 200
+ModelBullet = PG-9
+Acceleration = 10
+Explosion = 0
+Flaming = false
+Sight = MoveSight
+Delay = 40
+Sound = cannon_1_snd
+Gravity = -0.01
+Round = 1
+
+MaxAmmo = 10
+SuppliedNum = 5
+Item =  4, iron_ingot
+Item =  4, gunpowder
+

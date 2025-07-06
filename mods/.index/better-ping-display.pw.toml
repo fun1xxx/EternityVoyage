@@ -1,0 +1,16 @@
+filename = 'BetterPingDisplay-1.7.10-1.0.jar'
+name = 'Better Ping Display [Forge/NeoForge]'
+side = 'client'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e3189f3a58daf02504f4b1ac11ffc543d84db81315d01faddcd077ae853d23bb79d9998e79dd9b8fde394fd6e2bbc49a0c1d7b443f4b840939c50b9045d96ee0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZvaHbwoZ/versions/1.7.10-1.0/BetterPingDisplay-1.7.10-1.0.jar'
+
+[update.modrinth]
+mod-id = 'ZvaHbwoZ'
+version = 'TAwK2D7i'

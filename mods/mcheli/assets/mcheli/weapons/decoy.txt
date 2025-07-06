@@ -1,0 +1,12 @@
+DisplayName = FA-50 Decoy
+Type = Rocket
+Power = 0
+ModelBullet = fa50
+Acceleration = 1.8
+Explosion = 2
+Gravity = 0
+TimeFuse = 100
+Flaming = false
+Sight = MoveSight
+Sound = rocket_snd
+Delay = 100

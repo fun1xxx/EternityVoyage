@@ -1,0 +1,16 @@
+filename = '+unimixins-all-1.7.10-0.1.20.jar'
+name = 'UniMixins'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'e8f71e4722badda7fd78636d145d309abd9de350a38c08d3b4b2fd74f04037466b5626cd082d83b51efd8a033e3e347089315ad7c6e2034ef878d06a18c8ad12'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ghjoiQAl/versions/QJuu6UyE/%2Bunimixins-all-1.7.10-0.1.20.jar'
+
+[update.modrinth]
+mod-id = 'ghjoiQAl'
+version = 'QJuu6UyE'

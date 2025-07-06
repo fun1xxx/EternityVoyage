@@ -1,0 +1,18 @@
+DisplayName = 9M113M
+Type = TVMissile
+Power = 252
+Acceleration = 3.0
+ModelBullet = 9m113m
+Explosion = 4
+Flaming = true
+Sight = MoveSight
+Delay = 100
+ModeNum = 2
+ReloadTime = 100
+Sound = konkurslaunch
+
+MaxAmmo = 2
+SuppliedNum = 2
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  2, redstone

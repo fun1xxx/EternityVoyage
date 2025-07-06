@@ -1,0 +1,16 @@
+filename = 'Decocraft-2.4.2_1.7.10.jar'
+name = 'Decocraft'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9165cb971d16a445e241f7e7e3475601bcea296d39d8c792d450e9f1465442bbd56e8a86fe80ebc33e67dcda0d447e93fafbcf4428997f83f889cc4bf00e068a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/IZJSgKZe/versions/2.4.2/Decocraft-2.4.2_1.7.10.jar'
+
+[update.modrinth]
+mod-id = 'IZJSgKZe'
+version = 'mcFNvgsV'

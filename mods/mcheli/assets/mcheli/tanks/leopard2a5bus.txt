@@ -1,0 +1,88 @@
+DisplayName = Leopard 2a5 bus
+MaxHp = 340
+Speed = 0.70
+Sound = leo2engine
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 4.0
+MinRotationPitch = -30
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 4
+CameraPosition = 0.00,  3.7, -0.5, true
+EnableNightVision = true
+CameraRotationSpeed = 35
+EnableEntityRadar = true
+MaxFuel  = 2400
+FuelConsumption = 2.4
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+FlareType = 10
+SubmergedDamageHeight = 3
+HideEntity = true
+WeightType = Unknown
+WeightedCenterZ = 0.0
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+HUD = mbt_hud, mbt_gnr
+
+AddTexture = leopard2a4_2
+AddTexture = leopard2a4_3
+AddTexture = leopard2a4_4
+AddTexture = leopard2a4_5
+AddTexture = leopard2a4_6
+AddTexture = leopard2a4_7
+AddTexture = leopard2a4_8
+
+WeightType = Tank
+
+
+AddGunnerSeat =  0.00,  2.70,  -0.5,    0.00,  2.70,  -0.5,  false, -30, 5, true
+AddGunnerSeat = 0,  0.5, 0,   -0.508, 3.5, -0.3, false, -50, 5, true
+
+
+MotionFactor = 0.925
+ArmorMinDamage = 14
+ArmorMaxDamage = 600
+ArmorDamageFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.0
+
+AddCrawlerTrack = true, 0.2, 2.0, -0.34/0.0, -0.34/2.6,  0.18/3.45, 0.47/3.86, 0.84/3.9, 0.88/3.3, 0.88/3.6, 1.02/-4.9, 0.83/-4.95, 0.45/-5.0, 0.12/-4.6, -0.33/-4.1, -0.33/-3.0  
+AddCrawlerTrack = true, 0.2, -2.0, -0.34/0.0, -0.34/2.6,  0.18/3.45, 0.47/3.86, 0.84/3.9, 0.88/3.3, 0.88/3.6, 1.02/-4.95, 0.83/-4.95, 0.45/-5.0, 0.12/-4.6, -0.33/-4.1, -0.33/-3.0 
+
+AddTrackRoller = 1.7005, 0.67, -4.5768
+AddTrackRoller = 1.7694, 0.08, 2.40
+AddTrackRoller = 1.7694, 0.08, 1.30
+AddTrackRoller = 1.7694, 0.08, 0.3063
+AddTrackRoller = 1.7694, 0.08, -0.6687
+AddTrackRoller = 1.7694, 0.08, -1.7250
+AddTrackRoller = 1.7694, 0.08, -2.7875
+AddTrackRoller = 1.7694, 0.08, -3.8875
+AddTrackRoller = 1.7694, 0.66, 3.5175
+AddTrackRoller = -1.7005, 0.67, -4.5768
+AddTrackRoller = -1.7694, 0.08, 2.40
+AddTrackRoller = -1.7694, 0.08, 1.30
+AddTrackRoller = -1.7694, 0.08, 0.3063
+AddTrackRoller = -1.7694, 0.08, -0.6687
+AddTrackRoller = -1.7694, 0.08, -1.7250
+AddTrackRoller = -1.7694, 0.08, -2.7875
+AddTrackRoller = -1.7694, 0.08, -3.8875
+AddTrackRoller = -1.7694, 0.66, 3.5175
+
+
+AddPartWeapon = Rh120_APFSDS / Rh120_HEATMP / mg7_62mm_mbt, false, true, false,  0.0, -0.17, 0.0, 0
+AddPartWeaponChild = false, true,  0.2, 1.5, 2.0, 0.0
+AddTurretWeapon = Rh120_APFSDS, 0.0, 2.0, 0.26,  0.0, 0.0, true,1, 0,-360,360, -15, 7
+AddTurretWeapon = Rh120_HEATMP,     0.0, 2.0, 0.26,  0.0, 0.0, true,1, 0,-360,360, -15, 7
+AddTurretWeapon = mg7_62mm_mbt,   -0.39, 1.9, 0.0,   0.0, 0.0, true, 1, 0, -360,360, -5,5
+AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+RideRack = c5, 1
+RideRack = c5, 2
+BoundingBox =  0.0, 0.6,  2.2,   4.2, 1.5,  0.70
+BoundingBox =  0.0, 0.5, -2.2,   3.8, 1.5,  1.00
+BoundingBox =  0.0, 1.5, 0.1,   3.0, 1.8,  0.8
+
