@@ -1,0 +1,12 @@
+menu.ev.singleplayer=Одиночная игра
+menu.ev.singleplayer.hover=Совсем один ...
+menu.ev.multiplayer=Сетевая игра
+menu.ev.multiplayer.hover=Друзья?
+menu.ev.options=Настройки
+menu.ev.language=Язык
+menu.ev.mods=Моды (#modsloaded#/#modsactive#)
+menu.ev.quit=Выйти из игры
+menu.ev.quit.hover=Стой! Не уходи!
+menu.ev.forge=Forge #forgeversion# for Minecraft #mcversion#
+menu.ev.mojang=Copyright Mojang AB. Do not distribute!
+menu.ev.music=Music from NTM Space Mod
