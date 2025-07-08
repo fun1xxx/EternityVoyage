@@ -1,0 +1,12 @@
+menu.ev.singleplayer=Singleplayer
+menu.ev.singleplayer.hover=All alone ...
+menu.ev.multiplayer=Multiplayer
+menu.ev.multiplayer.hover=Friends?
+menu.ev.options=Options
+menu.ev.language=Language
+menu.ev.mods=Mods (#modsloaded#/#modsactive#)
+menu.ev.quit=Quit Game
+menu.ev.quit.hover=Wait! Don't Leave!
+menu.ev.forge=Forge #forgeversion# for Minecraft #mcversion#
+menu.ev.mojang=Copyright Mojang AB. Do not distribute!
+menu.ev.music=Music from NTM Space Mod
