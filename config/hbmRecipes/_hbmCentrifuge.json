@@ -892,7 +892,7 @@
       "output": [
         ["hbm:item.powder_zinc",2],
         ["hbm:item.powder_zinc",2],
-        ["hbm:item.powder_nickel",2],
+        ["hbm:item.sulfur",2],
         ["hbm:item.powder_aluminium"]
       ]
     },
@@ -1194,15 +1194,6 @@
         ["hbm:item.bedrock_ore",2,2079],
         ["hbm:item.bedrock_ore",2,3615],
         ["hbm:item.bedrock_ore",2,4639]
-      ]
-    },
-    {
-      "input": ["dict","oreNickel"],
-      "output": [
-        ["hbm:item.powder_nickel"],
-        ["hbm:item.powder_nickel"],
-        ["hbm:item.powder_iron"],
-        ["minecraft:gravel"]
       ]
     },
     {
@@ -1718,6 +1709,15 @@
         ["hbm:item.bedrock_ore",2,2074],
         ["hbm:item.bedrock_ore",2,3610],
         ["hbm:item.bedrock_ore",2,4634]
+      ]
+    },
+    {
+      "input": ["dict","oreNickelPure"],
+      "output": [
+        ["hbm:item.chunk_ore",2,3],
+        ["hbm:item.sulfur"],
+        ["hbm:item.powder_iron"],
+        ["minecraft:gravel"]
       ]
     },
     {

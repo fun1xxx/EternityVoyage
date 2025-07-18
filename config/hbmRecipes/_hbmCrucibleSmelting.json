@@ -198,10 +198,6 @@
       "output": [["Uranium",144],["Lead",24],["Stone",162]]
     },
     {
-      "input": ["dict","oreNickel"],
-      "output": [["Nickel",144],["Stone",162]]
-    },
-    {
       "input": ["dict","oreTitanium"],
       "output": [["Titanium",144],["Iron",24],["Stone",162]]
     }

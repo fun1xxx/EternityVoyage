@@ -1206,6 +1206,20 @@
       ]
     },
     {
+      "output": ["hbm:item.ammo_standard",1,93],
+      "input": [
+        null,
+        ["item","hbm:item.egg_balefire_shard"],
+        null,
+        null,
+        ["item","hbm:item.assembly_nuke"],
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
       "output": ["hbm:item.ammo_standard",16,90],
       "input": [
         null,

@@ -718,7 +718,7 @@
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,2842],
-      "output1": ["Nickel",1152],
+      "output1": ["NickelPure",1152],
       "byproducts": [
         ["hbm:item.bedrock_ore",1,3354]
       ],
@@ -726,7 +726,7 @@
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,3354],
-      "output1": ["Nickel",288],
+      "output1": ["NickelPure",288],
       "duration": 20
     },
     {

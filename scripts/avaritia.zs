@@ -1,0 +1,10 @@
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Sword>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shovel>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pickaxe>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Axe>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Bow>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Helm>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Chest>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Pants>);
+mods.avaritia.ExtremeCrafting.remove(<Avaritia:Infinity_Shoes>);
+recipes.remove(<avaritiaddons:InfinityChest>);

@@ -155,6 +155,13 @@
       "duration": 450
     },
     {
+      "output": ["avaritiaddons:CompressedChest",1],
+      "input": [
+        ["item","minecraft:chest",128]
+      ],
+      "duration": 900
+    },
+    {
       "output": ["hbm:tile.nuke_antimatter"],
       "input": [
         ["dict","plateStainlessSteel",16],

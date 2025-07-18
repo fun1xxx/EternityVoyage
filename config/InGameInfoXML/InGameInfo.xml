@@ -83,6 +83,10 @@
             <str>{white}°F</str>
         </line>
         <line>
+            <icon>
+                <str>gendustry:ApiaryUpgrade</str>
+                <num>7</num>
+            </icon>
             <str>Temp: {gold}</str>
             <round>
                 <div>

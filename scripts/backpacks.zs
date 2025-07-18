@@ -1,8 +1,5 @@
 recipes.removeShaped(<adventurebackpack:backpackComponent:1>);
-recipes.addShaped(<adventurebackpack:backpackComponent:1>,
-[[<minecraft:carpet:14>, <minecraft:carpet:14>, <minecraft:carpet>],
-  [<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
-  [null, null, null]]);
+recipes.addShapeless(<adventurebackpack:backpackComponent:1>, [<OpenBlocks:sleepingBag>]);
 
 recipes.removeShaped(<adventurebackpack:backpackComponent:2>);
 recipes.addShapeless(<adventurebackpack:backpackComponent:2>, [<ThermalExpansion:Tank:1>]);

@@ -79,13 +79,13 @@
       "output": ["hbm:item.gun_autoshotgun_sexy"],
       "input": [
         ["item","hbm:item.bolt_spike",16],
-        ["dict","ingotStarmetal",4],
+        ["item","hbm:item.wild_p"],
         ["item","hbm:item.bolt_spike",16],
         ["item","hbm:item.card_qos"],
         ["item","hbm:item.gun_autoshotgun"],
         ["item","hbm:item.card_aos"],
         ["item","hbm:item.bolt_spike",16],
-        ["dict","ingotStarmetal",4],
+        ["dict","ingotStarmetal",16],
         ["item","hbm:item.bolt_spike",16]
       ],
       "extra": "NONE"
@@ -175,7 +175,7 @@
         ["item","hbm:item.powder_magic"],
         ["dict","ingotStarmetal"],
         ["item","hbm:item.powder_magic"],
-        ["item","hbm:tile.moon_turf"],
+        ["item","hbm:item.chunk_ore",1,4],
         ["item","hbm:item.powder_magic"],
         ["dict","ingotStarmetal"],
         ["item","hbm:item.powder_magic"],
@@ -208,6 +208,22 @@
         null,
         null,
         ["item","hbm:item.item_secret",1,3],
+        null,
+        null,
+        null,
+        null
+      ],
+      "extra": "NONE",
+      "set": 1
+    },
+    {
+      "output": ["hbm:item.ammo_secret",10,7],
+      "input": [
+        null,
+        null,
+        null,
+        null,
+        ["item","hbm:item.item_secret",3,3],
         null,
         null,
         null,

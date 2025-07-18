@@ -17,6 +17,10 @@ recipes.addShaped(<appliedenergistics2:tile.BlockInscriber>,
 mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:22>);
 mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:24>);
 mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:23>);
+mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:13>);
+mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:14>);
+mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:15>);
+mods.appeng.Inscriber.removeRecipe(<appliedenergistics2:item.ItemMultiMaterial:19>);
 
 recipes.remove(<appliedenergistics2:tile.BlockCharger>);
 
@@ -38,7 +42,6 @@ recipes.remove(<appliedenergistics2:tile.BlockAdvancedCraftingUnit>);
 recipes.remove(<appliedenergistics2:tile.BlockAdvancedCraftingUnit:1>);
 recipes.remove(<appliedenergistics2:tile.BlockAdvancedCraftingUnit:2>);
 recipes.remove(<appliedenergistics2:tile.BlockAdvancedCraftingUnit:3>);
-recipes.removeShapeless(<minecraft:string>, [<hbm:tile.plant_flower:3>]);
 recipes.remove(<chisel:smashingrock>);
 recipes.remove(<appliedenergistics2:item.ToolPortableCell>);
 
@@ -185,28 +188,15 @@ recipes.addShaped(<appliedenergistics2:item.ItemViewCell>,
    [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
 
 recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.1k>);
-recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.1k>,
-   [[<appliedenergistics2:tile.BlockQuartzGlass>, <minecraft:redstone>, <appliedenergistics2:tile.BlockQuartzGlass>],
-   [<minecraft:redstone>, <appliedenergistics2:item.ItemMultiMaterial:35>, <minecraft:redstone>],
-   [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-
 recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.4k>);
-recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.4k>,
-   [[<appliedenergistics2:tile.BlockQuartzGlass>, <minecraft:redstone>, <appliedenergistics2:tile.BlockQuartzGlass>],
-   [<minecraft:redstone>, <appliedenergistics2:item.ItemMultiMaterial:36>, <minecraft:redstone>],
-   [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-
 recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.16k>);
-recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.16k>,
-   [[<appliedenergistics2:tile.BlockQuartzGlass>, <minecraft:redstone>, <appliedenergistics2:tile.BlockQuartzGlass>],
-   [<minecraft:redstone>, <appliedenergistics2:item.ItemMultiMaterial:37>, <minecraft:redstone>],
-   [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
-
 recipes.remove(<appliedenergistics2:item.ItemBasicStorageCell.64k>);
-recipes.addShaped(<appliedenergistics2:item.ItemBasicStorageCell.64k>,
-   [[<appliedenergistics2:tile.BlockQuartzGlass>, <minecraft:redstone>, <appliedenergistics2:tile.BlockQuartzGlass>],
-   [<minecraft:redstone>, <appliedenergistics2:item.ItemMultiMaterial:38>, <minecraft:redstone>],
-   [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+recipes.remove(<appliedenergistics2:item.ItemAdvancedStorageCell.256k>);
+recipes.remove(<appliedenergistics2:item.ItemAdvancedStorageCell.1024k>);
+recipes.remove(<appliedenergistics2:item.ItemAdvancedStorageCell.4096k>);
+recipes.remove(<appliedenergistics2:item.ItemAdvancedStorageCell.16384k>);
+
+
 
 recipes.remove(<appliedenergistics2:item.ItemExtremeStorageCell.Container>);
 
