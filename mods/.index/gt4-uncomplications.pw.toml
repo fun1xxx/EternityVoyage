@@ -1,0 +1,16 @@
+filename = 'GT4_Uncomplication_Fix-1.1.jar'
+name = 'GT4 Uncomplications'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'c2dc3df2e2ee502eb2880812cb390fc661a79393'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3498906
+project-id = 539189

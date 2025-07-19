@@ -1,0 +1,16 @@
+filename = 'Uncomplication-1.7.10-0.1.2.1.b77.jar'
+name = 'Uncomplication'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'dd10174a2fade3e9a14c94fd61bc172448df1b74'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2295873
+project-id = 242917

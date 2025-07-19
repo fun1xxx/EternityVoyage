@@ -1,0 +1,16 @@
+filename = 'gregtechmod-v417.56.jar'
+name = 'GregTech 4'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '024134a01ed1d3f192f5bbf8af0f0a0060760ee6'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4685300
+project-id = 483827

@@ -773,10 +773,10 @@
     {
       "input": ["dict","oreCertusQuartz"],
       "output": [
-        ["appliedenergistics2:item.ItemMultiMaterial",2],
-        ["appliedenergistics2:item.ItemMultiMaterial",2],
-        ["appliedenergistics2:item.ItemMultiMaterial",2],
-        ["appliedenergistics2:item.ItemMultiMaterial",2]
+        ["gregtech_addon:metaitem_1",2,8516],
+        ["gregtech_addon:metaitem_1",2,8516],
+        ["gregtech_addon:metaitem_1",2,8516],
+        ["gregtech_addon:metaitem_1",2,8516]
       ]
     },
     {
