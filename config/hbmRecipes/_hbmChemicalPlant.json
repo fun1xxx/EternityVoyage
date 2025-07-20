@@ -705,7 +705,7 @@
     {
       "name": "chem.yellowcake",
       "inputItem": [
-        ["dict","billetUranium",2],
+        ["dict","billetUraninite",2],
         ["dict","dustSulfur",2]
       ],
       "inputFluid": [

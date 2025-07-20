@@ -105,12 +105,6 @@
     },
     {
       "particle": ["hbm:item.part_lithium"],
-      "input": ["dict","dustUranium"],
-      "output": ["hbm:item.powder_neptunium"],
-      "antimatter": 50
-    },
-    {
-      "particle": ["hbm:item.part_lithium"],
       "input": ["dict","dustLithium"],
       "output": ["hbm:item.powder_beryllium"],
       "antimatter": 50
@@ -161,6 +155,12 @@
       "particle": ["hbm:item.part_lithium"],
       "input": ["dict","dustIron"],
       "output": ["hbm:item.powder_cobalt"],
+      "antimatter": 50
+    },
+    {
+      "particle": ["hbm:item.part_lithium"],
+      "input": ["dict","dustUraninite"],
+      "output": ["hbm:item.powder_neptunium"],
       "antimatter": 50
     },
     {

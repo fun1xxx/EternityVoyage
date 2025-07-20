@@ -215,6 +215,15 @@
       ]
     },
     {
+      "input": ["dict","oreUraninite"],
+      "output": [
+        ["hbm:item.powder_uranium"],
+        ["hbm:item.powder_uranium"],
+        ["hbm:item.nugget_ra226"],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.crystal_schraranium"],
       "output": [
         ["hbm:item.nugget_schrabidium",2],
@@ -229,15 +238,6 @@
         ["hbm:item.bedrock_ore",2,2067],
         ["hbm:item.bedrock_ore",2,3603],
         ["hbm:item.bedrock_ore",2,4627]
-      ]
-    },
-    {
-      "input": ["dict","oreUranium"],
-      "output": [
-        ["hbm:item.powder_uranium"],
-        ["hbm:item.powder_uranium"],
-        ["hbm:item.nugget_ra226"],
-        ["minecraft:gravel"]
       ]
     },
     {
@@ -773,10 +773,10 @@
     {
       "input": ["dict","oreCertusQuartz"],
       "output": [
-        ["gregtech_addon:metaitem_1",2,8516],
-        ["gregtech_addon:metaitem_1",2,8516],
-        ["gregtech_addon:metaitem_1",2,8516],
-        ["gregtech_addon:metaitem_1",2,8516]
+        ["appliedenergistics2:item.ItemMultiMaterial",2],
+        ["appliedenergistics2:item.ItemMultiMaterial",2],
+        ["appliedenergistics2:item.ItemMultiMaterial",2],
+        ["appliedenergistics2:item.ItemMultiMaterial",2]
       ]
     },
     {
@@ -2188,6 +2188,15 @@
       ]
     },
     {
+      "input": ["item","hbm:item.watz_pellet_depleted",1,11],
+      "output": [
+        ["hbm:item.ingot_mud"],
+        ["hbm:item.nugget_co60",12],
+        ["hbm:item.nugget_euphemium",6],
+        ["hbm:item.nuclear_waste",2]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,2094],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,1701],
@@ -3123,6 +3132,15 @@
       "input": ["item","hbm:item.bedrock_ore",1,1040],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,20000]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.watz_pellet_depleted",1,10],
+      "output": [
+        ["hbm:item.ingot_mud"],
+        ["gregtech:gt.meta.nugget",12,1742],
+        ["hbm:item.nugget_euphemium",6],
+        ["hbm:item.nuclear_waste",2]
       ]
     },
     {

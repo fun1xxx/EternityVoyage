@@ -2,7 +2,7 @@
   "recipes": [
     {
       "particle": ["item","hbm:item.particle_higgs"],
-      "ingredient": ["dict","ingotUranium"],
+      "ingredient": ["dict","ingotUraninite"],
       "output": ["hbm:item.ingot_schraranium"]
     },
     {

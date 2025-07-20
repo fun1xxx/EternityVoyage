@@ -2,7 +2,7 @@
   "recipes": [
     {
       "input": ["item","hbm:item.bedrock_ore",1,2845],
-      "output1": ["Uranium",1152],
+      "output1": ["Uraninite",1152],
       "byproducts": [
         ["hbm:item.bedrock_ore",1,3357]
       ],
@@ -10,7 +10,7 @@
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,3357],
-      "output1": ["Uranium",288],
+      "output1": ["Uraninite",288],
       "duration": 20
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       "input": ["item","hbm:item.crystal_uranium"],
-      "output1": ["Uranium",432],
+      "output1": ["Uraninite",432],
       "output2": ["Radium226",32],
       "byproducts": [
         ["hbm:item.powder_lithium_tiny",3]
@@ -71,7 +71,7 @@
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,2861],
-      "output1": ["Uranium",1152],
+      "output1": ["Uraninite",1152],
       "byproducts": [
         ["hbm:item.bedrock_ore",1,3373]
       ],
@@ -79,7 +79,7 @@
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,3373],
-      "output1": ["Uranium",288],
+      "output1": ["Uraninite",288],
       "duration": 20
     },
     {
@@ -98,7 +98,7 @@
     {
       "input": ["item","hbm:item.crystal_thorium"],
       "output1": ["Thorium232",432],
-      "output2": ["Uranium",144],
+      "output2": ["Uraninite",144],
       "byproducts": [
         ["hbm:item.powder_lithium_tiny",3]
       ],
@@ -185,7 +185,7 @@
     {
       "input": ["item","hbm:item.crystal_schraranium"],
       "output1": ["Schrabidium",40],
-      "output2": ["Uranium",16],
+      "output2": ["Uraninite",16],
       "byproducts": [
         ["hbm:item.nugget_neptunium",2]
       ],
@@ -501,7 +501,7 @@
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,2857],
-      "output1": ["Uranium",1152],
+      "output1": ["Uraninite",1152],
       "byproducts": [
         ["hbm:item.bedrock_ore",1,3369]
       ],
@@ -509,7 +509,7 @@
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,3369],
-      "output1": ["Uranium",288],
+      "output1": ["Uraninite",288],
       "duration": 20
     },
     {

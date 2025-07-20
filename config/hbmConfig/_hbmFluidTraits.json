@@ -31,8 +31,8 @@
       "BOILER": 1.0,
       "HEATEXCHANGER": 0.25
     },
-    "liquid": {},
-    "unsiphonable": {}
+    "unsiphonable": {},
+    "liquid": {}
   },
   "HEAVYWATER": {
     "heatable": {
@@ -52,29 +52,21 @@
     "liquid": {}
   },
   "HEAVYWATER_HOT": {
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "HEAVYWATER",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 300,
       "HEATEXCHANGER": 1.0
-    },
-    "viscous": {},
-    "liquid": {}
+    }
   },
   "LAVA": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "STEAM": {
-    "coolable": {
-      "coolsTo": "SPENTSTEAM",
-      "amountReq": 100,
-      "amountProd": 1,
-      "heatEnergy": 200,
-      "HEATEXCHANGER": 0.5,
-      "TURBINE": 1.0
-    },
     "gaseous": {},
     "heatable": {
       "steps": [
@@ -88,17 +80,17 @@
       "BOILER": 1.0,
       "HEATEXCHANGER": 0.25
     },
-    "unsiphonable": {}
+    "unsiphonable": {},
+    "coolable": {
+      "coolsTo": "SPENTSTEAM",
+      "amountReq": 100,
+      "amountProd": 1,
+      "heatEnergy": 200,
+      "TURBINE": 1.0,
+      "HEATEXCHANGER": 0.5
+    }
   },
   "HOTSTEAM": {
-    "coolable": {
-      "coolsTo": "STEAM",
-      "amountReq": 1,
-      "amountProd": 10,
-      "heatEnergy": 2,
-      "HEATEXCHANGER": 0.5,
-      "TURBINE": 1.0
-    },
     "gaseous": {},
     "heatable": {
       "steps": [
@@ -112,17 +104,17 @@
       "BOILER": 1.0,
       "HEATEXCHANGER": 0.25
     },
-    "unsiphonable": {}
-  },
-  "SUPERHOTSTEAM": {
+    "unsiphonable": {},
     "coolable": {
-      "coolsTo": "HOTSTEAM",
+      "coolsTo": "STEAM",
       "amountReq": 1,
       "amountProd": 10,
-      "heatEnergy": 18,
-      "HEATEXCHANGER": 0.5,
-      "TURBINE": 1.0
-    },
+      "heatEnergy": 2,
+      "TURBINE": 1.0,
+      "HEATEXCHANGER": 0.5
+    }
+  },
+  "SUPERHOTSTEAM": {
     "gaseous": {},
     "heatable": {
       "steps": [
@@ -136,19 +128,27 @@
       "BOILER": 1.0,
       "HEATEXCHANGER": 0.25
     },
-    "unsiphonable": {}
+    "unsiphonable": {},
+    "coolable": {
+      "coolsTo": "HOTSTEAM",
+      "amountReq": 1,
+      "amountProd": 10,
+      "heatEnergy": 18,
+      "TURBINE": 1.0,
+      "HEATEXCHANGER": 0.5
+    }
   },
   "ULTRAHOTSTEAM": {
+    "gaseous": {},
+    "unsiphonable": {},
     "coolable": {
       "coolsTo": "SUPERHOTSTEAM",
       "amountReq": 1,
       "amountProd": 10,
       "heatEnergy": 120,
-      "HEATEXCHANGER": 0.5,
-      "TURBINE": 1.0
-    },
-    "gaseous": {},
-    "unsiphonable": {}
+      "TURBINE": 1.0,
+      "HEATEXCHANGER": 0.5
+    }
   },
   "SPENTSTEAM": {
     "gaseous": {},
@@ -173,22 +173,22 @@
           "heatReq": 300
         }
       ],
+      "PWR": 1.0,
       "BOILER": 1.0,
       "HEATEXCHANGER": 1.0,
-      "PWR": 1.0,
       "ICF": 1.0
     },
     "liquid": {}
   },
   "COOLANT_HOT": {
+    "liquid": {},
     "coolable": {
       "coolsTo": "COOLANT",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 300,
       "HEATEXCHANGER": 1.0
-    },
-    "liquid": {}
+    }
   },
   "PERFLUOROMETHYL": {
     "heatable": {
@@ -200,8 +200,8 @@
           "heatReq": 300
         }
       ],
-      "HEATEXCHANGER": 1.0,
       "PWR": 1.0,
+      "HEATEXCHANGER": 1.0,
       "ICF": 1.0
     },
     "liquid": {}
@@ -221,20 +221,21 @@
     "liquid": {}
   },
   "PERFLUOROMETHYL_HOT": {
+    "liquid": {},
     "coolable": {
       "coolsTo": "PERFLUOROMETHYL",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 300,
       "HEATEXCHANGER": 1.0
-    },
-    "liquid": {}
+    }
   },
   "CRYOGEL": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "MUG": {
+    "delicious": {},
     "heatable": {
       "steps": [
         {
@@ -244,49 +245,42 @@
           "heatReq": 400
         }
       ],
-      "HEATEXCHANGER": 1.0,
       "PWR": 1.0,
+      "HEATEXCHANGER": 1.0,
       "ICF": 1.25
     },
     "pwrmoderator": {
       "multiplier": 1.15
     },
-    "liquid": {},
-    "delicious": {}
+    "liquid": {}
   },
   "MUG_HOT": {
+    "delicious": {},
+    "liquid": {},
     "coolable": {
       "coolsTo": "MUG",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 400,
       "HEATEXCHANGER": 1.0
-    },
-    "liquid": {},
-    "delicious": {}
+    }
   },
   "SUPERHEATED_HYDROGEN": {
-    "coolable": {
-      "coolsTo": "HYDROGEN",
-      "amountReq": 1,
-      "amountProd": 1,
-      "heatEnergy": 300
-    },
     "gaseous": {},
     "noid": {},
     "nocontainer": {},
     "rocket": {
       "isp": 900,
       "thrust": 700000
-    }
-  },
-  "GAS_WATZ": {
+    },
     "coolable": {
-      "coolsTo": "WATZ",
+      "coolsTo": "HYDROGEN",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 300
-    },
+    }
+  },
+  "GAS_WATZ": {
     "gaseous": {},
     "noid": {},
     "polluting": {
@@ -299,21 +293,27 @@
     "rocket": {
       "isp": 1200,
       "thrust": 700000
-    }
-  },
-  "GASEOUS_URANIUM_BROMIDE": {
+    },
     "coolable": {
-      "coolsTo": "URANIUM_BROMIDE",
+      "coolsTo": "WATZ",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 300
-    },
+    }
+  },
+  "GASEOUS_URANIUM_BROMIDE": {
     "gaseous": {},
     "noid": {},
     "nocontainer": {},
     "rocket": {
       "isp": 1500,
       "thrust": 700000
+    },
+    "coolable": {
+      "coolsTo": "URANIUM_BROMIDE",
+      "amountReq": 1,
+      "amountProd": 1,
+      "heatEnergy": 300
     }
   },
   "GASEOUS_PLUTONIUM_BROMIDE": {
@@ -335,22 +335,22 @@
     }
   },
   "GASEOUS_THORIUM_BROMIDE": {
-    "coolable": {
-      "coolsTo": "THORIUM_BROMIDE",
-      "amountReq": 1,
-      "amountProd": 1,
-      "heatEnergy": 300
-    },
     "gaseous": {},
     "noid": {},
     "nocontainer": {},
     "rocket": {
       "isp": 1300,
       "thrust": 700000
+    },
+    "coolable": {
+      "coolsTo": "THORIUM_BROMIDE",
+      "amountReq": 1,
+      "amountProd": 1,
+      "heatEnergy": 300
     }
   },
   "BLOOD": {
-    "viscous": {},
+    "delicious": {},
     "heatable": {
       "steps": [
         {
@@ -364,31 +364,30 @@
       "ICF": 1.25
     },
     "liquid": {},
-    "delicious": {}
+    "viscous": {}
   },
   "BLOODGAS": {
+    "flammable": {
+      "energy": 2040000
+    },
+    "liquid": {},
     "combustible": {
       "energy": 5120000,
       "grade": "AERO"
-    },
-    "liquid": {},
-    "flammable": {
-      "energy": 2040000
     }
   },
   "BLOOD_HOT": {
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "BLOOD",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 500,
       "HEATEXCHANGER": 1.0
-    },
-    "viscous": {},
-    "liquid": {}
+    }
   },
   "SODIUM": {
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -401,21 +400,21 @@
       "PWR": 2.5,
       "ICF": 3.0
     },
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "SODIUM_HOT": {
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "SODIUM",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 400,
       "HEATEXCHANGER": 1.0
-    },
-    "viscous": {},
-    "liquid": {}
+    }
   },
   "LEAD": {
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -431,24 +430,21 @@
     "pwrmoderator": {
       "multiplier": 0.75
     },
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "LEAD_HOT": {
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "LEAD",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 680,
       "HEATEXCHANGER": 1.0
-    },
-    "viscous": {},
-    "liquid": {}
+    }
   },
   "THORIUM_SALT": {
-    "corrosive": {
-      "rating": 65
-    },
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -463,35 +459,34 @@
     "pwrmoderator": {
       "multiplier": 2.5
     },
-    "liquid": {}
+    "corrosive": {
+      "rating": 65
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "THORIUM_SALT_HOT": {
+    "corrosive": {
+      "rating": 65
+    },
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "THORIUM_SALT_DEPLETED",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 400,
       "HEATEXCHANGER": 1.0
-    },
-    "corrosive": {
-      "rating": 65
-    },
-    "viscous": {},
-    "liquid": {}
+    }
   },
   "THORIUM_SALT_DEPLETED": {
     "corrosive": {
       "rating": 65
     },
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "HYDROGEN": {
-    "combustible": {
-      "energy": 10000,
-      "grade": "HIGH"
-    },
-    "gaseous_art": {},
     "heatable": {
       "steps": [
         {
@@ -503,36 +498,41 @@
       ],
       "PWR": 1.0
     },
-    "liquid": {},
+    "gaseous_art": {},
     "flammable": {
       "energy": 5000
     },
+    "liquid": {},
     "rocket": {
       "isp": 380,
       "thrust": 700000
+    },
+    "combustible": {
+      "energy": 10000,
+      "grade": "HIGH"
     }
   },
   "DEUTERIUM": {
-    "combustible": {
-      "energy": 10000,
-      "grade": "HIGH"
-    },
     "gaseous": {},
     "flammable": {
       "energy": 5000
+    },
+    "combustible": {
+      "energy": 10000,
+      "grade": "HIGH"
     }
   },
   "TRITIUM": {
-    "combustible": {
-      "energy": 10000,
-      "grade": "HIGH"
-    },
+    "gaseous": {},
     "ventradiation": {
       "radiation": 0.0010000000474974513
     },
-    "gaseous": {},
     "flammable": {
       "energy": 5000
+    },
+    "combustible": {
+      "energy": 10000,
+      "grade": "HIGH"
     }
   },
   "HELIUM3": {
@@ -575,12 +575,12 @@
     "corrosive": {
       "rating": 40
     },
+    "flammable": {
+      "energy": 10000
+    },
     "poison": {
       "level": 1,
       "withering": true
-    },
-    "flammable": {
-      "energy": 10000
     }
   },
   "MERCURY": {
@@ -595,12 +595,19 @@
     "liquid": {}
   },
   "SCUTTERBLOOD": {
-    "viscous": {},
+    "delicious": {},
     "liquid": {},
-    "delicious": {}
+    "viscous": {}
   },
   "OIL": {
-    "viscous": {},
+    "polluting": {
+      "release": {
+        "POISON": 5.0E-5
+      },
+      "burn": {
+        "SOOT": 0.004
+      }
+    },
     "heatable": {
       "steps": [
         {
@@ -613,7 +620,13 @@
       "BOILER": 1.0,
       "HEATEXCHANGER": 1.0
     },
+    "flammable": {
+      "energy": 25000
+    },
     "liquid": {},
+    "viscous": {}
+  },
+  "OIL_DS": {
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -622,12 +635,6 @@
         "SOOT": 0.004
       }
     },
-    "flammable": {
-      "energy": 25000
-    }
-  },
-  "OIL_DS": {
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -640,7 +647,13 @@
       "BOILER": 1.0,
       "HEATEXCHANGER": 1.0
     },
+    "flammable": {
+      "energy": 50000
+    },
     "liquid": {},
+    "viscous": {}
+  },
+  "CRACKOIL": {
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -649,12 +662,6 @@
         "SOOT": 0.004
       }
     },
-    "flammable": {
-      "energy": 50000
-    }
-  },
-  "CRACKOIL": {
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -667,7 +674,13 @@
       "BOILER": 1.0,
       "HEATEXCHANGER": 1.0
     },
+    "flammable": {
+      "energy": 31200
+    },
     "liquid": {},
+    "viscous": {}
+  },
+  "CRACKOIL_DS": {
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -676,12 +689,6 @@
         "SOOT": 0.004
       }
     },
-    "flammable": {
-      "energy": 31200
-    }
-  },
-  "CRACKOIL_DS": {
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -694,22 +701,13 @@
       "BOILER": 1.0,
       "HEATEXCHANGER": 1.0
     },
-    "liquid": {},
-    "polluting": {
-      "release": {
-        "POISON": 5.0E-5
-      },
-      "burn": {
-        "SOOT": 0.004
-      }
-    },
     "flammable": {
       "energy": 62500
-    }
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "COALOIL": {
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -720,11 +718,11 @@
     },
     "flammable": {
       "energy": 1100000
-    }
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "OIL_COKER": {
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -735,18 +733,30 @@
     },
     "flammable": {
       "energy": 31200
-    }
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "HOTOIL": {
+    "polluting": {
+      "release": {
+        "POISON": 5.0E-5
+      },
+      "burn": {
+        "SOOT": 0.004
+      }
+    },
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "OIL",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 10,
       "HEATEXCHANGER": 1.0
-    },
-    "viscous": {},
-    "liquid": {},
+    }
+  },
+  "HOTOIL_DS": {
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -754,18 +764,18 @@
       "burn": {
         "SOOT": 0.004
       }
-    }
-  },
-  "HOTOIL_DS": {
+    },
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "OIL_DS",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 10,
       "HEATEXCHANGER": 1.0
-    },
-    "viscous": {},
-    "liquid": {},
+    }
+  },
+  "HOTCRACKOIL": {
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -773,18 +783,18 @@
       "burn": {
         "SOOT": 0.004
       }
-    }
-  },
-  "HOTCRACKOIL": {
+    },
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "CRACKOIL",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 10,
       "HEATEXCHANGER": 1.0
-    },
-    "viscous": {},
-    "liquid": {},
+    }
+  },
+  "HOTCRACKOIL_DS": {
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -792,34 +802,18 @@
       "burn": {
         "SOOT": 0.004
       }
-    }
-  },
-  "HOTCRACKOIL_DS": {
+    },
+    "liquid": {},
+    "viscous": {},
     "coolable": {
       "coolsTo": "CRACKOIL_DS",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 10,
       "HEATEXCHANGER": 1.0
-    },
-    "viscous": {},
-    "liquid": {},
-    "polluting": {
-      "release": {
-        "POISON": 5.0E-5
-      },
-      "burn": {
-        "SOOT": 0.004
-      }
     }
   },
   "HEAVYOIL": {
-    "combustible": {
-      "energy": 68700,
-      "grade": "LOW"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -830,15 +824,15 @@
     },
     "flammable": {
       "energy": 55000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 68700,
+      "grade": "LOW"
     }
   },
   "HEAVYOIL_VACUUM": {
-    "combustible": {
-      "energy": 234000,
-      "grade": "LOW"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -849,15 +843,15 @@
     },
     "flammable": {
       "energy": 187000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 234000,
+      "grade": "LOW"
     }
   },
   "NAPHTHA": {
-    "combustible": {
-      "energy": 165000,
-      "grade": "MEDIUM"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -868,15 +862,15 @@
     },
     "flammable": {
       "energy": 110000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 165000,
+      "grade": "MEDIUM"
     }
   },
   "NAPHTHA_DS": {
-    "combustible": {
-      "energy": 330000,
-      "grade": "MEDIUM"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -887,15 +881,15 @@
     },
     "flammable": {
       "energy": 220000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 330000,
+      "grade": "MEDIUM"
     }
   },
   "NAPHTHA_CRACK": {
-    "combustible": {
-      "energy": 128000,
-      "grade": "MEDIUM"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -906,15 +900,15 @@
     },
     "flammable": {
       "energy": 85900
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 128000,
+      "grade": "MEDIUM"
     }
   },
   "NAPHTHA_COKER": {
-    "combustible": {
-      "energy": 187000,
-      "grade": "MEDIUM"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -925,15 +919,15 @@
     },
     "flammable": {
       "energy": 125000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 187000,
+      "grade": "MEDIUM"
     }
   },
   "REFORMATE": {
-    "combustible": {
-      "energy": 6000000,
-      "grade": "HIGH"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -944,14 +938,15 @@
     },
     "flammable": {
       "energy": 2400000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 6000000,
+      "grade": "HIGH"
     }
   },
   "LIGHTOIL": {
-    "combustible": {
-      "energy": 2200000,
-      "grade": "MEDIUM"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -962,14 +957,14 @@
     },
     "flammable": {
       "energy": 1460000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 2200000,
+      "grade": "MEDIUM"
     }
   },
   "LIGHTOIL_DS": {
-    "combustible": {
-      "energy": 4400000,
-      "grade": "MEDIUM"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -980,14 +975,14 @@
     },
     "flammable": {
       "energy": 2930000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 4400000,
+      "grade": "MEDIUM"
     }
   },
   "LIGHTOIL_CRACK": {
-    "combustible": {
-      "energy": 1370000,
-      "grade": "MEDIUM"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -998,14 +993,14 @@
     },
     "flammable": {
       "energy": 916000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 1370000,
+      "grade": "MEDIUM"
     }
   },
   "LIGHTOIL_VACUUM": {
-    "combustible": {
-      "energy": 4500000,
-      "grade": "MEDIUM"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1016,11 +1011,14 @@
     },
     "flammable": {
       "energy": 3000000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 4500000,
+      "grade": "MEDIUM"
     }
   },
   "BITUMEN": {
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1028,15 +1026,11 @@
       "burn": {
         "SOOT": 0.004
       }
-    }
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "SMEAR": {
-    "combustible": {
-      "energy": 103000,
-      "grade": "LOW"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1047,15 +1041,15 @@
     },
     "flammable": {
       "energy": 82500
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 103000,
+      "grade": "LOW"
     }
   },
   "HEATINGOIL": {
-    "combustible": {
-      "energy": 489000,
-      "grade": "LOW"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1066,15 +1060,15 @@
     },
     "flammable": {
       "energy": 391000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 489000,
+      "grade": "LOW"
     }
   },
   "HEATINGOIL_VACUUM": {
-    "combustible": {
-      "energy": 1640000,
-      "grade": "LOW"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1085,15 +1079,15 @@
     },
     "flammable": {
       "energy": 1310000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 1640000,
+      "grade": "LOW"
     }
   },
   "RECLAIMED": {
-    "combustible": {
-      "energy": 141000,
-      "grade": "LOW"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1104,10 +1098,15 @@
     },
     "flammable": {
       "energy": 113000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 141000,
+      "grade": "LOW"
     }
   },
   "LUBRICANT": {
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1115,13 +1114,10 @@
       "burn": {
         "SOOT": 0.004
       }
-    }
+    },
+    "liquid": {}
   },
   "GAS": {
-    "combustible": {
-      "energy": 75000,
-      "grade": "GAS"
-    },
     "gaseous": {},
     "polluting": {
       "release": {},
@@ -1131,13 +1127,13 @@
     },
     "flammable": {
       "energy": 50000
+    },
+    "combustible": {
+      "energy": 75000,
+      "grade": "GAS"
     }
   },
   "GAS_COKER": {
-    "combustible": {
-      "energy": 93700,
-      "grade": "GAS"
-    },
     "gaseous": {},
     "polluting": {
       "release": {},
@@ -1147,13 +1143,13 @@
     },
     "flammable": {
       "energy": 62500
+    },
+    "combustible": {
+      "energy": 93700,
+      "grade": "GAS"
     }
   },
   "PETROLEUM": {
-    "combustible": {
-      "energy": 2470000,
-      "grade": "GAS"
-    },
     "gaseous": {},
     "polluting": {
       "release": {},
@@ -1163,33 +1159,32 @@
     },
     "flammable": {
       "energy": 1650000
+    },
+    "combustible": {
+      "energy": 2470000,
+      "grade": "GAS"
     }
   },
   "SOURGAS": {
     "gaseous": {},
-    "corrosive": {
-      "rating": 10
-    },
     "polluting": {
       "release": {},
       "burn": {
         "SOOT": 2.0E-4
       }
     },
-    "poison": {
-      "level": 1,
-      "withering": false
+    "corrosive": {
+      "rating": 10
     },
     "flammable": {
       "energy": 250000
+    },
+    "poison": {
+      "level": 1,
+      "withering": false
     }
   },
   "LPG": {
-    "combustible": {
-      "energy": 4530000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {},
       "burn": {
@@ -1198,31 +1193,34 @@
     },
     "flammable": {
       "energy": 1810000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 4530000,
+      "grade": "HIGH"
     }
   },
   "SYNGAS": {
-    "combustible": {
-      "energy": 6180000,
-      "grade": "GAS"
-    },
     "gaseous": {},
     "flammable": {
       "energy": 2750000
+    },
+    "combustible": {
+      "energy": 6180000,
+      "grade": "GAS"
     }
   },
   "OXYHYDROGEN": {
-    "combustible": {
-      "energy": 15000,
-      "grade": "GAS"
-    },
     "gaseous": {},
     "flammable": {
       "energy": 5000
+    },
+    "combustible": {
+      "energy": 15000,
+      "grade": "GAS"
     }
   },
   "AROMATICS": {
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {},
       "burn": {
@@ -1231,7 +1229,9 @@
     },
     "flammable": {
       "energy": 458000
-    }
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "UNSATURATEDS": {
     "gaseous": {},
@@ -1246,12 +1246,6 @@
     }
   },
   "XYLENE": {
-    "combustible": {
-      "energy": 7870000,
-      "grade": "HIGH"
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1262,13 +1256,15 @@
     },
     "flammable": {
       "energy": 3150000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 7870000,
+      "grade": "HIGH"
     }
   },
   "REFORMGAS": {
-    "combustible": {
-      "energy": 15700000,
-      "grade": "GAS"
-    },
     "gaseous": {},
     "polluting": {
       "release": {},
@@ -1278,14 +1274,13 @@
     },
     "flammable": {
       "energy": 10500000
+    },
+    "combustible": {
+      "energy": 15700000,
+      "grade": "GAS"
     }
   },
   "DIESEL": {
-    "combustible": {
-      "energy": 1370000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1296,14 +1291,14 @@
     },
     "flammable": {
       "energy": 550000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 1370000,
+      "grade": "HIGH"
     }
   },
   "DIESEL_REFORM": {
-    "combustible": {
-      "energy": 3430000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1314,14 +1309,14 @@
     },
     "flammable": {
       "energy": 1370000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 3430000,
+      "grade": "HIGH"
     }
   },
   "DIESEL_CRACK": {
-    "combustible": {
-      "energy": 1280000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1332,14 +1327,14 @@
     },
     "flammable": {
       "energy": 515000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 1280000,
+      "grade": "HIGH"
     }
   },
   "DIESEL_CRACK_REFORM": {
-    "combustible": {
-      "energy": 3210000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1350,14 +1345,14 @@
     },
     "flammable": {
       "energy": 1280000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 3210000,
+      "grade": "HIGH"
     }
   },
   "KEROSENE": {
-    "combustible": {
-      "energy": 3850000,
-      "grade": "AERO"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1369,17 +1364,17 @@
     "flammable": {
       "energy": 2560000
     },
+    "liquid": {},
     "rocket": {
       "isp": 308,
       "thrust": 981000
+    },
+    "combustible": {
+      "energy": 3850000,
+      "grade": "AERO"
     }
   },
   "KEROSENE_REFORM": {
-    "combustible": {
-      "energy": 9600000,
-      "grade": "AERO"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1391,17 +1386,17 @@
     "flammable": {
       "energy": 6400000
     },
+    "liquid": {},
     "rocket": {
       "isp": 321,
       "thrust": 1564000
+    },
+    "combustible": {
+      "energy": 9600000,
+      "grade": "AERO"
     }
   },
   "PETROIL": {
-    "combustible": {
-      "energy": 195000,
-      "grade": "MEDIUM"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1412,34 +1407,34 @@
     },
     "flammable": {
       "energy": 130000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 195000,
+      "grade": "MEDIUM"
     }
   },
   "PETROIL_LEADED": {
-    "combustible": {
-      "energy": 293000,
-      "grade": "MEDIUM"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
-        "POISON": 5.0E-5,
-        "HEAVYMETAL": 5.0000002E-5
+        "HEAVYMETAL": 5.0000002E-5,
+        "POISON": 5.0E-5
       },
       "burn": {
-        "HEAVYMETAL": 5.0E-4,
-        "SOOT": 0.001
+        "SOOT": 0.001,
+        "HEAVYMETAL": 5.0E-4
       }
     },
     "flammable": {
       "energy": 195000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 293000,
+      "grade": "MEDIUM"
     }
   },
   "GASOLINE": {
-    "combustible": {
-      "energy": 1510000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1450,34 +1445,34 @@
     },
     "flammable": {
       "energy": 605000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 1510000,
+      "grade": "HIGH"
     }
   },
   "GASOLINE_LEADED": {
-    "combustible": {
-      "energy": 2260000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
-        "POISON": 5.0E-5,
-        "HEAVYMETAL": 5.0000002E-5
+        "HEAVYMETAL": 5.0000002E-5,
+        "POISON": 5.0E-5
       },
       "burn": {
-        "HEAVYMETAL": 5.0E-4,
-        "SOOT": 0.001
+        "SOOT": 0.001,
+        "HEAVYMETAL": 5.0E-4
       }
     },
     "flammable": {
       "energy": 907000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 2260000,
+      "grade": "HIGH"
     }
   },
   "COALGAS": {
-    "combustible": {
-      "energy": 9520000,
-      "grade": "MEDIUM"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1488,31 +1483,34 @@
     },
     "flammable": {
       "energy": 6350000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 9520000,
+      "grade": "MEDIUM"
     }
   },
   "COALGAS_LEADED": {
-    "combustible": {
-      "energy": 14200000,
-      "grade": "MEDIUM"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
-        "POISON": 5.0E-5,
-        "HEAVYMETAL": 5.0000002E-5
+        "HEAVYMETAL": 5.0000002E-5,
+        "POISON": 5.0E-5
       },
       "burn": {
-        "HEAVYMETAL": 5.0E-4,
-        "SOOT": 0.001
+        "SOOT": 0.001,
+        "HEAVYMETAL": 5.0E-4
       }
     },
     "flammable": {
       "energy": 9520000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 14200000,
+      "grade": "MEDIUM"
     }
   },
   "COALCREOSOTE": {
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1523,11 +1521,11 @@
     },
     "flammable": {
       "energy": 250000
-    }
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "WOODOIL": {
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1538,13 +1536,11 @@
     },
     "flammable": {
       "energy": 110000
-    }
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "BIOGAS": {
-    "combustible": {
-      "energy": 78100,
-      "grade": "GAS"
-    },
     "gaseous": {},
     "polluting": {
       "release": {},
@@ -1554,14 +1550,13 @@
     },
     "flammable": {
       "energy": 62500
+    },
+    "combustible": {
+      "energy": 78100,
+      "grade": "GAS"
     }
   },
   "BIOFUEL": {
-    "combustible": {
-      "energy": 1250000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1572,14 +1567,14 @@
     },
     "flammable": {
       "energy": 500000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 1250000,
+      "grade": "HIGH"
     }
   },
   "ETHANOL": {
-    "combustible": {
-      "energy": 687000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1590,30 +1585,34 @@
     },
     "flammable": {
       "energy": 275000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 687000,
+      "grade": "HIGH"
     }
   },
   "NMASSTETRANOL": {
+    "corrosive": {
+      "rating": 70
+    },
     "ventradiation": {
       "radiation": 0.009999999776482582
     },
+    "flammable": {
+      "energy": 256000000000
+    },
+    "liquid": {},
     "combustible": {
       "energy": 2688000000000,
       "grade": "HIGH"
     },
-    "corrosive": {
-      "rating": 70
-    },
-    "liquid": {},
     "poison": {
       "level": 0,
       "withering": true
-    },
-    "flammable": {
-      "energy": 256000000000
     }
   },
   "FISHOIL": {
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1624,10 +1623,10 @@
     },
     "flammable": {
       "energy": 75000
-    }
+    },
+    "liquid": {}
   },
   "SUNFLOWEROIL": {
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1638,14 +1637,10 @@
     },
     "flammable": {
       "energy": 50000
-    }
+    },
+    "liquid": {}
   },
   "NITAN": {
-    "combustible": {
-      "energy": 160000000,
-      "grade": "HIGH"
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1656,35 +1651,31 @@
     },
     "flammable": {
       "energy": 64000000
+    },
+    "liquid": {},
+    "combustible": {
+      "energy": 160000000,
+      "grade": "HIGH"
     }
   },
   "HYDRAZINE": {
-    "combustible": {
-      "energy": 1250000,
-      "grade": "HIGH"
-    },
     "corrosive": {
       "rating": 30
     },
-    "liquid": {},
     "flammable": {
       "energy": 500000
     },
+    "liquid": {},
     "rocket": {
       "isp": 210,
       "thrust": 600000
+    },
+    "combustible": {
+      "energy": 1250000,
+      "grade": "HIGH"
     }
   },
   "BALEFIRE": {
-    "combustible": {
-      "energy": 640000000,
-      "grade": "HIGH"
-    },
-    "corrosive": {
-      "rating": 50
-    },
-    "viscous": {},
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-5
@@ -1693,21 +1684,30 @@
         "SOOT": 0.001
       }
     },
+    "corrosive": {
+      "rating": 50
+    },
     "flammable": {
       "energy": 256000000
+    },
+    "liquid": {},
+    "viscous": {},
+    "combustible": {
+      "energy": 640000000,
+      "grade": "HIGH"
     }
   },
   "MAGMA": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "BRINE": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "CONGLOMERA": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "DICYANOACETYLENE": {
     "gaseous": {},
@@ -1716,29 +1716,29 @@
     }
   },
   "SALIENT": {
-    "viscous": {},
+    "delicious": {},
     "liquid": {},
-    "delicious": {}
+    "viscous": {}
   },
   "SEEDSLURRY": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "COLLOID": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "VITRIOL": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "SLOP": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "IONGEL": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "PEROXIDE": {
     "corrosive": {
@@ -1756,17 +1756,10 @@
     "corrosive": {
       "rating": 10
     },
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "URANIUM_BROMIDE": {
-    "ventradiation": {
-      "radiation": 0.10000000149011612
-    },
-    "corrosive": {
-      "rating": 65
-    },
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -1781,24 +1774,24 @@
     "pwrmoderator": {
       "multiplier": 1.75
     },
-    "liquid": {}
-  },
-  "AQUEOUS_COPPER": {
-    "viscous": {},
-    "liquid": {}
-  },
-  "COPPERSULFATE": {
-    "viscous": {},
-    "liquid": {}
-  },
-  "THORIUM_BROMIDE": {
-    "ventradiation": {
-      "radiation": 0.10000000149011612
-    },
     "corrosive": {
       "rating": 65
     },
-    "viscous": {},
+    "ventradiation": {
+      "radiation": 0.10000000149011612
+    },
+    "liquid": {},
+    "viscous": {}
+  },
+  "AQUEOUS_COPPER": {
+    "liquid": {},
+    "viscous": {}
+  },
+  "COPPERSULFATE": {
+    "liquid": {},
+    "viscous": {}
+  },
+  "THORIUM_BROMIDE": {
     "heatable": {
       "steps": [
         {
@@ -1813,7 +1806,14 @@
     "pwrmoderator": {
       "multiplier": 1.5
     },
-    "liquid": {}
+    "corrosive": {
+      "rating": 65
+    },
+    "ventradiation": {
+      "radiation": 0.10000000149011612
+    },
+    "liquid": {},
+    "viscous": {}
   },
   "CHLOROMETHANE": {
     "gaseous": {},
@@ -1825,21 +1825,21 @@
     }
   },
   "METHANOL": {
+    "gaseous": {},
+    "flammable": {
+      "energy": 375000
+    },
+    "liquid": {},
     "combustible": {
       "energy": 937000,
       "grade": "HIGH"
-    },
-    "gaseous": {},
-    "liquid": {},
-    "flammable": {
-      "energy": 375000
     }
   },
   "POLYTHYLENE": {
-    "liquid": {},
     "flammable": {
       "energy": 50000
-    }
+    },
+    "liquid": {}
   },
   "METHYLENE": {
     "gaseous": {}
@@ -1887,12 +1887,12 @@
   },
   "TEKTOAIR": {
     "gaseous": {},
+    "flammable": {
+      "energy": 30000
+    },
     "poison": {
       "level": 1,
       "withering": true
-    },
-    "flammable": {
-      "energy": 30000
     }
   },
   "AIR": {
@@ -1921,35 +1921,35 @@
     "corrosive": {
       "rating": 30
     },
-    "liquid": {},
     "flammable": {
       "energy": 100000
-    }
+    },
+    "liquid": {}
   },
   "RADIOSOLVENT": {
     "corrosive": {
       "rating": 50
     },
-    "liquid": {},
     "flammable": {
       "energy": 150000
-    }
+    },
+    "liquid": {}
   },
   "HTCO4": {
-    "ventradiation": {
-      "radiation": 0.5
-    },
     "corrosive": {
       "rating": 10
+    },
+    "ventradiation": {
+      "radiation": 0.5
     },
     "liquid": {}
   },
   "SCHRABIDIC": {
-    "ventradiation": {
-      "radiation": 1.0
-    },
     "corrosive": {
       "rating": 75
+    },
+    "ventradiation": {
+      "radiation": 1.0
     },
     "liquid": {},
     "poison": {
@@ -1958,29 +1958,29 @@
     }
   },
   "UF6": {
+    "gaseous": {},
+    "corrosive": {
+      "rating": 15
+    },
     "ventradiation": {
       "radiation": 0.20000000298023224
-    },
-    "corrosive": {
-      "rating": 15
-    },
-    "gaseous": {}
+    }
   },
   "PUF6": {
-    "ventradiation": {
-      "radiation": 0.10000000149011612
-    },
+    "gaseous": {},
     "corrosive": {
       "rating": 15
     },
-    "gaseous": {}
+    "ventradiation": {
+      "radiation": 0.10000000149011612
+    }
   },
   "SAS3": {
-    "ventradiation": {
-      "radiation": 1.0
-    },
     "corrosive": {
       "rating": 30
+    },
+    "ventradiation": {
+      "radiation": 1.0
     },
     "liquid": {}
   },
@@ -1988,33 +1988,32 @@
     "corrosive": {
       "rating": 30
     },
-    "viscous": {},
     "liquid": {},
+    "viscous": {},
     "poison": {
       "level": 2,
       "withering": true
     }
   },
   "DEATH": {
+    "leadcontainer": {},
     "corrosive": {
       "rating": 80
     },
-    "viscous": {},
-    "leadcontainer": {},
     "liquid": {},
+    "viscous": {},
     "poison": {
       "level": 4,
       "withering": true
     }
   },
   "WATZ": {
-    "ventradiation": {
-      "radiation": 0.10000000149011612
+    "polluting": {
+      "release": {
+        "POISON": 5.0E-4
+      },
+      "burn": {}
     },
-    "corrosive": {
-      "rating": 60
-    },
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -2029,18 +2028,31 @@
     "pwrmoderator": {
       "multiplier": 1.4
     },
+    "corrosive": {
+      "rating": 60
+    },
+    "ventradiation": {
+      "radiation": 0.10000000149011612
+    },
     "liquid": {},
+    "viscous": {}
+  },
+  "REDMUD": {
+    "leadcontainer": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-4
       },
       "burn": {}
-    }
-  },
-  "REDMUD": {
+    },
     "corrosive": {
       "rating": 60
     },
+    "flammable": {
+      "energy": 1000
+    },
+    "liquid": {},
+    "viscous": {},
     "toxin": {
       "entries": [
         {
@@ -2050,31 +2062,19 @@
           "masktype": "GAS_BLISTERING"
         }
       ]
-    },
-    "viscous": {},
-    "leadcontainer": {},
-    "liquid": {},
-    "polluting": {
-      "release": {
-        "POISON": 5.0E-4
-      },
-      "burn": {}
-    },
-    "flammable": {
-      "energy": 1000
     }
   },
   "FULLERENE": {
-    "corrosive": {
-      "rating": 65
-    },
-    "liquid": {},
     "polluting": {
       "release": {
         "POISON": 2.0000001E-5
       },
       "burn": {}
-    }
+    },
+    "corrosive": {
+      "rating": 65
+    },
+    "liquid": {}
   },
   "EGG": {
     "liquid": {}
@@ -2083,46 +2083,46 @@
     "liquid": {}
   },
   "CHLOROCALCITE_SOLUTION": {
+    "nocontainer": {},
     "corrosive": {
       "rating": 60
     },
-    "liquid": {},
-    "nocontainer": {}
+    "liquid": {}
   },
   "CHLOROCALCITE_MIX": {
+    "nocontainer": {},
     "corrosive": {
       "rating": 60
     },
-    "liquid": {},
-    "nocontainer": {}
+    "liquid": {}
   },
   "CHLOROCALCITE_CLEANED": {
+    "nocontainer": {},
     "corrosive": {
       "rating": 60
     },
-    "liquid": {},
-    "nocontainer": {}
+    "liquid": {}
   },
   "POTASSIUM_CHLORIDE": {
+    "nocontainer": {},
     "corrosive": {
       "rating": 60
     },
-    "liquid": {},
-    "nocontainer": {}
+    "liquid": {}
   },
   "CALCIUM_CHLORIDE": {
+    "nocontainer": {},
     "corrosive": {
       "rating": 60
     },
-    "liquid": {},
-    "nocontainer": {}
+    "liquid": {}
   },
   "CALCIUM_SOLUTION": {
+    "nocontainer": {},
     "corrosive": {
       "rating": 60
     },
-    "liquid": {},
-    "nocontainer": {}
+    "liquid": {}
   },
   "SODIUM_ALUMINATE": {
     "corrosive": {
@@ -2134,8 +2134,8 @@
     "corrosive": {
       "rating": 40
     },
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "ALUMINA": {
     "liquid": {}
@@ -2147,8 +2147,8 @@
     "corrosive": {
       "rating": 15
     },
-    "viscous": {},
     "liquid": {},
+    "viscous": {},
     "poison": {
       "level": 0,
       "withering": false
@@ -2162,6 +2162,12 @@
   },
   "PHOSGENE": {
     "gaseous": {},
+    "polluting": {
+      "release": {
+        "POISON": 5.0E-4
+      },
+      "burn": {}
+    },
     "toxin": {
       "entries": [
         {
@@ -2173,16 +2179,16 @@
           "masktype": "GAS_LUNG"
         }
       ]
-    },
+    }
+  },
+  "MUSTARDGAS": {
+    "gaseous": {},
     "polluting": {
       "release": {
         "POISON": 5.0E-4
       },
       "burn": {}
-    }
-  },
-  "MUSTARDGAS": {
-    "gaseous": {},
+    },
     "toxin": {
       "entries": [
         {
@@ -2200,15 +2206,10 @@
           "masktype": "GAS_BLISTERING"
         }
       ]
-    },
-    "polluting": {
-      "release": {
-        "POISON": 5.0E-4
-      },
-      "burn": {}
     }
   },
   "ESTRADIOL": {
+    "liquid": {},
     "toxin": {
       "entries": [
         {
@@ -2218,8 +2219,7 @@
           "masktype": "PARTICLE_FINE"
         }
       ]
-    },
-    "liquid": {}
+    }
   },
   "NITROGLYCERIN": {
     "liquid": {}
@@ -2233,10 +2233,6 @@
     "amat": {}
   },
   "WASTEFLUID": {
-    "ventradiation": {
-      "radiation": 0.5
-    },
-    "viscous": {},
     "heatable": {
       "steps": [
         {
@@ -2251,29 +2247,33 @@
     "pwrmoderator": {
       "multiplier": 1.2
     },
-    "liquid": {},
-    "nocontainer": {}
-  },
-  "WASTEGAS": {
+    "nocontainer": {},
     "ventradiation": {
       "radiation": 0.5
+    },
+    "liquid": {},
+    "viscous": {}
+  },
+  "WASTEGAS": {
+    "gaseous": {},
+    "nocontainer": {},
+    "ventradiation": {
+      "radiation": 0.5
+    },
+    "rocket": {
+      "isp": 900,
+      "thrust": 700000
     },
     "coolable": {
       "coolsTo": "WATZ",
       "amountReq": 1,
       "amountProd": 1,
       "heatEnergy": 300
-    },
-    "gaseous": {},
-    "nocontainer": {},
-    "rocket": {
-      "isp": 900,
-      "thrust": 700000
     }
   },
   "XPJUICE": {
-    "viscous": {},
-    "liquid": {}
+    "liquid": {},
+    "viscous": {}
   },
   "ENDERJUICE": {
     "liquid": {}
@@ -2285,11 +2285,11 @@
     "liquid": {}
   },
   "NMASS": {
-    "ventradiation": {
-      "radiation": 0.03999999910593033
-    },
     "corrosive": {
       "rating": 10
+    },
+    "ventradiation": {
+      "radiation": 0.03999999910593033
     },
     "liquid": {},
     "poison": {
@@ -2302,54 +2302,54 @@
     "amat": {}
   },
   "PLASMA_DT": {
-    "plasma": {},
     "noid": {},
     "nocontainer": {},
+    "plasma": {},
     "rocket": {
       "isp": 12000,
       "thrust": 700000
     }
   },
   "PLASMA_HD": {
-    "plasma": {},
     "noid": {},
     "nocontainer": {},
+    "plasma": {},
     "rocket": {
       "isp": 7500,
       "thrust": 700000
     }
   },
   "PLASMA_HT": {
-    "plasma": {},
     "noid": {},
     "nocontainer": {},
+    "plasma": {},
     "rocket": {
       "isp": 10000,
       "thrust": 700000
     }
   },
   "PLASMA_DH3": {
-    "plasma": {},
     "noid": {},
     "nocontainer": {},
+    "plasma": {},
     "rocket": {
       "isp": 20000,
       "thrust": 700000
     }
   },
   "PLASMA_XM": {
-    "plasma": {},
     "noid": {},
     "nocontainer": {},
+    "plasma": {},
     "rocket": {
       "isp": 25000,
       "thrust": 700000
     }
   },
   "PLASMA_BF": {
-    "plasma": {},
     "noid": {},
     "nocontainer": {},
+    "plasma": {},
     "rocket": {
       "isp": 50000,
       "thrust": 700000
@@ -2365,46 +2365,46 @@
     "gaseous": {}
   },
   "TEA": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "HONEY": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "COFFEE": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "MILK": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "SMILK": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "OLIVEOIL": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "ELBOWGREASE": {
-    "liquid": {},
     "flammable": {
       "energy": 600000
-    }
+    },
+    "liquid": {}
   },
   "EMILK": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "CMILK": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "CREAM": {
-    "liquid": {},
-    "delicious": {}
+    "delicious": {},
+    "liquid": {}
   },
   "SMOKE": {
     "gaseous": {},
