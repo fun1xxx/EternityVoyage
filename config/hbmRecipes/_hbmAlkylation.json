@@ -7,10 +7,10 @@
       "output2": ["CHLORINE",10]
     },
     {
-      "input": "PETROLEUM",
-      "acid": ["SULFURIC_ACID",50],
-      "output1": ["LIGHTOIL",50],
-      "output2": ["PEROXIDE",20]
+      "input": "UNSATURATEDS",
+      "acid": ["NONE",0],
+      "output1": ["AROMATICS",70],
+      "output2": ["PETROLEUM",30]
     },
     {
       "input": "CHLOROMETHANE",
@@ -19,10 +19,10 @@
       "output2": ["CHLORINE",25]
     },
     {
-      "input": "UNSATURATEDS",
-      "acid": ["NONE",0],
-      "output1": ["AROMATICS",70],
-      "output2": ["PETROLEUM",30]
+      "input": "PETROLEUM",
+      "acid": ["SULFURIC_ACID",50],
+      "output1": ["LIGHTOIL",50],
+      "output2": ["PEROXIDE",20]
     }
   ]
 }

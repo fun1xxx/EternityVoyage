@@ -71,9 +71,9 @@ recipes.addShaped(<appliedenergistics2:tile.BlockWireless>,
 
 recipes.remove(<appliedenergistics2:tile.BlockInterface>);
 recipes.addShaped(<appliedenergistics2:tile.BlockInterface>,
-   [[<ThermalFoundation:material:72>, <appliedenergistics2:item.ItemMultiPart:16>, <ThermalFoundation:material:72>],
-   [<appliedenergistics2:item.ItemMultiMaterial:44>, <ThermalExpansion:Frame:3>, <appliedenergistics2:item.ItemMultiMaterial:43>],
-   [<ThermalFoundation:material:72>, <appliedenergistics2:item.ItemMultiPart:16>, <ThermalFoundation:material:72>]]);
+   [[<ore:plateIron>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateIron>],
+   [<appliedenergistics2:item.ItemMultiMaterial:44>, <hbm:tile.cm_circuit:2>, <appliedenergistics2:item.ItemMultiMaterial:43>],
+   [<ore:plateIron>, <appliedenergistics2:item.ItemMultiPart:16>, <ore:plateIron>]]);
 
 recipes.remove(<appliedenergistics2:tile.BlockIOPort>);
 recipes.addShaped(<appliedenergistics2:tile.BlockIOPort>,

@@ -2,7 +2,7 @@ recipes.removeShaped(<adventurebackpack:backpackComponent:1>);
 recipes.addShapeless(<adventurebackpack:backpackComponent:1>, [<OpenBlocks:sleepingBag>]);
 
 recipes.removeShaped(<adventurebackpack:backpackComponent:2>);
-recipes.addShapeless(<adventurebackpack:backpackComponent:2>, [<ThermalExpansion:Tank:1>]);
+recipes.addShapeless(<adventurebackpack:backpackComponent:2>, [<hbm:item.fluid_tank_empty>]);
 
 recipes.removeShaped(<Backpack:backpack:0>);
 
@@ -60,7 +60,7 @@ recipes.remove(<Backpack:workbenchbackpack:217>);
 recipes.addShaped(<Backpack:workbenchbackpack:217>,
 [[<ore:plateTitanium>, <harvestcraft:hardenedleatherItem>, <ore:plateTitanium>],
   [<harvestcraft:hardenedleatherItem>, <Backpack:backpack:100>, <harvestcraft:hardenedleatherItem>],
-  [<ThermalFoundation:material:131>, <TConstruct:CraftingSlab>, <ThermalFoundation:material:131>]]);
+  [<hbm:item.hazmat_cloth>, <TConstruct:CraftingSlab>, <hbm:item.hazmat_cloth>]]);
 
 recipes.remove(<Backpack:workbenchbackpack:17>);
 recipes.addShaped(<Backpack:workbenchbackpack:17>,
@@ -72,7 +72,7 @@ recipes.remove(<Backpack:backpack:200>);
 recipes.addShaped(<Backpack:backpack:200>,
 [[<ore:plateTitanium>, <harvestcraft:hardenedleatherItem>, <ore:plateTitanium>],
   [<harvestcraft:hardenedleatherItem>, <Backpack:backpack:100>, <harvestcraft:hardenedleatherItem>],
-  [<ThermalFoundation:material:131>, <harvestcraft:hardenedleatherItem>, <ThermalFoundation:material:131>]]);
+  [<hbm:item.hazmat_cloth>, <harvestcraft:hardenedleatherItem>, <hbm:item.hazmat_cloth>]]);
 recipes.removeShaped(<Backpack:backpack:201>);
 recipes.removeShaped(<Backpack:backpack:202>);
 recipes.removeShaped(<Backpack:backpack:203>);

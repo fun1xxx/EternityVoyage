@@ -374,7 +374,7 @@
         ["PEROXIDE",500]
       ],
       "itemInput": [
-        ["dict","billetUraninite",2],
+        ["dict","billetUranium",2],
         ["dict","dustSulfur",2]
       ],
       "fluidOutput": [],

@@ -5,7 +5,7 @@ recipes.addShaped(<SpiceOfLife:lunchbox>,
   [<hbm:item.ducttape>, <ore:plateIron>, <hbm:item.ducttape>]]);
 
 recipes.removeShapeless(<minecraft:flint_and_steel>);
-recipes.addShapeless(<minecraft:flint_and_steel>,[<ore:ingotSteel>, <minecraft:flint>]);
+recipes.addShapeless(<minecraft:flint_and_steel>, [<ore:ingotSteel>, <ore:itemFlint>]);
 
 <ore:dustWood>.add(<hbm:item.powder_sawdust>);
 recipes.removeShaped(<minecraft:paper>);
@@ -39,13 +39,9 @@ recipes.removeShaped(<OpenComputers:item:28>);
 recipes.removeShaped(<OpenComputers:item:29>);
 recipes.removeShaped(<OpenComputers:item:42>);
 recipes.removeShaped(<OpenComputers:item:43>);
-recipes.remove(<OpenComputers:item:30>);
-furnace.remove(<OpenComputers:item:32>);
-mods.thermalexpansion.Furnace.removeRecipe(<OpenComputers:item:30>);
 recipes.removeShaped(<OpenComputers:item:1>);
 recipes.removeShaped(<OpenComputers:item:50>);
 recipes.removeShaped(<OpenComputers:item:2>);
 recipes.removeShaped(<OpenComputers:item:3>);
 recipes.removeShaped(<OpenComputers:item:38>);
 recipes.removeShaped(<OpenComputers:item:39>);
-mods.thermalexpansion.Pulverizer.removeRecipe(<ore:sand>);
