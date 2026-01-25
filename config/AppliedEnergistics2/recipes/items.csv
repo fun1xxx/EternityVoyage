@@ -858,6 +858,7 @@ appliedenergistics2:tile.BlockSkyStone:2, Кирпич небесного кам
 appliedenergistics2:tile.BlockSkyStone:3, Малый кирпич небесного камня
 appliedenergistics2:tile.BlockSkyChest:0, Сундук из небесного камня
 appliedenergistics2:tile.BlockSkyChest:1, Сундук из блока небесного камня
+appliedenergistics2:tile.BlockSkyCompass, Метеоритный компас
 appliedenergistics2:tile.BlockGrinder, Кварцевый дробитель
 appliedenergistics2:tile.BlockCrank, Деревянная рукоятка
 appliedenergistics2:tile.BlockInscriber, Высекатель
@@ -7003,7 +7004,7 @@ etfuturum:barrier, Барьер
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Коллектор Края
-ExtraUtilities:endConstructor:0, QED (Quantum Entanglement Diviner)
+ExtraUtilities:endConstructor:0, QED (Quantum Ender Diviner)
 ExtraUtilities:endConstructor:2, Флаксовый кристалл Края
 ExtraUtilities:endMarker, Маркер Края
 ExtraUtilities:curtains, Занавесы
@@ -8067,7 +8068,6 @@ hbm:tile.ore_depth_borax, Глубинная бура
 hbm:tile.cluster_depth_iron, Глубинный железорудный кластер
 hbm:tile.cluster_depth_titanium, Глубинный титановый рудный кластер
 hbm:tile.cluster_depth_tungsten, Глубинный вольфрамовый рудный кластер
-hbm:tile.ore_alexandrite, Александритовая руда
 minecraft:record_13, Пластинка
 minecraft:record_cat, Пластинка
 minecraft:record_blocks, Пластинка
@@ -8080,6 +8080,7 @@ minecraft:record_strad, Пластинка
 minecraft:record_ward, Пластинка
 minecraft:record_11, Пластинка
 minecraft:record_wait, Пластинка
+hbm:tile.ore_alexandrite, Александритовая руда
 hbm:tile.ore_depth_nether_neodymium, Адская глубинная неодимовая руда
 hbm:tile.ore_basalt:0, Богатый серой базальт
 hbm:tile.ore_basalt:1, Богатый флюоритом базальт
@@ -10529,7 +10530,6 @@ StorageDrawers:halfDrawers4:2, Компактный ящик из берёзы 2
 StorageDrawers:halfDrawers4:3, Компактный ящик из тропического дерева 2x2
 StorageDrawers:halfDrawers4:4, Компактный ящик из акации 2x2
 StorageDrawers:halfDrawers4:5, Компактный ящик из тёмного дуба 2x2
-StorageDrawers:compDrawers, Уплотняющий ящик
 securitycraft:codebreaker, Взломщик паролей
 securitycraft:doorIndestructibleIronItem, Reinforced Iron Door
 securitycraft:scannerDoorItem, Scanner Door
@@ -25348,9 +25348,7 @@ RandomThings:filter:0, Фильтр блоков
 RandomThings:filter:1, Фильтр предметов
 RandomThings:filter:2, Фильтр сущностей
 RandomThings:filter:3, Фильтр положений
-SpiceOfLife:bookfoodjournal, Журнал питания
-SpiceOfLife:lunchbox, Коробка для ланча
-SpiceOfLife:lunchbag, Мешочек для ланча
+StorageDrawers:compDrawers, Уплотняющий ящик
 StorageDrawers:controller, Контроллер ящиков
 StorageDrawers:controllerSlave, Подчинённый контроллера
 StorageDrawers:trim:0, Отделка из дуба
