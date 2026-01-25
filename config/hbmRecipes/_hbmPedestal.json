@@ -13,7 +13,7 @@
         ["dict","plateLead"],
         null
       ],
-      "extra": "NONE"
+      "extra": "NEW_MOON"
     },
     {
       "output": ["hbm:item.gun_maresleg_broken"],
@@ -57,6 +57,36 @@
         ["item","hbm:tile.dungeon_chain",16],
         ["dict","gemCinnabar"],
         ["item","hbm:tile.dungeon_chain",16]
+      ],
+      "extra": "NONE"
+    },
+    {
+      "output": ["hbm:item.gun_amat_subtlety"],
+      "input": [
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleAluminum"],
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleAluminum"],
+        ["item","hbm:item.gun_amat"],
+        ["dict","plateTripleAluminum"],
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleAluminum"],
+        ["dict","ingotStarmetal"]
+      ],
+      "extra": "NONE"
+    },
+    {
+      "output": ["hbm:item.gun_amat_penance"],
+      "input": [
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleDuraSteel"],
+        ["dict","ingotStarmetal"],
+        ["item","hbm:item.weapon_mod_special"],
+        ["item","hbm:item.gun_amat"],
+        ["item","hbm:item.weapon_mod_special",1,9],
+        ["dict","ingotStarmetal"],
+        ["dict","plateTripleDuraSteel"],
+        ["dict","ingotStarmetal"]
       ],
       "extra": "NONE"
     },

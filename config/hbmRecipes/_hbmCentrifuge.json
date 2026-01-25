@@ -100,11 +100,25 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,821],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,20001]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1812],
       "output": [
         ["hbm:item.bedrock_ore",2,2068],
         ["hbm:item.bedrock_ore",2,3604],
         ["hbm:item.bedrock_ore",2,4628]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2869],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,20001],
+        ["hbm:item.bedrock_ore_fragment",18,20001],
+        ["hbm:item.bedrock_ore",1,3381]
       ]
     },
     {
@@ -142,7 +156,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,5379],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",6,401],
+        ["hbm:item.bedrock_ore_fragment",6,1430],
         ["hbm:item.bedrock_ore",1,3331]
       ]
     },
@@ -221,6 +235,20 @@
         ["hbm:item.nugget_schrabidium",2],
         ["hbm:item.nugget_uranium",2],
         ["hbm:item.nugget_neptunium",2]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2868],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,401],
+        ["hbm:item.bedrock_ore_fragment",18,401],
+        ["hbm:item.bedrock_ore",1,3380]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,820],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,401]
       ]
     },
     {
@@ -547,7 +575,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,1544],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1],
+        ["hbm:item.bedrock_ore_fragment",18,1402],
         ["hbm:item.bedrock_ore",1,3336]
       ]
     },
@@ -556,15 +584,6 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,9200],
         ["hbm:item.bedrock_ore",1,3369]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,2],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_solinium",12],
-        ["hbm:item.nugget_tantalium",6],
-        ["hbm:item.nuclear_waste",2]
       ]
     },
     {
@@ -577,11 +596,25 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,817],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,400]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1808],
       "output": [
         ["hbm:item.bedrock_ore",2,2064],
         ["hbm:item.bedrock_ore",2,3600],
         ["hbm:item.bedrock_ore",2,4624]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2865],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,400],
+        ["hbm:item.bedrock_ore_fragment",18,400],
+        ["hbm:item.bedrock_ore",1,3377]
       ]
     },
     {
@@ -615,15 +648,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_plate_pu239"],
-      "output": [
-        ["hbm:item.nugget_pu240",2],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.powder_cs137_tiny"],
-        ["hbm:item.nuclear_waste_tiny",5]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,6432],
       "output": [
         ["hbm:item.bedrock_ore_fragment",3,2760],
@@ -644,15 +668,6 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",9,1701],
         ["hbm:item.bedrock_ore",1,3360]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,1],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_solinium",17],
-        ["hbm:item.nugget_euphemium"],
-        ["hbm:item.nuclear_waste",2]
       ]
     },
     {
@@ -684,6 +699,20 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,1600],
         ["hbm:item.bedrock_ore",1,3335]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2864],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,2200],
+        ["hbm:item.bedrock_ore_fragment",18,2200],
+        ["hbm:item.bedrock_ore",1,3376]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,816],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,2200]
       ]
     },
     {
@@ -811,12 +840,9 @@
       ]
     },
     {
-      "input": ["item","hbm:item.watz_pellet_depleted"],
+      "input": ["item","hbm:item.bedrock_ore",1,819],
       "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_solinium",15],
-        ["hbm:item.nugget_euphemium",3],
-        ["hbm:item.nuclear_waste",2]
+        ["hbm:item.bedrock_ore_fragment",18,9200]
       ]
     },
     {
@@ -825,6 +851,14 @@
         ["hbm:item.bedrock_ore",2,2066],
         ["hbm:item.bedrock_ore",2,3602],
         ["hbm:item.bedrock_ore",2,4626]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2867],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,9200],
+        ["hbm:item.bedrock_ore_fragment",18,9200],
+        ["hbm:item.bedrock_ore",1,3379]
       ]
     },
     {
@@ -926,6 +960,20 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,2866],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,500],
+        ["hbm:item.bedrock_ore_fragment",18,500],
+        ["hbm:item.bedrock_ore",1,3378]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,818],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,500]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1809],
       "output": [
         ["hbm:item.bedrock_ore",2,2065],
@@ -960,7 +1008,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,1028],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2600]
+        ["hbm:item.bedrock_ore_fragment",18,300]
       ]
     },
     {
@@ -1033,12 +1081,11 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_plate_sa326"],
+      "input": ["item","hbm:item.bedrock_ore",1,565],
       "output": [
-        ["hbm:item.nugget_solinium"],
-        ["hbm:item.powder_neodymium_tiny"],
-        ["hbm:item.nugget_tantalium"],
-        ["hbm:item.nuclear_waste_tiny",6]
+        ["hbm:item.bedrock_ore",1,821],
+        ["hbm:item.bedrock_ore",1,821],
+        ["minecraft:gravel"]
       ]
     },
     {
@@ -1046,6 +1093,13 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,2200],
         ["hbm:item.bedrock_ore",1,3348]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2613],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,20001],
+        ["hbm:item.bedrock_ore",1,3381]
       ]
     },
     {
@@ -1091,7 +1145,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,1027],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1401]
+        ["hbm:item.bedrock_ore_fragment",18,1]
       ]
     },
     {
@@ -1148,12 +1202,18 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_plate_u233"],
+      "input": ["item","hbm:item.bedrock_ore",1,2612],
       "output": [
-        ["hbm:item.nugget_u235"],
-        ["hbm:item.powder_i131_tiny"],
-        ["hbm:item.powder_sr90_tiny"],
-        ["hbm:item.nuclear_waste_tiny",6]
+        ["hbm:item.bedrock_ore_fragment",18,401],
+        ["hbm:item.bedrock_ore",1,3380]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,564],
+      "output": [
+        ["hbm:item.bedrock_ore",1,820],
+        ["hbm:item.bedrock_ore",1,820],
+        ["minecraft:gravel"]
       ]
     },
     {
@@ -1373,15 +1433,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_plate_u235"],
-      "output": [
-        ["hbm:item.nugget_neptunium"],
-        ["hbm:item.nugget_pu238"],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",6]
-      ]
-    },
-    {
       "input": ["item","hbm:item.crystal_lapis"],
       "output": [
         ["hbm:item.powder_lapis",4],
@@ -1473,10 +1524,25 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,561],
+      "output": [
+        ["hbm:item.bedrock_ore",1,817],
+        ["hbm:item.bedrock_ore",1,817],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1552],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,20000],
         ["hbm:item.bedrock_ore",1,3344]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2609],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,400],
+        ["hbm:item.bedrock_ore",1,3377]
       ]
     },
     {
@@ -1573,6 +1639,21 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,2608],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,2200],
+        ["hbm:item.bedrock_ore",1,3376]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,560],
+      "output": [
+        ["hbm:item.bedrock_ore",1,816],
+        ["hbm:item.bedrock_ore",1,816],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1551],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,400],
@@ -1605,15 +1686,6 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,9400],
         ["hbm:item.bedrock_ore",1,3363]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.waste_plate_ra226be"],
-      "output": [
-        ["hbm:item.nugget_beryllium",2],
-        ["hbm:item.nugget_polonium",2],
-        ["hbm:item.powder_coal_tiny"],
-        ["hbm:item.nugget_lead"]
       ]
     },
     {
@@ -1697,10 +1769,25 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,563],
+      "output": [
+        ["hbm:item.bedrock_ore",1,819],
+        ["hbm:item.bedrock_ore",1,819],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1554],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,900],
         ["hbm:item.bedrock_ore",1,3346]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2611],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,9200],
+        ["hbm:item.bedrock_ore",1,3379]
       ]
     },
     {
@@ -1803,6 +1890,21 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,2610],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,500],
+        ["hbm:item.bedrock_ore",1,3378]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,562],
+      "output": [
+        ["hbm:item.bedrock_ore",1,818],
+        ["hbm:item.bedrock_ore",1,818],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1553],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,9032],
@@ -1817,15 +1919,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,15],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_cm_mix",12],
-        ["hbm:item.nugget_cf252",3],
-        ["hbm:item.nuclear_waste",2]
-      ]
-    },
-    {
       "input": ["item","hbm:item.ore_deepcleaned",1,17],
       "output": [
         ["hbm:item.ore_enriched",1,17],
@@ -1837,8 +1930,8 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2820],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2600],
-        ["hbm:item.bedrock_ore_fragment",18,2600],
+        ["hbm:item.bedrock_ore_fragment",18,300],
+        ["hbm:item.bedrock_ore_fragment",18,300],
         ["hbm:item.bedrock_ore",1,3332]
       ]
     },
@@ -1853,16 +1946,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,772],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2600]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,12],
-      "output": [
-        ["hbm:item.nugget_australium",4],
-        ["hbm:item.nugget_lead"],
-        ["hbm:item.nugget_euphemium"],
-        ["hbm:item.nuclear_waste_tiny",6]
+        ["hbm:item.bedrock_ore_fragment",18,300]
       ]
     },
     {
@@ -1870,15 +1954,6 @@
       "output": [
         ["hbm:item.bedrock_ore",1,813],
         ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,13],
-      "output": [
-        ["hbm:item.nugget_am_mix",9],
-        ["hbm:item.nugget_pu_mix",2],
-        ["hbm:item.nugget_bismuth",6],
-        ["hbm:item.nuclear_waste_tiny"]
       ]
     },
     {
@@ -1895,10 +1970,33 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,309],
+      "output": [
+        ["hbm:item.bedrock_ore",1,821],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1300],
       "output": [
         ["hbm:item.bedrock_ore",2,1556],
         ["hbm:item.bedrock_ore",2,3604]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2357],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2613],
+        ["hbm:item.bedrock_ore",2,3637],
+        ["hbm:item.bedrock_ore",2,4661],
+        ["hbm:item.bedrock_ore",2,5685]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,4405],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",9,20003],
+        ["hbm:item.bedrock_ore",1,3381]
       ]
     },
     {
@@ -1909,19 +2007,17 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,6453],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",3,20005],
+        ["hbm:item.bedrock_ore",1,3381]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1564],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,7300],
         ["hbm:item.bedrock_ore",1,3356]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,14],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_cm_mix",6],
-        ["hbm:item.nugget_bk247",3],
-        ["hbm:item.nuclear_waste",2]
       ]
     },
     {
@@ -1944,24 +2040,15 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,771],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1401]
+        ["hbm:item.bedrock_ore_fragment",18,1]
       ]
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,2819],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1401],
-        ["hbm:item.bedrock_ore_fragment",18,1401],
+        ["hbm:item.bedrock_ore_fragment",18,1],
+        ["hbm:item.bedrock_ore_fragment",18,1],
         ["hbm:item.bedrock_ore",1,3331]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,11],
-      "output": [
-        ["hbm:item.nugget_solinium",3],
-        ["hbm:item.nugget_lead",2],
-        ["hbm:item.nugget_euphemium"],
-        ["hbm:item.nuclear_waste_tiny",6]
       ]
     },
     {
@@ -1992,6 +2079,22 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,2356],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2612],
+        ["hbm:item.bedrock_ore",2,3636],
+        ["hbm:item.bedrock_ore",2,4660],
+        ["hbm:item.bedrock_ore",2,5684]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,308],
+      "output": [
+        ["hbm:item.bedrock_ore",1,820],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1299],
       "output": [
         ["hbm:item.bedrock_ore",2,1555],
@@ -1999,12 +2102,17 @@
       ]
     },
     {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,13],
+      "input": ["item","hbm:item.bedrock_ore",1,6452],
       "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_cm_mix",12],
-        ["hbm:item.nugget_bk247",6],
-        ["hbm:item.nuclear_waste",2]
+        ["hbm:item.bedrock_ore_fragment",3,501],
+        ["hbm:item.bedrock_ore",1,3380]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,4404],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",9,1400],
+        ["hbm:item.bedrock_ore",1,3380]
       ]
     },
     {
@@ -2080,15 +2188,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,12],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_am242",12],
-        ["hbm:item.nugget_am241",6],
-        ["hbm:item.nuclear_waste",2]
-      ]
-    },
-    {
       "input": ["item","hbm:item.crystal_cobalt"],
       "output": [
         ["hbm:item.powder_cobalt",2],
@@ -2142,27 +2241,9 @@
       ]
     },
     {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,14],
-      "output": [
-        ["hbm:item.nugget_pu241",9],
-        ["hbm:item.nugget_pu_mix",2],
-        ["hbm:item.nugget_bismuth",6],
-        ["hbm:item.nuclear_waste_tiny"]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,1037],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,401]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.waste_plutonium"],
-      "output": [
-        ["hbm:item.nugget_pu_mix"],
-        ["hbm:item.nugget_pu_mix"],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",3]
       ]
     },
     {
@@ -2218,15 +2299,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,19],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_cf252",3],
-        ["hbm:item.nugget_cm_mix",6],
-        ["hbm:item.nuclear_waste",2]
-      ]
-    },
-    {
       "input": ["item","hbm:item.ore_seared",1,2],
       "output": [
         ["hbm:item.ore_enriched",1,2],
@@ -2276,7 +2348,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,1032],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1]
+        ["hbm:item.bedrock_ore_fragment",18,1402]
       ]
     },
     {
@@ -2287,6 +2359,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,305],
+      "output": [
+        ["hbm:item.bedrock_ore",1,817],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1296],
       "output": [
         ["hbm:item.bedrock_ore",2,1552],
@@ -2294,10 +2373,33 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,2353],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2609],
+        ["hbm:item.bedrock_ore",2,3633],
+        ["hbm:item.bedrock_ore",2,4657],
+        ["hbm:item.bedrock_ore",2,5681]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,4401],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",9,8200],
+        ["hbm:item.bedrock_ore",1,3377]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,5392],
       "output": [
         ["hbm:item.bedrock_ore_fragment",6,4000],
         ["hbm:item.bedrock_ore",1,3344]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,6449],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",3,3000],
+        ["hbm:item.bedrock_ore",1,3377]
       ]
     },
     {
@@ -2332,15 +2434,6 @@
         ["hbm:item.powder_lignite",2],
         ["hbm:item.powder_lignite",2],
         ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,18],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_cm_mix",3],
-        ["hbm:item.nugget_cf251",6],
-        ["hbm:item.nuclear_waste",2]
       ]
     },
     {
@@ -2379,10 +2472,40 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,2352],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2608],
+        ["hbm:item.bedrock_ore",2,3632],
+        ["hbm:item.bedrock_ore",2,4656],
+        ["hbm:item.bedrock_ore",2,5680]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,304],
+      "output": [
+        ["hbm:item.bedrock_ore",1,816],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1295],
       "output": [
         ["hbm:item.bedrock_ore",2,1551],
         ["hbm:item.bedrock_ore",2,3599]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,6448],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",3,300],
+        ["hbm:item.bedrock_ore",1,3376]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,4400],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",9,2900],
+        ["hbm:item.bedrock_ore",1,3376]
       ]
     },
     {
@@ -2399,15 +2522,6 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,3000],
         ["hbm:item.bedrock_ore",1,3355]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,17],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_am_mix",12],
-        ["hbm:item.nugget_pu239",3],
-        ["hbm:item.nuclear_waste",2]
       ]
     },
     {
@@ -2453,12 +2567,10 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_natural_uranium"],
+      "input": ["item","hbm:item.bedrock_ore",1,4403],
       "output": [
-        ["hbm:item.nugget_u238"],
-        ["hbm:item.nugget_pu_mix",2],
-        ["hbm:item.nugget_pu239"],
-        ["hbm:item.nuclear_waste_tiny",2]
+        ["hbm:item.bedrock_ore_fragment",9,9337],
+        ["hbm:item.bedrock_ore",1,3379]
       ]
     },
     {
@@ -2478,6 +2590,20 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,6451],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",3,4399],
+        ["hbm:item.bedrock_ore",1,3379]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,307],
+      "output": [
+        ["hbm:item.bedrock_ore",1,819],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1298],
       "output": [
         ["hbm:item.bedrock_ore",2,1554],
@@ -2485,19 +2611,19 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,2355],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2611],
+        ["hbm:item.bedrock_ore",2,3635],
+        ["hbm:item.bedrock_ore",2,4659],
+        ["hbm:item.bedrock_ore",2,5683]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1562],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,2800],
         ["hbm:item.bedrock_ore",1,3354]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,16],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_cm_mix",12],
-        ["hbm:item.nugget_es253",3],
-        ["hbm:item.nuclear_waste",2]
       ]
     },
     {
@@ -2561,6 +2687,36 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,6450],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",3,8300],
+        ["hbm:item.bedrock_ore",1,3378]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,4402],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",9,20000],
+        ["hbm:item.bedrock_ore",1,3378]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2354],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2610],
+        ["hbm:item.bedrock_ore",2,3634],
+        ["hbm:item.bedrock_ore",2,4658],
+        ["hbm:item.bedrock_ore",2,5682]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,306],
+      "output": [
+        ["hbm:item.bedrock_ore",1,818],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1297],
       "output": [
         ["hbm:item.bedrock_ore",2,1553],
@@ -2589,18 +2745,9 @@
       ]
     },
     {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,4],
-      "output": [
-        ["hbm:item.nugget_pu238",2],
-        ["hbm:item.nugget_pu239",4],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",5]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,2564],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2600],
+        ["hbm:item.bedrock_ore_fragment",18,300],
         ["hbm:item.bedrock_ore",1,3332]
       ]
     },
@@ -2642,18 +2789,23 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,53],
+      "output": [
+        ["hbm:item.bedrock_ore",1,821],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1044],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,2200]
       ]
     },
     {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,6],
+      "input": ["item","hbm:item.bedrock_ore",1,2101],
       "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_pu241",12],
-        ["hbm:item.nugget_bismuth",6],
-        ["hbm:item.nuclear_waste",2]
+        ["hbm:item.bedrock_ore_fragment",18,20001],
+        ["hbm:item.bedrock_ore",1,3381]
       ]
     },
     {
@@ -2689,15 +2841,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,3],
-      "output": [
-        ["hbm:item.nugget_u238",3],
-        ["hbm:item.nugget_pu239",4],
-        ["hbm:item.nugget_technetium",2],
-        ["hbm:item.nuclear_waste_tiny",3]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,1572],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,12626],
@@ -2715,7 +2858,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2563],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1401],
+        ["hbm:item.bedrock_ore_fragment",18,1],
         ["hbm:item.bedrock_ore",1,3331]
       ]
     },
@@ -2742,30 +2885,26 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_plate_pu238be"],
-      "output": [
-        ["hbm:item.nugget_beryllium"],
-        ["hbm:item.nugget_pu238"],
-        ["hbm:item.powder_coal_tiny",2],
-        ["hbm:item.nugget_lead",2]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,5],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_pu239",12],
-        ["hbm:item.nugget_bismuth",6],
-        ["hbm:item.nuclear_waste",2]
-      ]
-    },
-    {
       "input": ["item","hbm:item.ore_seared",1,5],
       "output": [
         ["hbm:item.ore_enriched",1,5],
         ["hbm:item.ore_enriched",1,5],
         ["hbm:item.ore_byproduct",1,10],
         ["hbm:item.ore_byproduct",1,10]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2100],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,401],
+        ["hbm:item.bedrock_ore",1,3380]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,52],
+      "output": [
+        ["hbm:item.bedrock_ore",1,820],
+        ["minecraft:gravel"]
       ]
     },
     {
@@ -2796,15 +2935,6 @@
       "input": ["item","hbm:item.bedrock_ore",1,1047],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,13800]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,6],
-      "output": [
-        ["hbm:item.nugget_lead",2],
-        ["hbm:item.nugget_pu_mix",4],
-        ["hbm:item.nugget_technetium",2],
-        ["hbm:item.nuclear_waste_tiny",3]
       ]
     },
     {
@@ -2850,15 +2980,6 @@
         ["hbm:item.bedrock_ore",1,774],
         ["hbm:item.bedrock_ore",1,774],
         ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,4],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_pu239",12],
-        ["hbm:item.nugget_technetium",6],
-        ["hbm:item.nuclear_waste",2]
       ]
     },
     {
@@ -2934,15 +3055,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,5],
-      "output": [
-        ["hbm:item.nugget_u238",3],
-        ["hbm:item.nugget_pu240",4],
-        ["hbm:item.nugget_technetium",2],
-        ["hbm:item.nuclear_waste_tiny",3]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,2565],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,8200],
@@ -2975,24 +3087,6 @@
         ["hbm:item.bedrock_ore_fragment",18,401],
         ["hbm:item.bedrock_ore_fragment",18,401],
         ["hbm:item.bedrock_ore",1,3341]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,3],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_solinium",9],
-        ["hbm:item.nugget_tantalium",9],
-        ["hbm:item.nuclear_waste",2]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.icf_pellet_depleted"],
-      "output": [
-        ["hbm:item.icf_pellet_empty"],
-        ["hbm:item.pellet_charged"],
-        ["hbm:item.pellet_charged"],
-        ["hbm:item.powder_iron"]
       ]
     },
     {
@@ -3058,15 +3152,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,8],
-      "output": [
-        ["hbm:item.nugget_lead",3],
-        ["hbm:item.nugget_zirconium",2],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",6]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,2560],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,2600],
@@ -3091,8 +3176,8 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2824],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1],
-        ["hbm:item.bedrock_ore_fragment",18,1],
+        ["hbm:item.bedrock_ore_fragment",18,1402],
+        ["hbm:item.bedrock_ore_fragment",18,1402],
         ["hbm:item.bedrock_ore",1,3336]
       ]
     },
@@ -3107,7 +3192,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,776],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1]
+        ["hbm:item.bedrock_ore_fragment",18,1402]
       ]
     },
     {
@@ -3120,9 +3205,23 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,49],
+      "output": [
+        ["hbm:item.bedrock_ore",1,817],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1040],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,20000]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2097],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,400],
+        ["hbm:item.bedrock_ore",1,3377]
       ]
     },
     {
@@ -3146,15 +3245,6 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",6,1600],
         ["hbm:item.bedrock_ore",1,3352]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,7],
-      "output": [
-        ["hbm:item.nugget_pu_mix",2],
-        ["hbm:item.nugget_pu240",4],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",5]
       ]
     },
     {
@@ -3196,21 +3286,26 @@
       ]
     },
     {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,9],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_polonium",12],
-        ["hbm:item.nugget_pu238",6],
-        ["hbm:item.nuclear_waste",2]
-      ]
-    },
-    {
       "input": ["item","hbm:item.ore_seared",1,9],
       "output": [
         ["hbm:item.ore_enriched",1,9],
         ["hbm:item.ore_enriched",1,9],
         ["hbm:item.ore_byproduct",1,9],
         ["hbm:item.ore_byproduct",1,9]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2096],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,2200],
+        ["hbm:item.bedrock_ore",1,3376]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,48],
+      "output": [
+        ["hbm:item.bedrock_ore",1,816],
+        ["minecraft:gravel"]
       ]
     },
     {
@@ -3256,15 +3351,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,10],
-      "output": [
-        ["hbm:item.nugget_lead",3],
-        ["hbm:item.nugget_zirconium",2],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",6]
-      ]
-    },
-    {
       "input": ["item","hbm:item.ore_seared",1,12],
       "output": [
         ["hbm:item.ore_enriched",1,12],
@@ -3305,9 +3391,23 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,51],
+      "output": [
+        ["hbm:item.bedrock_ore",1,819],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,1042],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,900]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,2099],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,9200],
+        ["hbm:item.bedrock_ore",1,3379]
       ]
     },
     {
@@ -3317,15 +3417,6 @@
         ["hbm:item.powder_cobalt_tiny"],
         ["hbm:item.gem_sodalite"],
         ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,8],
-      "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.powder_coal_tiny",12],
-        ["hbm:item.nugget_co60",6],
-        ["hbm:item.nuclear_waste",2]
       ]
     },
     {
@@ -3355,15 +3446,6 @@
         ["hbm:item.bedrock_ore",1,769],
         ["hbm:item.bedrock_ore",1,769],
         ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,9],
-      "output": [
-        ["hbm:item.nugget_lead",3],
-        ["hbm:item.nugget_zirconium",2],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",6]
       ]
     },
     {
@@ -3405,15 +3487,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_plate_mox"],
-      "output": [
-        ["hbm:item.powder_sr90_tiny"],
-        ["hbm:item.nugget_pu_mix",3],
-        ["hbm:item.powder_cs137_tiny"],
-        ["hbm:item.nuclear_waste_tiny",4]
-      ]
-    },
-    {
       "input": ["item","hbm:item.ore_deepcleaned",1,7],
       "output": [
         ["hbm:item.ore_enriched",1,7],
@@ -3423,12 +3496,17 @@
       ]
     },
     {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,7],
+      "input": ["item","hbm:item.bedrock_ore",1,2098],
       "output": [
-        ["hbm:item.ingot_mud"],
-        ["hbm:item.nugget_lead",6],
-        ["hbm:item.nugget_bismuth",12],
-        ["hbm:item.nuclear_waste",2]
+        ["hbm:item.bedrock_ore_fragment",18,500],
+        ["hbm:item.bedrock_ore",1,3378]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,50],
+      "output": [
+        ["hbm:item.bedrock_ore",1,818],
+        ["minecraft:gravel"]
       ]
     },
     {
@@ -3485,15 +3563,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_mox"],
-      "output": [
-        ["hbm:item.nugget_pu_mix"],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nugget_u238"],
-        ["hbm:item.nuclear_waste_tiny",3]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,6404],
       "output": [
         ["hbm:item.bedrock_ore_fragment",3,1701],
@@ -3510,7 +3579,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4356],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,300],
+        ["hbm:item.bedrock_ore_fragment",9,2600],
         ["hbm:item.bedrock_ore",1,3332]
       ]
     },
@@ -3572,6 +3641,14 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1845],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2101],
+        ["hbm:item.bedrock_ore",2,3637],
+        ["hbm:item.bedrock_ore",2,4661]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,788],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,2200]
@@ -3604,7 +3681,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4355],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,1430],
+        ["hbm:item.bedrock_ore_fragment",9,1401],
         ["hbm:item.bedrock_ore",1,3331]
       ]
     },
@@ -3686,6 +3763,14 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1844],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2100],
+        ["hbm:item.bedrock_ore",2,3636],
+        ["hbm:item.bedrock_ore",2,4660]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,787],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,1]
@@ -3753,15 +3838,6 @@
         ["minecraft:redstone",3],
         ["hbm:item.nugget_mercury"],
         ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.waste_u233"],
-      "output": [
-        ["hbm:item.nugget_u235"],
-        ["hbm:item.nugget_neptunium"],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",3]
       ]
     },
     {
@@ -4003,15 +4079,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.pwr_fuel_depleted"],
-      "output": [
-        ["hbm:item.nugget_u238",3],
-        ["hbm:item.nugget_plutonium",4],
-        ["hbm:item.nugget_technetium",2],
-        ["hbm:item.nuclear_waste_tiny",3]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,1049],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,8001]
@@ -4082,7 +4149,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2568],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1],
+        ["hbm:item.bedrock_ore_fragment",18,1402],
         ["hbm:item.bedrock_ore",1,3336]
       ]
     },
@@ -4116,6 +4183,14 @@
         ["hbm:item.bedrock_ore_fragment",18,20000],
         ["hbm:item.bedrock_ore_fragment",18,20000],
         ["hbm:item.bedrock_ore",1,3344]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1841],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2097],
+        ["hbm:item.bedrock_ore",2,3633],
+        ["hbm:item.bedrock_ore",2,4657]
       ]
     },
     {
@@ -4184,6 +4259,14 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1840],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2096],
+        ["hbm:item.bedrock_ore",2,3632],
+        ["hbm:item.bedrock_ore",2,4656]
+      ]
+    },
+    {
       "input": ["item","hbm:item.ore_bedrock",1,15],
       "output": [
         ["hbm:item.ore_centrifuged",1,15],
@@ -4210,15 +4293,6 @@
       "input": ["item","hbm:item.bedrock_ore",1,1051],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,3000]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,2],
-      "output": [
-        ["hbm:item.nugget_neptunium",3],
-        ["hbm:item.nugget_pu238",3],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",5]
       ]
     },
     {
@@ -4266,15 +4340,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_schrabidium"],
-      "output": [
-        ["hbm:item.nugget_beryllium",2],
-        ["hbm:item.nugget_pu239"],
-        ["hbm:item.nuclear_waste_tiny"],
-        ["hbm:item.nuclear_waste_tiny",2]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,2570],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,8200],
@@ -4305,6 +4370,14 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1843],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2099],
+        ["hbm:item.bedrock_ore",2,3635],
+        ["hbm:item.bedrock_ore",2,4659]
+      ]
+    },
+    {
       "input": ["item","hbm:item.ore_bedrock",1,18],
       "output": [
         ["hbm:item.ore_centrifuged",1,18],
@@ -4323,15 +4396,6 @@
       "input": ["item","hbm:item.bedrock_ore",1,1050],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,2800]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.pwr_fuel_depleted",1,1],
-      "output": [
-        ["hbm:item.nugget_u235",3],
-        ["hbm:item.nugget_pu238",3],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",5]
       ]
     },
     {
@@ -4428,6 +4492,14 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1842],
+      "output": [
+        ["hbm:item.bedrock_ore",2,2098],
+        ["hbm:item.bedrock_ore",2,3634],
+        ["hbm:item.bedrock_ore",2,4658]
+      ]
+    },
+    {
       "input": ["item","hbm:item.ore_bedrock",1,17],
       "output": [
         ["hbm:item.ore_centrifuged",1,17],
@@ -4476,7 +4548,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2052],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2600],
+        ["hbm:item.bedrock_ore_fragment",18,300],
         ["hbm:item.bedrock_ore",1,3332]
       ]
     },
@@ -4563,6 +4635,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1589],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,20001],
+        ["hbm:item.bedrock_ore",1,3381]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,532],
       "output": [
         ["hbm:item.bedrock_ore",1,788],
@@ -4627,7 +4706,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2051],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1401],
+        ["hbm:item.bedrock_ore_fragment",18,1],
         ["hbm:item.bedrock_ore",1,3331]
       ]
     },
@@ -4694,6 +4773,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1588],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,401],
+        ["hbm:item.bedrock_ore",1,3380]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,531],
       "output": [
         ["hbm:item.bedrock_ore",1,787],
@@ -4730,15 +4816,6 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,13800],
         ["hbm:item.bedrock_ore",1,3351]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.ingot_schraranium"],
-      "output": [
-        ["hbm:item.nugget_schrabidium",2],
-        ["hbm:item.nugget_schrabidium"],
-        ["hbm:item.nugget_uranium",3],
-        ["hbm:item.nugget_neptunium",2]
       ]
     },
     {
@@ -4884,15 +4961,6 @@
       "output": [
         ["hbm:item.bedrock_ore",1,773],
         ["minecraft:gravel"]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.watz_pellet_depleted",1,20],
-      "output": [
-        ["hbm:item.ingot_mud",2],
-        ["hbm:item.nugget_es253",3],
-        ["hbm:item.nugget_cf252",3],
-        ["hbm:item.nuclear_waste",24]
       ]
     },
     {
@@ -5112,6 +5180,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1585],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,400],
+        ["hbm:item.bedrock_ore",1,3377]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,528],
       "output": [
         ["hbm:item.bedrock_ore",1,784],
@@ -5217,6 +5292,13 @@
         ["hbm:item.ore_enriched",1,17],
         ["hbm:item.ore_enriched",1,17],
         ["hbm:item.ore_enriched",1,17]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1584],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,2200],
+        ["hbm:item.bedrock_ore",1,3376]
       ]
     },
     {
@@ -5340,19 +5422,17 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_u235"],
-      "output": [
-        ["hbm:item.nugget_pu238"],
-        ["hbm:item.nugget_neptunium"],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",3]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,2578],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,900],
         ["hbm:item.bedrock_ore",1,3346]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1587],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,9200],
+        ["hbm:item.bedrock_ore",1,3379]
       ]
     },
     {
@@ -5487,6 +5567,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1586],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,500],
+        ["hbm:item.bedrock_ore",1,3378]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,529],
       "output": [
         ["hbm:item.bedrock_ore",1,785],
@@ -5586,6 +5673,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1333],
+      "output": [
+        ["hbm:item.bedrock_ore",2,1589],
+        ["hbm:item.bedrock_ore",2,3637]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,276],
       "output": [
         ["hbm:item.bedrock_ore",1,788],
@@ -5597,6 +5691,13 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",3,300],
         ["hbm:item.bedrock_ore",1,3348]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,5429],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",6,24003],
+        ["hbm:item.bedrock_ore",1,3381]
       ]
     },
     {
@@ -5741,6 +5842,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1332],
+      "output": [
+        ["hbm:item.bedrock_ore",2,1588],
+        ["hbm:item.bedrock_ore",2,3636]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,275],
       "output": [
         ["hbm:item.bedrock_ore",1,787],
@@ -5754,6 +5862,13 @@
         ["hbm:item.bedrock_ore",2,3603],
         ["hbm:item.bedrock_ore",2,4627],
         ["hbm:item.bedrock_ore",2,5651]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,5428],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",6,1702],
+        ["hbm:item.bedrock_ore",1,3380]
       ]
     },
     {
@@ -5857,15 +5972,6 @@
         ["hbm:item.bedrock_ore_fragment",18,8200],
         ["hbm:item.bedrock_ore_fragment",18,8200],
         ["hbm:item.bedrock_ore",1,3367]
-      ]
-    },
-    {
-      "input": ["item","hbm:item.waste_zfb_mox"],
-      "output": [
-        ["hbm:item.nugget_zirconium",3],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nugget_pu_mix"],
-        ["hbm:item.nuclear_waste_tiny"]
       ]
     },
     {
@@ -6090,7 +6196,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2056],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1],
+        ["hbm:item.bedrock_ore_fragment",18,1402],
         ["hbm:item.bedrock_ore",1,3336]
       ]
     },
@@ -6126,6 +6232,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1329],
+      "output": [
+        ["hbm:item.bedrock_ore",2,1585],
+        ["hbm:item.bedrock_ore",2,3633]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,272],
       "output": [
         ["hbm:item.bedrock_ore",1,784],
@@ -6146,6 +6259,13 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",3,3800],
         ["hbm:item.bedrock_ore",1,3344]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,5425],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",6,3000],
+        ["hbm:item.bedrock_ore",1,3377]
       ]
     },
     {
@@ -6255,6 +6375,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1328],
+      "output": [
+        ["hbm:item.bedrock_ore",2,1584],
+        ["hbm:item.bedrock_ore",2,3632]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,271],
       "output": [
         ["hbm:item.bedrock_ore",1,783],
@@ -6268,6 +6395,13 @@
         ["hbm:item.bedrock_ore",2,3599],
         ["hbm:item.bedrock_ore",2,4623],
         ["hbm:item.bedrock_ore",2,5647]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,5424],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",6,2800],
+        ["hbm:item.bedrock_ore",1,3376]
       ]
     },
     {
@@ -6353,6 +6487,13 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,5427],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",6,8826],
+        ["hbm:item.bedrock_ore",1,3379]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,4370],
       "output": [
         ["hbm:item.bedrock_ore_fragment",9,1600],
@@ -6366,6 +6507,13 @@
         ["hbm:item.bedrock_ore",2,3602],
         ["hbm:item.bedrock_ore",2,4626],
         ["hbm:item.bedrock_ore",2,5650]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1331],
+      "output": [
+        ["hbm:item.bedrock_ore",2,1587],
+        ["hbm:item.bedrock_ore",2,3635]
       ]
     },
     {
@@ -6487,6 +6635,20 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,5426],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",6,7300],
+        ["hbm:item.bedrock_ore",1,3378]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1330],
+      "output": [
+        ["hbm:item.bedrock_ore",2,1586],
+        ["hbm:item.bedrock_ore",2,3634]
+      ]
+    },
+    {
       "input": ["item","hbm:item.chunk_ore"],
       "output": [
         ["hbm:item.powder_cobalt_tiny",2],
@@ -6535,15 +6697,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_uranium"],
-      "output": [
-        ["hbm:item.nugget_pu_mix",2],
-        ["hbm:item.nugget_plutonium"],
-        ["hbm:item.nugget_technetium"],
-        ["hbm:item.nuclear_waste_tiny",2]
-      ]
-    },
-    {
       "input": ["dict","oreThorium232"],
       "output": [
         ["hbm:item.powder_thorium"],
@@ -6583,15 +6736,6 @@
       ]
     },
     {
-      "input": ["item","hbm:item.waste_thorium"],
-      "output": [
-        ["hbm:item.nugget_u238"],
-        ["hbm:item.nugget_th232"],
-        ["hbm:item.nugget_u233",2],
-        ["hbm:item.nuclear_waste_tiny",2]
-      ]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,549],
       "output": [
         ["hbm:item.bedrock_ore",1,805],
@@ -6602,7 +6746,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,1540],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2600],
+        ["hbm:item.bedrock_ore_fragment",18,300],
         ["hbm:item.bedrock_ore",1,3332]
       ]
     },
@@ -6658,6 +6802,12 @@
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,2200],
         ["hbm:item.bedrock_ore",1,3348]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1077],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,20001]
       ]
     },
     {
@@ -6724,7 +6874,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,1539],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,1401],
+        ["hbm:item.bedrock_ore_fragment",18,1],
         ["hbm:item.bedrock_ore",1,3331]
       ]
     },
@@ -6748,6 +6898,12 @@
         ["hbm:item.bedrock_ore",2,2059],
         ["hbm:item.bedrock_ore",2,3595],
         ["hbm:item.bedrock_ore",2,4619]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1076],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,401]
       ]
     },
     {
@@ -7054,6 +7210,12 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1073],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,400]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,16],
       "output": [
         ["hbm:item.bedrock_ore",1,784],
@@ -7143,6 +7305,12 @@
         ["hbm:item.bedrock_ore",2,2055],
         ["hbm:item.bedrock_ore",2,3591],
         ["hbm:item.bedrock_ore",2,4615]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1072],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,2200]
       ]
     },
     {
@@ -7259,6 +7427,12 @@
       ]
     },
     {
+      "input": ["item","hbm:item.bedrock_ore",1,1075],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,9200]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,18],
       "output": [
         ["hbm:item.bedrock_ore",1,786],
@@ -7355,6 +7529,12 @@
         ["hbm:item.powder_beryllium",2],
         ["hbm:item.powder_quartz"],
         ["hbm:item.powder_lithium_tiny"]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.bedrock_ore",1,1074],
+      "output": [
+        ["hbm:item.bedrock_ore_fragment",18,500]
       ]
     },
     {
