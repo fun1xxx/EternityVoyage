@@ -1,0 +1,20 @@
+DisplayName = AIM-9 Sidewinder
+Type = AAMissile
+Power = 58
+Acceleration = 4
+Explosion = 5
+Flaming = false
+Sight = MissileSight
+Delay = 9
+ReloadTime = 110
+Round = 2
+LockTime = 10
+ProximityFuseDist = 1
+ModelBullet = aim9lm
+Sound = missile_1_snd
+
+
+MaxAmmo = 9
+SuppliedNum = 1
+Item =  3, hbm:item.ingot_steel
+Item =  6, hbm:item.cordite

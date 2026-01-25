@@ -1,0 +1,39 @@
+#Tips for the loading screen
+#Thanks to 0lafe, boubou19, chochem, interestingusernam3, glowredman, GTNH-Afx237v7, leagris, Lewissaber, Nvidiot, Regian24, richardhendricks, yukieiji and others for tip suggestions
+#
+#Maximal characters for a tip: 77 (more can go out of the screen)
+#The line below, including the "#" are 77 chars
+#Adventurer's backpack? Did you mean integrated crafting grid, bed and fluid
+#
+Make sure you have installed a backup mod
+You can bind the quests menu to a key, instead of using the book
+Pam's gardens can be picked up with right-click
+Placing a garden makes it spread
+Forestry Worktables are a must!
+Try the Midnight Theme for the questbook
+Beware of pollution!
+Found a bug? Report it on GitHub
+You can bookmark items with NEI ("a" by default)
+It's NEI, not JEI. Use it frequently.
+Your pick is not ready
+Put the "Mine" back in Minecraft
+#Use /xu_tps to see if the server's lagging. 20 TPS is normal!
+If you aren't lucky enough, try enchanting your lootbags with Fortune III!
+Don't go out at night!
+Sometimes it's better to flee than fight some mobs
+Sometimes the best combat strategy is "Nigerundayooo!"
+It's aluminIum, not aluminum
+Press F7 to see spots where mobs can spawn!
+Press F9 to see chunk borders!
+Microcrafting is love, microcrafting is life
+If you're making a Project Red system, make sure to use a wall of drawers!
+How many circuits have you crafted in your life?
+JourneyMap: PRESS[M]
+All you had to do was tho follow the damn quest line, CJ!
+Click on an item in the quest book to show its recipe in NEI
+Why not visit Nuclear Tech? We have... nuclear bombs
+If it's too tedious you're doing it wrong
+Do you also watch your oven while baking food?
+There's always something else you can do while waiting
+Use F3 + S to reload the sound if it's gone
+Life's all about opening issues, not closing them - Rongmario

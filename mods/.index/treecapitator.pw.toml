@@ -1,0 +1,16 @@
+filename = '[1.7.10]Treecapitator-universal-2.0.4.jar'
+name = 'Treecapitator'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '87f540bb1e3b502924044c6482e04c2b8cb8a049'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2218771
+project-id = 59216

@@ -1,0 +1,18 @@
+DisplayName = 9M119M ATM
+Type = TVMissile
+Power = 100
+Acceleration = 2.0
+Explosion = 3
+Flaming = true
+Sight = MoveSight
+Delay = 180
+ModelBullet = 9M113
+Sound = missile_2_snd
+Group = MainGun
+
+DamageFactor = tank, 1.2
+
+MaxAmmo = 10
+SuppliedNum = 2
+Item =  4, hbm:item.ingot_steel
+Item =  8, hbm:item.cordite
