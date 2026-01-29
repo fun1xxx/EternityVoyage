@@ -14,7 +14,7 @@ Sound = missile_3_snd
 DamageFactor = tank, 2.0
 
 MaxAmmo = 6
-SuppliedNum = 1
+SuppliedNum = 3
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  1, redstone

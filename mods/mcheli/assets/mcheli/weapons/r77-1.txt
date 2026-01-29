@@ -15,5 +15,6 @@ Sound = missile_1_snd
 
 MaxAmmo = 8
 SuppliedNum = 4
-Item =  12, hbm:item.ingot_steel
-Item =  15, hbm:item.cordite
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

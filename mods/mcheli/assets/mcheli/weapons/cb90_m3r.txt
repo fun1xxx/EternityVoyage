@@ -14,5 +14,5 @@ MaxHeatCount = 150
 
 MaxAmmo = 200
 SuppliedNum = 100
-Item =  8, hbm:item.ingot_steel
-Item =  9, hbm:item.cordite
+Item =  5, iron_ingot
+Item =  5, gunpowder

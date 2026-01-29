@@ -11,7 +11,7 @@ Delay = 7
 ReloadTime = 110
 Round = 19
 
-MaxAmmo = 28
-SuppliedNum = 14
+MaxAmmo = 19
+SuppliedNum = 19
 Item =  3, iron_ingot
 Item =  3, gunpowder

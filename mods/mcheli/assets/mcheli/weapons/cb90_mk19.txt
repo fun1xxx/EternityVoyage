@@ -18,6 +18,6 @@ Accuracy = 4.0
 Sound = mk19_l_snd
 
 MaxAmmo = 72
-SuppliedNum = 12
-Item =  8, hbm:item.ingot_steel
-Item =  12, hbm:item.cordite
+SuppliedNum = 72
+Item =  7, iron_ingot
+Item =  7, gunpowder

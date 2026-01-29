@@ -14,6 +14,6 @@ ModeNum = 2
 Piercing  = 2
 
 MaxAmmo = 38
-SuppliedNum = 4
+SuppliedNum = 19
 Item =  3, iron_ingot
 Item =  4, gunpowder

@@ -1,6 +1,6 @@
 DisplayName = Kurganets-25 IFV
 AddDisplayName = ja_JP, Kurganets-25 歩兵戦闘車
-MaxHp = 440
+MaxHp = 300
 Speed = 0.55
 Sound = mbt_run
 ThrottleUpDown = 20.0
@@ -18,7 +18,7 @@ CameraRotationSpeed = 35
 FlareType = 10
 MaxFuel         = 1200
 FuelConsumption = 2.7
-StepHeight = 2
+StepHeight = 1.5
 DefaultFreelook = true
 OnGroundPitchFactor = 2.5
 OnGroundRollFactor  = 1.0
@@ -115,3 +115,5 @@ BoundingBox =  0.0, 1.0, -0.5,   3.5, 2.0,   1.10
 
 EntityWidth  = 0.8
 EntityHeight = 0.8
+
+AddRecipe = " R ",  "I I",  "XXX",  X, iron_block,  I, iron_ingot, R, redstone

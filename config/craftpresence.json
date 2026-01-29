@@ -3,12 +3,12 @@
   "_lastMCVersionId": 5,
   "generalSettings": {
     "detectATLauncherInstance": true,
-    "detectCurseManifest": false,
-    "detectMultiMCManifest": false,
-    "detectMCUpdaterInstance": false,
-    "detectTechnicPack": false,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": true,
     "detectModrinthPack": true,
-    "detectBiomeData": false,
+    "detectBiomeData": true,
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "1386356132494446672",
@@ -39,7 +39,7 @@
       },
       "tekto": {
         "textOverride": "On {dimension.name}",
-        "iconOverride": ""
+        "iconOverride": "tekto"
       },
       "mun": {
         "textOverride": "On the {dimension.name}",
@@ -52,6 +52,10 @@
       "the_end": {
         "textOverride": "In the {dimension.name}",
         "iconOverride": "end"
+      },
+      "overworld": {
+        "textOverride": "On Kerbin",
+        "iconOverride": "earth"
       },
       "default": {
         "textOverride": "In the {dimension.name}"
@@ -71,10 +75,6 @@
       "laythe": {
         "textOverride": "On {dimension.name}",
         "iconOverride": "laythe"
-      },
-      "earth": {
-        "textOverride": "On the {dimension.name}",
-        "iconOverride": "earth"
       },
       "moho": {
         "textOverride": "On {dimension.name}",
@@ -179,7 +179,9 @@
       "endTimestamp": "",
       "buttons": {}
     },
-    "dynamicIcons": {},
+    "dynamicIcons": {
+      "tekto": ""
+    },
     "dynamicVariables": {
       "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",

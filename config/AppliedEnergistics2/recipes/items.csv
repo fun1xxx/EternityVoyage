@@ -842,6 +842,9 @@ securitycraft:reinforcedStairsCrystalQuartz, Reinforced Crystal Quartz Stairs
 securitycraft:blockPocketWall, Block Pocket Wall
 securitycraft:blockPocketManager, Block Pocket Manager
 securitycraft:reinforced_stone_pressure_plate, Reinforced Stone Pressure Plate
+adventurebackpack:blockBackpack, Рюкзак путешественника
+adventurebackpack:blockSleepingBag, Спальный мешок
+adventurebackpack:blockCampFire, Костёр
 appliedenergistics2:tile.OreQuartz, Руда истинного кварца
 appliedenergistics2:tile.OreQuartzCharged, Заряженная руда истинного кварца
 appliedenergistics2:tile.BlockMatrixFrame, Каркас матрицы
@@ -1094,6 +1097,9 @@ AgriCraft:waterTank:0, Деревянный бак
 AgriCraft:waterTank:0, Деревянный бак
 AgriCraft:waterTank:0, Деревянный бак
 AgriCraft:waterTank:0, Деревянный бак
+AgriCraft:waterTank:0, Деревянный бак
+AgriCraft:waterTank:0, Деревянный бак
+AgriCraft:waterTank:0, Деревянный бак
 AgriCraft:waterChannel:0, Деревянный оросительный канал
 AgriCraft:waterChannel:0, Деревянный оросительный канал
 AgriCraft:waterChannel:0, Деревянный оросительный канал
@@ -1216,6 +1222,12 @@ AgriCraft:waterChannel:0, Деревянный оросительный кана
 AgriCraft:waterChannel:0, Деревянный оросительный канал
 AgriCraft:waterChannel:0, Деревянный оросительный канал
 AgriCraft:waterChannel:0, Деревянный оросительный канал
+AgriCraft:waterChannel:0, Деревянный оросительный канал
+AgriCraft:waterChannel:0, Деревянный оросительный канал
+AgriCraft:waterChannel:0, Деревянный оросительный канал
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
@@ -1338,6 +1350,9 @@ AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
 AgriCraft:waterChannelFull:0, Wooden Irrigation Channel
+AgriCraft:channelValve:0, Деревянный клапан
+AgriCraft:channelValve:0, Деревянный клапан
+AgriCraft:channelValve:0, Деревянный клапан
 AgriCraft:channelValve:0, Деревянный клапан
 AgriCraft:channelValve:0, Деревянный клапан
 AgriCraft:channelValve:0, Деревянный клапан
@@ -1583,6 +1598,9 @@ AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
+AgriCraft:seedStorage:0, Seed Storage
 AgriCraft:peripheral, Computer Controlled Seed Analyzer
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
@@ -1706,6 +1724,9 @@ AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
 AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
+AgriCraft:fence:0, Fence
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
@@ -1828,6 +1849,12 @@ AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
 AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:fenceGate:0, Fence Gate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
+AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
 AgriCraft:grate:0, Wooden Grate
@@ -2109,7 +2136,7 @@ Thaumcraft:blockWarded, tile.blockWarded.name
 Thaumcraft:blockHole, Пустое место
 Thaumcraft:blockPortalEldritch, Древний портал
 Thaumcraft:blockEssentiaReservoir:0, Резервуар эссенции
-Thaumcraft:blockEldritchNothing, tile.blockPortalNothing.name
+Thaumcraft:blockEldritchNothing, Портал в никуда
 Thaumcraft:blockStairsArcaneStone, Лестница из магического камня
 Thaumcraft:blockStairsGreatwood, Лестница из великого дерева
 Thaumcraft:blockStairsSilverwood, Лестница из серебряного дерева
@@ -2776,6 +2803,7 @@ Botania:pavement4Slab:0, Плита из жёлтой португальской
 Botania:pavement4SlabFull:0, Плита из жёлтой португальской плитки
 Botania:pavement5Slab:0, Плита из зелёной португальской плитки
 Botania:pavement5SlabFull:0, Плита из зелёной португальской плитки
+Botania:flower_structurelib, tile.flower_structurelib.name
 Avaritia:Double_Craft, Сжатый верстак
 Avaritia:Triple_Craft, Дважды сжатый верстак
 Avaritia:Dire_Crafting, Ужасный верстак
@@ -3520,7 +3548,7 @@ HardcoreEnderExpansion:death_flower:0, Цветок смерти
 HardcoreEnderExpansion:death_flower:15, Цветок смерти
 HardcoreEnderExpansion:decomposition_table, Стол разложения
 HardcoreEnderExpansion:laboratory_obsidian, Лабораторный обсидиан
-HardcoreEnderExpansion:corrupted_energy_high, Безымянный блок, сообщите автору мода.
+HardcoreEnderExpansion:corrupted_energy_high, tile.null.name
 HardcoreEnderExpansion:ravaged_brick_glow, Светящийся разрушенный кирпич
 HardcoreEnderExpansion:dungeon_puzzle:13, Головоломка темницы (Стена)
 HardcoreEnderExpansion:dungeon_puzzle:14, Головоломка темницы (Камень)
@@ -3598,7 +3626,7 @@ HardcoreEnderExpansion:persegrit:13, Фиолетовый гравий
 HardcoreEnderExpansion:persegrit:14, Фиолетовый гравий
 HardcoreEnderExpansion:persegrit:15, Фиолетовый гравий
 HardcoreEnderExpansion:endium_block, Блок эндиума
-HardcoreEnderExpansion:corrupted_energy_low, Безымянный блок, сообщите автору мода.
+HardcoreEnderExpansion:corrupted_energy_low, tile.null.name
 HardcoreEnderExpansion:transport_beacon, Маяк перемещения
 HardcoreEnderExpansion:energy_extraction_table, Стол извлечения
 HardcoreEnderExpansion:laboratory_glass, Лабораторное стекло
@@ -3629,7 +3657,6 @@ Forestry:fluid.glass, Жидкое стекло
 Forestry:fluid.honey, Мёд
 Forestry:fluid.ice, Молотый лёд
 Forestry:fluid.juice, Фруктовый сок
-Forestry:fluid.milk, Молоко
 Forestry:fluid.seedoil, Растительное масло
 Forestry:fluid.short.mead, Питный мёд
 Forestry:fluid.mead, Mead
@@ -4029,7 +4056,7 @@ ExtraTrees:planks, Wood Planks
 ExtraTrees:fence, Забор из дуба
 ExtraTrees:multifence, Fence
 ExtraTrees:log, Древесина
-ExtraTrees:gate, Безымянный блок, сообщите автору мода.
+ExtraTrees:gate, tile.null.name
 ExtraTrees:slab:0, Плита из пихты
 ExtraTrees:slab:1, Плита из кедра
 ExtraTrees:slab:2, Плита из тсуги
@@ -6713,8 +6740,8 @@ Ztones:tile.ztylBlock:12, Ztyl ⑫
 Ztones:tile.ztylBlock:13, Ztyl ⑬
 Ztones:tile.ztylBlock:14, Ztyl ⑭
 Ztones:tile.ztylBlock:15, Ztyl ⑮
-props:blockProps, Безымянный блок, сообщите автору мода.
-props:blockFake, Безымянный блок, сообщите автору мода.
+props:blockProps, tile.null.name
+props:blockFake, tile.null.name
 EnderZoo:blockConfusingCharge, Заряд заблуждения
 EnderZoo:blockEnderCharge, Заряд Края
 EnderZoo:blockConcussionCharge, Оглушающий заряд
@@ -6824,12 +6851,12 @@ etfuturum:prismarine_slab:1, Плита из призмаринового кир
 etfuturum:prismarine_slab:2, Плита из тёмного призмарина
 etfuturum:smooth_quartz_slab, Плита из гладкого кварца
 etfuturum:double_smooth_quartz_slab, Плита из гладкого кварца
-etfuturum:red_netherbrick_slab, Безымянный блок, сообщите автору мода.
-etfuturum:double_red_netherbrick_slab, Безымянный блок, сообщите автору мода.
-etfuturum:end_brick_slab, Безымянный блок, сообщите автору мода.
-etfuturum:double_end_brick_slab, Безымянный блок, сообщите автору мода.
-etfuturum:mud_brick_slab, Безымянный блок, сообщите автору мода.
-etfuturum:double_mud_brick_slab, Безымянный блок, сообщите автору мода.
+etfuturum:red_netherbrick_slab, tile.null.name
+etfuturum:double_red_netherbrick_slab, tile.null.name
+etfuturum:end_brick_slab, tile.null.name
+etfuturum:double_end_brick_slab, tile.null.name
+etfuturum:mud_brick_slab, tile.null.name
+etfuturum:double_mud_brick_slab, tile.null.name
 etfuturum:prismarine_stairs, Призмариновые ступеньки
 etfuturum:prismarine_stairs_brick, Ступеньки из призмаринового кирпича
 etfuturum:prismarine_stairs_dark, Ступеньки из тёмного призмарина
@@ -7004,7 +7031,7 @@ etfuturum:barrier, Барьер
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Коллектор Края
-ExtraUtilities:endConstructor:0, QED (Quantum Ender Diviner)
+ExtraUtilities:endConstructor:0, QED (Quantum Entity Device)
 ExtraUtilities:endConstructor:2, Флаксовый кристалл Края
 ExtraUtilities:endMarker, Маркер Края
 ExtraUtilities:curtains, Занавесы
@@ -8065,9 +8092,6 @@ hbm:tile.ore_gneiss_gas, Сланцевый газ
 hbm:tile.ore_depth_cinnebar, Глубинная киноварь
 hbm:tile.ore_depth_zirconium, Глубинная циркониевая руда
 hbm:tile.ore_depth_borax, Глубинная бура
-hbm:tile.cluster_depth_iron, Глубинный железорудный кластер
-hbm:tile.cluster_depth_titanium, Глубинный титановый рудный кластер
-hbm:tile.cluster_depth_tungsten, Глубинный вольфрамовый рудный кластер
 minecraft:record_13, Пластинка
 minecraft:record_cat, Пластинка
 minecraft:record_blocks, Пластинка
@@ -8080,6 +8104,9 @@ minecraft:record_strad, Пластинка
 minecraft:record_ward, Пластинка
 minecraft:record_11, Пластинка
 minecraft:record_wait, Пластинка
+hbm:tile.cluster_depth_iron, Глубинный железорудный кластер
+hbm:tile.cluster_depth_titanium, Глубинный титановый рудный кластер
+hbm:tile.cluster_depth_tungsten, Глубинный вольфрамовый рудный кластер
 hbm:tile.ore_alexandrite, Александритовая руда
 hbm:tile.ore_depth_nether_neodymium, Адская глубинная неодимовая руда
 hbm:tile.ore_basalt:0, Богатый серой базальт
@@ -9422,7 +9449,7 @@ malisisdoors:block_mixer, Смешиватель блоков
 malisisdoors:mixed_block, Смешанный блок
 malisisdoors:garage_door, Гаражная дверь
 malisisdoors:door_factory, Дверная фабрика
-malisisdoors:null, Безымянный блок, сообщите автору мода.
+malisisdoors:null, tile.null.name
 malisisdoors:rustyHatch, Ржавый люк
 malisisdoors:rustyLadder, Ржавая лестница
 malisisdoors:carriage_door, Дверь-фрейм
@@ -10278,6 +10305,59 @@ OpenComputers:endstone:0, Камень края
 OpenComputers:netSplitter:0, Сетевой переключатель
 OpenComputers:transposer:0, Транспозер
 OpenComputers:carpetedCapacitor:0, Конденсатор с ковровым покрытием
+openmodularturrets:baseTierWood, Деревянная основа для турели
+openmodularturrets:baseTierOneBlock, Свинцовая основа для турели
+openmodularturrets:baseTierTwoBlock, Усиленная основа для турели
+openmodularturrets:baseTierThreeBlock, Закалённая основа для турели
+openmodularturrets:baseTierFourBlock, Резонирующая основа для турели
+openmodularturrets:expanderPowerTierOne, Base Power Expander (Tier 1)
+openmodularturrets:expanderPowerTierTwo, Base Power Expander (Tier 2)
+openmodularturrets:expanderPowerTierThree, Base Power Expander (Tier 3)
+openmodularturrets:expanderPowerTierFour, Base Power Expander (Tier 4)
+openmodularturrets:expanderPowerTierFive, Base Power Expander (Tier 5)
+openmodularturrets:expanderInvTierOne, Base Inventory Expander (Tier 1)
+openmodularturrets:expanderInvTierTwo, Base Inventory Expander (Tier 2)
+openmodularturrets:expanderInvTierThree, Base Inventory Expander (Tier 3)
+openmodularturrets:expanderInvTierFour, Base Inventory Expander (Tier 4)
+openmodularturrets:expanderInvTierFive, Base Inventory Expander (Tier 5)
+openmodularturrets:hardWallTierOne, Hard Wall (Tier 1)
+openmodularturrets:hardWallTierTwo, Hard Wall (Tier 2)
+openmodularturrets:hardWallTierThree, Hard Wall (Tier 3)
+openmodularturrets:hardWallTierFour, Hard Wall (Tier 4)
+openmodularturrets:hardWallTierFive, Hard Wall (Tier 5)
+openmodularturrets:fenceTierOne, Fence (Tier 1)
+openmodularturrets:fenceTierTwo, Fence (Tier 2)
+openmodularturrets:fenceTierThree, Fence (Tier 3)
+openmodularturrets:fenceTierFour, Fence (Tier 4)
+openmodularturrets:fenceTierFive, Fence (Tier 5)
+openmodularturrets:disposeItemTurret, Одноразовая турель
+openmodularturrets:potatoCannonTurret, Potato Cannon Turret
+openmodularturrets:machineGunTurret, Пулемётная турель
+openmodularturrets:incendiaryTurret, Incendiary Turret
+openmodularturrets:grenadeTurret, Турель-гранатомёт
+openmodularturrets:relativisticTurret, Relativistic Turret
+openmodularturrets:rocketTurret, Турель с базукой
+openmodularturrets:teleporterTurret, Teleporter Turret
+openmodularturrets:laserTurret, Лазерная турель
+openmodularturrets:railGunTurret, Рельсовая турель
+openmodularturrets:leverBlock, Базовая турельная ручка
+openprinter:openprinter.printer, Принтер
+openprinter:openprinter.shredder, Open Shredder
+openprinter:openprinter.filecabinet, Open File Cabinet
+opensecurity:magreader, Magnetic Card Reader
+opensecurity:rfidreader, RFID Reader
+opensecurity:rfidwriter, Card Writer
+opensecurity:alarm, Alarm
+opensecurity:entitydetector, Entity Detector
+opensecurity:doorcontroller, Door Controller
+opensecurity:SecurityDoor, Security Door
+opensecurity:SecurityDoorPrivate, Security Door
+opensecurity:opensecurity.DataBlock, Data Block
+opensecurity:opensecurity.SwitchableHub, Switchable Hub
+opensecurity:opensecurity.BlockKVM, KVM Switch
+opensecurity:energyTurretBlock, Energy Turret
+opensecurity:keypadLock, Keypad
+opensecurity:biometricScanner, Biometric Reader
 harvestcraft:cuttingboard, Разделочная доска
 harvestcraft:pot, Горшок
 harvestcraft:beehive, Пчелиный улей
@@ -10434,102 +10514,6 @@ harvestcraft:pampineappleCrop, Ананас
 harvestcraft:pamgrapeCrop, Виноград
 harvestcraft:pamkiwiCrop, Киви
 harvestcraft:pamcranberryCrop, Клюква
-harvestcraft:pamriceCrop, Рис
-harvestcraft:pamseaweedCrop, Водоросли
-harvestcraft:pamcurryleafCrop, Curry Leaf Crop
-harvestcraft:pamsesameseedsCrop, Sesame Seeds Crop
-harvestcraft:pamwaterchestnutCrop, Water Chestnut Crop
-harvestcraft:pamcandleDeco1, Белая свечка
-harvestcraft:pamcandleDeco2, Оранжевая свечка
-harvestcraft:pamcandleDeco3, Сиреневая свечка
-harvestcraft:pamcandleDeco4, Светло-синяя свечка
-harvestcraft:pamcandleDeco5, Жёлтая свечка
-harvestcraft:pamcandleDeco6, Лаймовая свечка
-harvestcraft:pamcandleDeco7, Розовая свечка
-harvestcraft:pamcandleDeco8, Тёмно-серая свечка
-harvestcraft:pamcandleDeco9, Светло-серая свечка
-harvestcraft:pamcandleDeco10, Бирюзовая свечка
-harvestcraft:pamcandleDeco11, Фиолетовая свечка
-harvestcraft:pamcandleDeco12, Синяя свечка
-harvestcraft:pamcandleDeco13, Коричневая свечка
-harvestcraft:pamcandleDeco14, Зелёная свечка
-harvestcraft:pamcandleDeco15, Красная свечка
-harvestcraft:pamcandleDeco16, Чёрная свечка
-harvestcraft:pamcarrotCake, Морковный торт
-harvestcraft:pamcheeseCake, Чизкейк
-harvestcraft:pamcherrycheeseCake, Вишнёвый чизкейк
-harvestcraft:pampineappleupsidedownCake, Ананасовый перевёрнутый торт
-harvestcraft:pamchocolatesprinkleCake, Торт, посыпанный шоколадом
-harvestcraft:pamredvelvetCake, Красный бархатный торт
-harvestcraft:pamlamingtonCake, Ламингтон
-harvestcraft:pampavlovaCake, Павлова
-harvestcraft:pamholidayCake, Holiday Cake
-harvestcraft:pampumpkincheeseCake, Pumpkin Cheese Cake
-RandomThings:playerinterface, Интерфейс игрока
-RandomThings:creativePlayerInterface, Творческий интерфейс игрока
-RandomThings:fluidDisplay, Отображатель жидкостей
-RandomThings:advancedFluidDisplay, Продвинутый отображатель жидкостей
-RandomThings:fertilizedDirt, Удобрённая земля
-RandomThings:fertilizedDirt_tilled, Удобрённая земля
-RandomThings:itemCollector, Собиратель предметов
-RandomThings:advancedItemCollector, Продвинутый собиратель предметов
-RandomThings:onlineDetector, Детектор онлайн-игроков
-RandomThings:moonSensor, Датчик лунных фаз
-RandomThings:bloodMoonSensor, Датчик кровавой луны
-RandomThings:notificationInterface, Интерфейс уведомлений
-RandomThings:lapisLamp, Лазуритовый светильник
-RandomThings:wirelessLever, Беспроводной рычаг
-RandomThings:dyeingMachine, Покрасочный механизм
-RandomThings:spectreGlass, Призрачное стекло
-RandomThings:energyDistributor, Распределитель энергии
-RandomThings:enderEnergyDistributor, Распределитель энергии Края
-RandomThings:spectreBlock:0, Чёрный призрачный блок
-RandomThings:spectreBlock:1, Красный призрачный блок
-RandomThings:spectreBlock:2, Зелёный призрачный блок
-RandomThings:spectreBlock:3, Коричневый призрачный блок
-RandomThings:spectreBlock:4, Синий призрачный блок
-RandomThings:spectreBlock:5, Фиолетовый призрачный блок
-RandomThings:spectreBlock:6, Бирюзовый призрачный блок
-RandomThings:spectreBlock:7, Светло-серый призрачный блок
-RandomThings:spectreBlock:8, Серый призрачный блок
-RandomThings:spectreBlock:9, Розовый призрачный блок
-RandomThings:spectreBlock:10, Лаймовый призрачный блок
-RandomThings:spectreBlock:11, Жёлтый призрачный блок
-RandomThings:spectreBlock:12, Светло-синий призрачный блок
-RandomThings:spectreBlock:13, Сиреневый призрачный блок
-RandomThings:spectreBlock:14, Оранжевый призрачный блок
-RandomThings:spectreBlock:15, Белый призрачный блок
-RandomThings:imbuingStation, Станция наполнения
-StorageDrawers:fullDrawers1:0, Ящик из дуба
-StorageDrawers:fullDrawers1:1, Ящик из ели
-StorageDrawers:fullDrawers1:2, Ящик из берёзы
-StorageDrawers:fullDrawers1:3, Ящик из тропического дерева
-StorageDrawers:fullDrawers1:4, Ящик из акации
-StorageDrawers:fullDrawers1:5, Ящик из тёмного дуба
-StorageDrawers:fullDrawers2:0, Ящик из дуба 1x2
-StorageDrawers:fullDrawers2:1, Ящик из ели 1x2
-StorageDrawers:fullDrawers2:2, Ящик из берёзы 1x2
-StorageDrawers:fullDrawers2:3, Ящик из тропического дерева 1x2
-StorageDrawers:fullDrawers2:4, Ящик из акации 1x2
-StorageDrawers:fullDrawers2:5, Ящик из тёмного дуба 1x2
-StorageDrawers:fullDrawers4:0, Ящик из дуба 2x2
-StorageDrawers:fullDrawers4:1, Ящик из ели 2x2
-StorageDrawers:fullDrawers4:2, Ящик из берёзы 2x2
-StorageDrawers:fullDrawers4:3, Ящик из тропического дерева 2x2
-StorageDrawers:fullDrawers4:4, Ящик из акации 2x2
-StorageDrawers:fullDrawers4:5, Ящик из тёмного дуба 2x2
-StorageDrawers:halfDrawers2:0, Компактный ящик из дуба 1x2
-StorageDrawers:halfDrawers2:1, Компактный ящик из ели 1x2
-StorageDrawers:halfDrawers2:2, Компактный ящик из берёзы 1x2
-StorageDrawers:halfDrawers2:3, Компактный ящик из тропического дерева 1x2
-StorageDrawers:halfDrawers2:4, Компактный ящик из акации 1x2
-StorageDrawers:halfDrawers2:5, Компактный ящик из тёмного дуба 1x2
-StorageDrawers:halfDrawers4:0, Компактный ящик из дуба 2x2
-StorageDrawers:halfDrawers4:1, Компактный ящик из ели 2x2
-StorageDrawers:halfDrawers4:2, Компактный ящик из берёзы 2x2
-StorageDrawers:halfDrawers4:3, Компактный ящик из тропического дерева 2x2
-StorageDrawers:halfDrawers4:4, Компактный ящик из акации 2x2
-StorageDrawers:halfDrawers4:5, Компактный ящик из тёмного дуба 2x2
 securitycraft:codebreaker, Взломщик паролей
 securitycraft:doorIndestructibleIronItem, Reinforced Iron Door
 securitycraft:scannerDoorItem, Scanner Door
@@ -10567,6 +10551,26 @@ securitycraft:taserPowered, Taser
 securitycraft:secretSignItem, Secret Sign
 securitycraft:sentry, Sentry
 securitycraft:crystalQuartzItem, Crystal Quartz
+adventurebackpack:machete, Мачете
+adventurebackpack:clockworkCrossbow, Заводной арбалет
+adventurebackpack:adventureHat, Шляпа путешественника
+adventurebackpack:adventureSuit, Пиджак путешественника
+adventurebackpack:adventurePants, Штаны путешественника
+adventurebackpack:pistonBoots, Поршневые ботинки
+adventurebackpack:copterPack, Вертолётный ранец
+adventurebackpack:coalJetpack, Паровой реактивный ранец
+adventurebackpack:adventureBackpack, Рюкзак путешественника
+adventurebackpack:backpackComponent:1, Спальный мешок
+adventurebackpack:backpackComponent:2, Бак для жидкости
+adventurebackpack:backpackComponent:3, Наконечник шланга
+adventurebackpack:backpackComponent:4, Ручка от мачете
+adventurebackpack:backpackComponent:5, Двухцилиндровый дизельный двигатель
+adventurebackpack:backpackComponent:6, Вертолётные лопасти
+adventurebackpack:backpackComponent:7, Надувная лодка
+adventurebackpack:backpackComponent:8, Надувная лодка с мотором
+adventurebackpack:backpackComponent:9, Водяные лопасти
+adventurebackpack:backpackHose, Шланг рюкзака
+adventurebackpack:melonJuiceBottle, Бутылка арбузного сока
 appliedenergistics2:item.ToolCertusQuartzAxe, Топор из истинного кварца
 appliedenergistics2:item.ToolCertusQuartzHoe, Мотыга из истинного кварца
 appliedenergistics2:item.ToolCertusQuartzSpade, Лопата из истинного кварца
@@ -14480,6 +14484,11 @@ appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Биол�
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Лифт
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Блок хамелиума
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Камень края
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Hard Wall (Tier 1)
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Hard Wall (Tier 2)
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Hard Wall (Tier 3)
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Hard Wall (Tier 4)
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Hard Wall (Tier 5)
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Пчелиный улей
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - tile.sink.name
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - tile.sink.name
@@ -14487,6 +14496,8 @@ appliedenergistics2:item.ItemFacade:0, Кабельный фасад - tile.sink
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - tile.sink.name
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Соляная руда
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Compressed Salt Block
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Доски великого дерева
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Доски серебряного дерева
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Отделка из дуба
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Отделка из ели
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Отделка из берёзы
@@ -14593,6 +14604,8 @@ appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Синг�
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Планарные врата
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Чародейский мраморный блок
 appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Чародейский мраморный кирпич
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Nether Log
+appliedenergistics2:item.ItemFacade:0, Кабельный фасад - Nether Planks
 appliedenergistics2:item.ItemCrystalSeed:0, Семя истинного кварца
 appliedenergistics2:item.ItemCrystalSeed:600, Семя кварца Нижнего мира
 appliedenergistics2:item.ItemCrystalSeed:1200, Изменчивое семя
@@ -14942,7 +14955,11 @@ Thaumcraft:ItemEssence:1, Пузырёк с эссенцией
 Thaumcraft:ItemEssence:1, Пузырёк с эссенцией
 Thaumcraft:ItemEssence:1, Пузырёк с эссенцией
 Thaumcraft:ItemEssence:1, Пузырёк с эссенцией
+Thaumcraft:ItemEssence:1, Пузырёк с эссенцией
+Thaumcraft:ItemEssence:1, Пузырёк с эссенцией
 Thaumcraft:ItemManaBean:0, Магический боб
+Thaumcraft:ItemWispEssence:0, Эфирная эссенция
+Thaumcraft:ItemWispEssence:0, Эфирная эссенция
 Thaumcraft:ItemWispEssence:0, Эфирная эссенция
 Thaumcraft:ItemWispEssence:0, Эфирная эссенция
 Thaumcraft:ItemWispEssence:0, Эфирная эссенция
@@ -18545,6 +18562,7 @@ props:clay:0, Красная глина для создания декораци
 props:clay:1, Синяя глина для создания декораций
 props:clay:2, Зеленая глина для создания декораций
 props:tool, Decowand
+dmod:bundle, Bundle
 EnderZoo:enderZooIcon, EnderZoo Icon
 EnderZoo:itemSpawnEggEnderZoo:0, Призвать существо - Карлик Края
 EnderZoo:itemSpawnEggEnderZoo:1, Призвать существо - Оглушающий крипер
@@ -18754,6 +18772,7 @@ ForbiddenMagic:WandCores:10, Ядро посоха из ведьминой др�
 ForbiddenMagic:WandCores:11, Стержень из древесины мечтаний
 ForbiddenMagic:WandCores:12, Бездействующий стержень из древесины мечтаний
 ForbiddenMagic:WandCores:13, Ядро посоха из древесины мечтаний
+ForbiddenMagic:WandCores:14, §kAlchemical§r Rod
 ForbiddenMagic:WandCores:72, Покрытый таум-металлом заражённый жезл
 ForbiddenMagic:WandCores:72, Покрытый таум-металлом адский жезл
 ForbiddenMagic:WandCores:2000, Обитый орихалком космически нейтронный жезл
@@ -18763,7 +18782,6 @@ ForbiddenMagic:WandCores:84, Обвитый манасталью живодре�
 ForbiddenMagic:WandCores:84, Поцелованный элементием мечтодревесный жезл
 ForbiddenMagic:WandCores:144, Поцелованный элементием мечтодревесный посох
 ForbiddenMagic:WandCores:1, Нерфленный террасталью деревянный жезл
-ForbiddenMagic:WandCores:84, Пустотой окутанный §kАлхимический§r жезл
 ForbiddenMagic:WandCaps:0, Алхимический наконечник
 ForbiddenMagic:WandCaps:1, Наконечник Винтеума
 ForbiddenMagic:WandCaps:2, Террастальной наконечник
@@ -24135,38 +24153,132 @@ mcheli:container, Container
 mcheli:uav_station, UAV Station
 mcheli:uav_station2, Portable UAV Controller
 mcheli:internal, item.mcheli:internal.name
+mcheli:m18_green, M18 smoke (Green)
+mcheli:m18_red, M18 smoke (Red)
+mcheli:m18_violet, M18 smoke (Violet)
+mcheli:m18_white, M18 smoke (White)
+mcheli:m18_yellow, M18 smoke (Yellow)
 mcheli:fim92_bullet, FIM-92 Stinger missile
 mcheli:fgm148_bullet, FGM-148 Javelin missile
 mcheli:fim92, FIM-92 Stinger
 mcheli:fgm148, FGM-148 Javelin
-mcheli:bell207, Bell207 Sioux Scout
-mcheli:bell47g, Bell47G
+mcheli:ah-60, AH60L battlehawk
+mcheli:ah-64, AH-64D Apache Longbow
+mcheli:ah-6x, Boeing AH-6
+mcheli:ch-53e, CH-53E Super Stallion
 mcheli:ch47, CH47 chnuke
+mcheli:fl282, Flettner Fl 282
+mcheli:ka50n, Ka-50N Hokum A
+mcheli:ka52, Ka-52 Hokum B
+mcheli:mh-53e, MH-53E Sea Dragon
+mcheli:mh-6, MH-6 Little Bird
 mcheli:mh-60g, MH60G PaveHawk
+mcheli:mh-60l_dap, MH-60L DAP
+mcheli:mi-24, Mi-24VP Hind
+mcheli:mi17, MI-17
+mcheli:mi28, Mi-28N Havoc
+mcheli:mi8, MI-8
+mcheli:mi8amtsh, MI-8 AMTSH
+mcheli:mi8civil, MI-8 Civillian
+mcheli:nh90, NHIndustries NH90-TTH
+mcheli:sh-3, SH-3 Sea King
+mcheli:sh-60, SH-60 Seahawk
 mcheli:uh-1c, UH-1C Iroquois
+mcheli:uh-1d, UH-1D Iroquois/Huey
+mcheli:uh-60ja, UH60JA Utility helicopter
+mcheli:uh-60m, UH60M blackhawk
+mcheli:a-10, a-10
+mcheli:a400m, Airbus A400M Atlas
 mcheli:a6m2, ZERO type21
+mcheli:ac-130, AC-130H Spectre
+mcheli:b-2a, b-2a
+mcheli:b29, B-29 Superfortress
+mcheli:bqm_74e, BQM-74E CHUKAR III(Target drone)
+mcheli:c5, C-5A galaxy
+mcheli:canoe, Canoe
 mcheli:cb90, CB90 Combat Boat
+mcheli:e767, E767
+mcheli:eft_b, Eurofighter Typhoon
+mcheli:eft_b_15, Eurofighter (Target Dron) (Open turn)
+mcheli:eft_b_60, Eurofighter (Target Dron) (Closed turn)
 mcheli:emb314, EMB 314 Super Tucano
-mcheli:f-15e, F-15E Strike Eagle
+mcheli:f-15e, f-15e
+mcheli:f-15s_mtd, F-15 S/MTD
+mcheli:f-35a, F-35A Lightning II
+mcheli:f-35b, f-35b
+mcheli:f-35c, f-35c
+mcheli:f14d, f14d
+mcheli:f1m, F1M Pate
+mcheli:f22a, f22a
+mcheli:f4a, F-4A PhantomII
+mcheli:fa18e, F/A-18E Super Hornet
+mcheli:fa18e_ft, F/A-18E Super Hornet (With fuel tank)
+mcheli:fa18f, F/A-18F Super Hornet
+mcheli:fa18f_ft, F/A-18F Super Hornet
 mcheli:fi167, Fieseler Fi167
+mcheli:fuel_truck, Fuel truck
+mcheli:h8k, Kawanishi H8K
+mcheli:harrier, AV-8B Harrier II
+mcheli:harrier_en, BAe Harrier II
+mcheli:jas39, jas39
+mcheli:ju_87b-2_bk37, ju_87b-2_bk37
+mcheli:ju_87b-2_x20, ju_87b-2_x20
 mcheli:mark5, Mk.5 Special Operations Craft
+mcheli:mig29, MiG-29 Fulcrum
+mcheli:mq-9, MQ-9 Reaper
+mcheli:mqm170, MQM-170 Outlaw(Target drone)
+mcheli:mv-22, mv-22
 mcheli:n1k1, Rex N1K1
 mcheli:p-51d, P-51D Mustang
 mcheli:project1204, Project1204 Shmel Partol-Boat
-mcheli:su37, Su-37 Terminator
-mcheli:2s4, Crusader 5.5inch(actually 240mm)
-mcheli:centauro, B1 centauro
+mcheli:skylark, Elbit Skylark
+mcheli:stinger_390x, Chris Craft Stinger 390x
+mcheli:su-33, Su-33 Flanker-D
+mcheli:su-35bm, Су-35
+mcheli:su-47, su-47
+mcheli:su37, su37
+mcheli:t-4, T-4(Trainer)
+mcheli:tornado-gr4, Panavia Tornado GR.4
+mcheli:tornado-ids, Panavia Tornado IDS
+mcheli:x-47b, X-47B Pegasus
+mcheli:xf85, xf85
+mcheli:zodiac, Zodiac Boat
+mcheli:bnr32, bnr32
+mcheli:btr80, btr80
+mcheli:btr80a, BTR-80A
+mcheli:centauro, centauro
 mcheli:growler, Growler ITV
+mcheli:impreza, impreza
 mcheli:kurganets25, Kurganets-25 IFV
 mcheli:kv-2, KV-2 Gigant
+mcheli:m1025, m1025
+mcheli:m1043, m1043
 mcheli:m1129, M1129 Self-Propelled Mortar
 mcheli:m1a2, M1A2 Abrams
 mcheli:m26, M26
+mcheli:m2_atom, m2_atom
+mcheli:m998, m998
 mcheli:merkava_mk4, MerkavaMk4
-mcheli:mt-12_rapira, MT-12 Rapira
-mcheli:mxtmv, MXT-MV Husky TSV
+mcheli:mxtmv, mxtmv
 mcheli:t-90, T-90 MBT
 mcheli:t84, T-84 OplotM
+mcheli:12.7, 12.7cmAACanon
+mcheli:12.7s, 12.7cmAACanon shield
+mcheli:15.5, 15.5cmCanon
+mcheli:25mmaamg, 25mmMachineGun
+mcheli:46, 46cmCanon
+mcheli:ammo_box, Ammo Box
+mcheli:bofors40mml60, bofors 40 mm/l60
+mcheli:mim-23, MIM-23 HAWK
+mcheli:mk15, Mk.15 Phalanx
+mcheli:mk32, Mk.32 Torpedo tube
+mcheli:oto76mm, Oto Melara 76 mm gun
+mcheli:s-75, S-75 SAM
+mcheli:searam, Mk.15 mod.31 SeaRAM
+mcheli:sea_sparrow, Mk29 Missile Launcher
+mcheli:stairs, Stairs
+mcheli:type93_launcher, Type 93 torpedo
+mcheli:vads, VADS
 modernmarkings:item.chalk, Chalk
 cfm:ItemTableWood, Деревянный столик
 cfm:ItemTableStone, Каменный столик
@@ -24524,6 +24636,88 @@ OpenComputers:item:0, EEPROM (Lua BIOS)
 OpenComputers:eeprom, EEPROM
 OpenComputers:wrench, Ключ
 OpenComputers:hoverBoots, Парящие ботинки
+openmodularturrets:bulletThrowable, Метательная пуля
+openmodularturrets:grenadeThrowable, Метательная граната
+openmodularturrets:accuraccyUpgradeItem, Улучшение - Точность
+openmodularturrets:efficiencyUpgradeItem, Улучшение - Эффективность
+openmodularturrets:fireRateUpgradeItem, Улучшение - Скорость стрельбы
+openmodularturrets:rangeUpgradeItem, Улучшение - Дальность
+openmodularturrets:scattershotUpgradeItem, Upgrade - Scattershot
+openmodularturrets:redstoneReactorAddon, Дополнение - Реактор красного камня
+openmodularturrets:damageAmpAddon, Дополнение - Усиление урона
+openmodularturrets:solarPanelAddon, Дополнение - Солнечный генератор
+openmodularturrets:recyclerAddon, Addon - Recycler
+openmodularturrets:concealerAddon, Addon - Turret Concealer
+openmodularturrets:potentiaAddon, Addon - Potentia Converter
+openmodularturrets:serialPortAddon, Addon - Serial Port
+openmodularturrets:bulletCraftable, Боеприпасы - Патрон
+openmodularturrets:blazingClayCraftable, Ammo - Blazing Clay
+openmodularturrets:grenadeCraftable, Боеприпасы - Граната
+openmodularturrets:rocketCraftable, Боеприпасы - Ракета
+openmodularturrets:ferroSlug, Боеприпасы - Ферромагнитная пуля
+openmodularturrets:sensorTierOneItem, Сенсор (Уровень 1)
+openmodularturrets:sensorTierTwoItem, Сенсор (Уровень 2)
+openmodularturrets:sensorTierThreeItem, Сенсор (Уровень 3)
+openmodularturrets:sensorTierFourItem, Сенсор (Уровень 4)
+openmodularturrets:sensorTierFiveItem, Sensor (Tier 5)
+openmodularturrets:barrelTierOne, Barrel (Tier 1)
+openmodularturrets:barrelTierTwo, Barrel (Tier 2)
+openmodularturrets:barrelTierThree, Barrel (Tier 3)
+openmodularturrets:barrelTierFour, Barrel (Tier 4)
+openmodularturrets:barrelTierFive, Barrel (Tier 5)
+openmodularturrets:chamberTierOne, Chamber (Tier 1)
+openmodularturrets:chamberTierTwo, Chamber (Tier 2)
+openmodularturrets:chamberTierThree, Chamber (Tier 3)
+openmodularturrets:chamberTierFour, Chamber (Tier 4)
+openmodularturrets:chamberTierFive, Chamber (Tier 5)
+openmodularturrets:ioBus, Шина ввода-вывода
+openprinter:openprinter.paperShreds, Paper Shreds
+openprinter:openprinter.printerPaperRoll, Printer Paper Roll
+openprinter:openprinter.printerInkColor, Color Ink
+openprinter:openprinter.printerInkBlack, Black Ink
+openprinter:openprinter.printedPage, Printed Page
+openprinter:openprinter.folder, Folder
+opensecurity:opensecurity.magCard, Magnetic Strip Card
+opensecurity:opensecurity.rfidCard, RFID Card
+opensecurity:opensecurity.rfidReaderCard, RFID Reader Card
+opensecurity:opensecurity.secureNetworkCard, Secure Network Card
+opensecurity:opensecurity.securityDoor, Security Door
+opensecurity:opensecurity.securityDoorPrivate, Private Security Door
+opensecurity:opensecurity.damageUpgrade, Damage Upgrade
+opensecurity:opensecurity.cooldownUpgrade, Cooldown Upgrade
+opensecurity:opensecurity.energyUpgrade, Energy Upgrade
+opensecurity:opensecurity.movementUpgrade, Movement Upgrade
+harvestcraft:pamriceCrop, Рис
+harvestcraft:pamseaweedCrop, Водоросли
+harvestcraft:pamcurryleafCrop, Curry Leaf Crop
+harvestcraft:pamsesameseedsCrop, Sesame Seeds Crop
+harvestcraft:pamwaterchestnutCrop, Water Chestnut Crop
+harvestcraft:pamcandleDeco1, Белая свечка
+harvestcraft:pamcandleDeco2, Оранжевая свечка
+harvestcraft:pamcandleDeco3, Сиреневая свечка
+harvestcraft:pamcandleDeco4, Светло-синяя свечка
+harvestcraft:pamcandleDeco5, Жёлтая свечка
+harvestcraft:pamcandleDeco6, Лаймовая свечка
+harvestcraft:pamcandleDeco7, Розовая свечка
+harvestcraft:pamcandleDeco8, Тёмно-серая свечка
+harvestcraft:pamcandleDeco9, Светло-серая свечка
+harvestcraft:pamcandleDeco10, Бирюзовая свечка
+harvestcraft:pamcandleDeco11, Фиолетовая свечка
+harvestcraft:pamcandleDeco12, Синяя свечка
+harvestcraft:pamcandleDeco13, Коричневая свечка
+harvestcraft:pamcandleDeco14, Зелёная свечка
+harvestcraft:pamcandleDeco15, Красная свечка
+harvestcraft:pamcandleDeco16, Чёрная свечка
+harvestcraft:pamcarrotCake, Морковный торт
+harvestcraft:pamcheeseCake, Чизкейк
+harvestcraft:pamcherrycheeseCake, Вишнёвый чизкейк
+harvestcraft:pampineappleupsidedownCake, Ананасовый перевёрнутый торт
+harvestcraft:pamchocolatesprinkleCake, Торт, посыпанный шоколадом
+harvestcraft:pamredvelvetCake, Красный бархатный торт
+harvestcraft:pamlamingtonCake, Ламингтон
+harvestcraft:pampavlovaCake, Павлова
+harvestcraft:pamholidayCake, Holiday Cake
+harvestcraft:pampumpkincheeseCake, Pumpkin Cheese Cake
 harvestcraft:cuttingboardItem, Разделочная доска
 harvestcraft:potItem, Горшок
 harvestcraft:skilletItem, Сковорода
@@ -25306,6 +25500,61 @@ harvestcraft:peaandhamsoupItem, Pea and Ham Soup
 harvestcraft:potatoandleeksoupItem, Potato and Leek Soup
 harvestcraft:yorkshirepuddingItem, Yorkshire Pudding
 harvestcraft:toadintheholeItem, Toad in the Hole
+ProjectBlue:controlPanel, Control Panel
+ProjectBlue:miniatureLever:0, Miniature White Lever
+ProjectBlue:miniatureLever:1, Miniature Orange Lever
+ProjectBlue:miniatureLever:2, Miniature Magenta Lever
+ProjectBlue:miniatureLever:3, Miniature Light Blue Lever
+ProjectBlue:miniatureLever:4, Miniature Yellow Lever
+ProjectBlue:miniatureLever:5, Miniature Lime Lever
+ProjectBlue:miniatureLever:6, Miniature Pink Lever
+ProjectBlue:miniatureLever:7, Miniature Grey Lever
+ProjectBlue:miniatureLever:8, Miniature Light Grey Lever
+ProjectBlue:miniatureLever:9, Miniature Cyan Lever
+ProjectBlue:miniatureLever:10, Miniature Purple Lever
+ProjectBlue:miniatureLever:11, Miniature Blue Lever
+ProjectBlue:miniatureLever:12, Miniature Brown Lever
+ProjectBlue:miniatureLever:13, Miniature Green Lever
+ProjectBlue:miniatureLever:14, Miniature Red Lever
+ProjectBlue:miniatureLever:15, Miniature Black Lever
+ProjectBlue:miniatureLever:16, Miniature Stone Lever
+ProjectBlue:miniatureButton:0, Miniature White Button
+ProjectBlue:miniatureButton:1, Miniature Orange Button
+ProjectBlue:miniatureButton:2, Miniature Magenta Button
+ProjectBlue:miniatureButton:3, Miniature Light Blue Button
+ProjectBlue:miniatureButton:4, Miniature Yellow Button
+ProjectBlue:miniatureButton:5, Miniature Lime Button
+ProjectBlue:miniatureButton:6, Miniature Pink Button
+ProjectBlue:miniatureButton:7, Miniature Grey Button
+ProjectBlue:miniatureButton:8, Miniature Light Grey Button
+ProjectBlue:miniatureButton:9, Miniature Cyan Button
+ProjectBlue:miniatureButton:10, Miniature Purple Button
+ProjectBlue:miniatureButton:11, Miniature Blue Button
+ProjectBlue:miniatureButton:12, Miniature Brown Button
+ProjectBlue:miniatureButton:13, Miniature Green Button
+ProjectBlue:miniatureButton:14, Miniature Red Button
+ProjectBlue:miniatureButton:15, Miniature Black Button
+ProjectBlue:miniatureButton:16, Miniature Stone Button
+ProjectBlue:miniatureButton:17, Miniature Wooden Button
+ProjectBlue:miniatureLamp:0, Miniature White Lamp
+ProjectBlue:miniatureLamp:1, Miniature Orange Lamp
+ProjectBlue:miniatureLamp:2, Miniature Magenta Lamp
+ProjectBlue:miniatureLamp:3, Miniature Light Blue Lamp
+ProjectBlue:miniatureLamp:4, Miniature Yellow Lamp
+ProjectBlue:miniatureLamp:5, Miniature Lime Lamp
+ProjectBlue:miniatureLamp:6, Miniature Pink Lamp
+ProjectBlue:miniatureLamp:7, Miniature Grey Lamp
+ProjectBlue:miniatureLamp:8, Miniature Light Grey Lamp
+ProjectBlue:miniatureLamp:9, Miniature Cyan Lamp
+ProjectBlue:miniatureLamp:10, Miniature Purple Lamp
+ProjectBlue:miniatureLamp:11, Miniature Blue Lamp
+ProjectBlue:miniatureLamp:12, Miniature Brown Lamp
+ProjectBlue:miniatureLamp:13, Miniature Green Lamp
+ProjectBlue:miniatureLamp:14, Miniature Red Lamp
+ProjectBlue:miniatureLamp:15, Miniature Black Lamp
+ProjectBlue:miniatureCover:0, Miniature Доски Cover
+ProjectBlue:emptySprayCan, Empty Spray Can
+ProjectBlue:sprayCan, %s Spray Paint
 RandomThings:biomeCapsule, Biome Capsule
 RandomThings:biomePainter:0, Biome Painter
 RandomThings:whitestone:0, Белый камень [Незаряженный]
@@ -25348,6 +25597,98 @@ RandomThings:filter:0, Фильтр блоков
 RandomThings:filter:1, Фильтр предметов
 RandomThings:filter:2, Фильтр сущностей
 RandomThings:filter:3, Фильтр положений
+RandomThings:playerinterface, Интерфейс игрока
+RandomThings:creativePlayerInterface, Творческий интерфейс игрока
+RandomThings:fluidDisplay, Отображатель жидкостей
+RandomThings:advancedFluidDisplay, Продвинутый отображатель жидкостей
+RandomThings:fertilizedDirt, Удобрённая земля
+RandomThings:fertilizedDirt_tilled, Удобрённая земля
+RandomThings:itemCollector, Собиратель предметов
+RandomThings:advancedItemCollector, Продвинутый собиратель предметов
+RandomThings:onlineDetector, Детектор онлайн-игроков
+RandomThings:moonSensor, Датчик лунных фаз
+RandomThings:bloodMoonSensor, Датчик кровавой луны
+RandomThings:notificationInterface, Интерфейс уведомлений
+RandomThings:lapisLamp, Лазуритовый светильник
+RandomThings:wirelessLever, Беспроводной рычаг
+RandomThings:dyeingMachine, Покрасочный механизм
+RandomThings:spectreGlass, Призрачное стекло
+RandomThings:energyDistributor, Распределитель энергии
+RandomThings:enderEnergyDistributor, Распределитель энергии Края
+RandomThings:spectreBlock:0, Чёрный призрачный блок
+RandomThings:spectreBlock:1, Красный призрачный блок
+RandomThings:spectreBlock:2, Зелёный призрачный блок
+RandomThings:spectreBlock:3, Коричневый призрачный блок
+RandomThings:spectreBlock:4, Синий призрачный блок
+RandomThings:spectreBlock:5, Фиолетовый призрачный блок
+RandomThings:spectreBlock:6, Бирюзовый призрачный блок
+RandomThings:spectreBlock:7, Светло-серый призрачный блок
+RandomThings:spectreBlock:8, Серый призрачный блок
+RandomThings:spectreBlock:9, Розовый призрачный блок
+RandomThings:spectreBlock:10, Лаймовый призрачный блок
+RandomThings:spectreBlock:11, Жёлтый призрачный блок
+RandomThings:spectreBlock:12, Светло-синий призрачный блок
+RandomThings:spectreBlock:13, Сиреневый призрачный блок
+RandomThings:spectreBlock:14, Оранжевый призрачный блок
+RandomThings:spectreBlock:15, Белый призрачный блок
+RandomThings:imbuingStation, Станция наполнения
+salisarcana:blockCustomPlank:0, Доски великого дерева
+salisarcana:blockCustomPlank:1, Доски серебряного дерева
+salisarcana:capPlaceholder:0, Железный наконечник
+salisarcana:capPlaceholder:1, Золотой наконечник
+salisarcana:capPlaceholder:2, Заряженный таум-наконечник
+salisarcana:capPlaceholder:3, Заряженный пустотный наконечник
+salisarcana:rodPlaceholder:0, Палка
+salisarcana:rodPlaceholder:1, Великодревесный стержень
+salisarcana:rodPlaceholder:2, Обсидиановый стержень
+salisarcana:rodPlaceholder:3, Огненный стержень
+salisarcana:rodPlaceholder:4, Ледяной стержень
+salisarcana:rodPlaceholder:5, Кварцевый стержень
+salisarcana:rodPlaceholder:6, Костяной стержень
+salisarcana:rodPlaceholder:7, Тростниковый стержень
+salisarcana:rodPlaceholder:8, Серебрянодревесный стержень
+salisarcana:rodPlaceholder:9, Великодревесное ядро посоха
+salisarcana:rodPlaceholder:10, Обсидиановое ядро посоха
+salisarcana:rodPlaceholder:11, Огненное ядро посоха
+salisarcana:rodPlaceholder:12, Ледяное ядро посоха
+salisarcana:rodPlaceholder:13, Кварцевое ядро посоха
+salisarcana:rodPlaceholder:14, Костяное ядро посоха
+salisarcana:rodPlaceholder:15, Тростниковое ядро посоха
+salisarcana:rodPlaceholder:16, Серебрянодревесное ядро посоха
+salisarcana:rodPlaceholder:17, Сингулярное ядро посоха
+SpiceOfLife:bookfoodjournal, Журнал питания
+SpiceOfLife:lunchbox, Коробка для ланча
+SpiceOfLife:lunchbag, Мешочек для ланча
+StorageDrawers:fullDrawers1:0, Ящик из дуба
+StorageDrawers:fullDrawers1:1, Ящик из ели
+StorageDrawers:fullDrawers1:2, Ящик из берёзы
+StorageDrawers:fullDrawers1:3, Ящик из тропического дерева
+StorageDrawers:fullDrawers1:4, Ящик из акации
+StorageDrawers:fullDrawers1:5, Ящик из тёмного дуба
+StorageDrawers:fullDrawers2:0, Ящик из дуба 1x2
+StorageDrawers:fullDrawers2:1, Ящик из ели 1x2
+StorageDrawers:fullDrawers2:2, Ящик из берёзы 1x2
+StorageDrawers:fullDrawers2:3, Ящик из тропического дерева 1x2
+StorageDrawers:fullDrawers2:4, Ящик из акации 1x2
+StorageDrawers:fullDrawers2:5, Ящик из тёмного дуба 1x2
+StorageDrawers:fullDrawers4:0, Ящик из дуба 2x2
+StorageDrawers:fullDrawers4:1, Ящик из ели 2x2
+StorageDrawers:fullDrawers4:2, Ящик из берёзы 2x2
+StorageDrawers:fullDrawers4:3, Ящик из тропического дерева 2x2
+StorageDrawers:fullDrawers4:4, Ящик из акации 2x2
+StorageDrawers:fullDrawers4:5, Ящик из тёмного дуба 2x2
+StorageDrawers:halfDrawers2:0, Компактный ящик из дуба 1x2
+StorageDrawers:halfDrawers2:1, Компактный ящик из ели 1x2
+StorageDrawers:halfDrawers2:2, Компактный ящик из берёзы 1x2
+StorageDrawers:halfDrawers2:3, Компактный ящик из тропического дерева 1x2
+StorageDrawers:halfDrawers2:4, Компактный ящик из акации 1x2
+StorageDrawers:halfDrawers2:5, Компактный ящик из тёмного дуба 1x2
+StorageDrawers:halfDrawers4:0, Компактный ящик из дуба 2x2
+StorageDrawers:halfDrawers4:1, Компактный ящик из ели 2x2
+StorageDrawers:halfDrawers4:2, Компактный ящик из берёзы 2x2
+StorageDrawers:halfDrawers4:3, Компактный ящик из тропического дерева 2x2
+StorageDrawers:halfDrawers4:4, Компактный ящик из акации 2x2
+StorageDrawers:halfDrawers4:5, Компактный ящик из тёмного дуба 2x2
 StorageDrawers:compDrawers, Уплотняющий ящик
 StorageDrawers:controller, Контроллер ящиков
 StorageDrawers:controllerSlave, Подчинённый контроллера
@@ -25898,7 +26239,7 @@ ThaumicExploration:floatCandle:15, Чёрная леветирующая све�
 ThaumicExploration:meltyIce, Лёд
 ThaumicExploration:boundJar, Связанная банка
 ThaumicExploration:thinkTankJar, Мыслящая банка
-ThaumicExploration:everfullUrn, Неисчерпаемая урна 
+ThaumicExploration:everfullUrn, Неисчерпаемая урна
 ThaumicExploration:everburnUrn, Неугасимая урна
 ThaumicExploration:soulBrazier, Жаровня душ
 ThaumicExploration:crucibleSouls, Печь душ
@@ -25982,9 +26323,17 @@ ThaumicExploration:charmNoTaint, Ловец снов
 ThaumicExploration:bootsMeteor, Сапоги метеора
 ThaumicExploration:bootsComet, Сапоги кометы
 ThaumicExploration:taintBerry, Заражённая ягода
-ThaumicExploration:tentacleRing, Кольцо тентаклей 
+ThaumicExploration:tentacleRing, Кольцо тентаклей
 ThaumicExploration:stabilizerBelt, Таумостатический стабилизатор
 ThaumicExploration:discountRing, Ring
+thaumicboots:item.ItemArcaniumInterfacer, Аркановая линза
+thaumicboots:item.ItemSeasonBoots, Ботинки сезона
+thaumicboots:item.ItemChristmasBoots, Сапоги духа Рождества
+thaumicboots:item.ItemSlowBoots, Сапоги ленивца
+thaumicboots:item.ItemMeteoricComet, Метеоритные сапоги кометы
+thaumicboots:item.ItemCometMeteor, Ледяные сапоги ледяного метеора
+thaumicboots:item.ItemVoidComet, Испорченные ботинки Жуткой кометы
+thaumicboots:item.ItemVoidMeteor, Метеоритные сапоги Странника Бездны
 thaumicenergistics:part.base:0, Шина импорта эссенции
 thaumicenergistics:part.base:1, Излучатель уровня эссенции
 thaumicenergistics:part.base:2, Шина хранения эссенции
@@ -25994,26 +26343,26 @@ thaumicenergistics:part.base:5, Магический терминал созда
 thaumicenergistics:part.base:6, Интерфейс Вис-реле
 thaumicenergistics:part.base:7, Монитор хранения эссенции
 thaumicenergistics:part.base:8, Монитор преобразования эссенции
-thaumicenergistics:part.base:9, Creative Vis Relay Interface
-thaumicenergistics:storage.essentia:0, МЭ 1К ячейка хранения эссенции
-thaumicenergistics:storage.essentia:1, МЭ 4К ячейка хранения эссенции
-thaumicenergistics:storage.essentia:2, МЭ 16К ячейка хранения эссенции
-thaumicenergistics:storage.essentia:3, МЭ 64К ячейка хранения эссенции
-thaumicenergistics:storage.essentia:4, Творческая ячейка хранения эссенции
-thaumicenergistics:storage.essentia:5, 256k ME Essentia Storage Cell
-thaumicenergistics:storage.essentia:6, 1024k ME Essentia Storage Cell
-thaumicenergistics:storage.essentia:7, 4096k ME Essentia Storage Cell
-thaumicenergistics:storage.essentia:8, 16384k ME Essentia Storage Cell
-thaumicenergistics:storage.essentia:9, ME Essentia Quantum Storage Cell
-thaumicenergistics:storage.essentia:10, ME Essentia Digital Singularity Storage Cell
-thaumicenergistics:storage.component:0, МЭ 1К компонент хранения эссенции
-thaumicenergistics:storage.component:1, МЭ 4К компонент хранения эссенции
-thaumicenergistics:storage.component:2, МЭ 16К компонент хранения эссенции
-thaumicenergistics:storage.component:3, МЭ 64К компонент хранения эссенции
-thaumicenergistics:storage.component:5, 256k ME Essentia Storage Component
-thaumicenergistics:storage.component:6, 1024k ME Essentia Storage Component
-thaumicenergistics:storage.component:7, 4096k ME Essentia Storage Component
-thaumicenergistics:storage.component:8, 16384k ME Essentia Storage Component
+thaumicenergistics:part.base:9, Творческий интерфейс Вис-реле
+thaumicenergistics:storage.essentia:0, §61К§r МЭ ячейка хранения эссенции
+thaumicenergistics:storage.essentia:1, §e4К§r МЭ ячейка хранения эссенции
+thaumicenergistics:storage.essentia:2, §a16К§r МЭ ячейка хранения эссенции
+thaumicenergistics:storage.essentia:3, §b64К§r МЭ ячейка хранения эссенции
+thaumicenergistics:storage.essentia:4, МЭ творческая ячейка хранения эссенции
+thaumicenergistics:storage.essentia:5, §9256К§r МЭ ячейка хранения эссенции
+thaumicenergistics:storage.essentia:6, §d1024К§r МЭ ячейка хранения эссенции
+thaumicenergistics:storage.essentia:7, §c4096К§r МЭ ячейка хранения эссенции
+thaumicenergistics:storage.essentia:8, §516384К§r МЭ ячейка хранения эссенции
+thaumicenergistics:storage.essentia:9, МЭ квантовая ячейка хранения эссенции
+thaumicenergistics:storage.essentia:10, МЭ сингулярная ячейка хранения эссенции
+thaumicenergistics:storage.component:0, §61К§r МЭ компонент хранения эссенции
+thaumicenergistics:storage.component:1, §e4К§r МЭ компонент хранения эссенции
+thaumicenergistics:storage.component:2, §a16К§r МЭ компонент хранения эссенции
+thaumicenergistics:storage.component:3, §b64К§r МЭ компонент хранения эссенции
+thaumicenergistics:storage.component:5, §9256К§r МЭ компонент хранения эссенции
+thaumicenergistics:storage.component:6, §d1024К§r МЭ компонент хранения эссенции
+thaumicenergistics:storage.component:7, §c4096К§r МЭ компонент хранения эссенции
+thaumicenergistics:storage.component:8, §516384К§r МЭ компонент хранения эссенции
 thaumicenergistics:storage.casing, МЭ корпус ячейки хранения эссенции
 thaumicenergistics:material:0, Ядро диффузии
 thaumicenergistics:material:1, Ядро слияния
@@ -26021,18 +26370,19 @@ thaumicenergistics:material:2, Железная шестерня
 thaumicenergistics:wireless.essentia.terminal, Беспроводной терминал эссенции
 thaumicenergistics:knowledge.core, Ядро знаний
 thaumicenergistics:focus.aewrench, Набалдашник: AE-ключ
-thaumicenergistics:golem.wifi.backpack, Wireless Golem Backpack
-thaumicenergistics:cell.microscope, Cell Microscope
+thaumicenergistics:golem.wifi.backpack, Рюкзак Голема с Wi-Fi
+thaumicenergistics:cell.microscope, Микроскоп для ячеек
+thaumicenergistics:arcane.pattern, item.itemArcaneCraftingPattern.name
 thaumicenergistics:thaumicenergistics.block.essentia.provider, Поставщик эссенции
 thaumicenergistics:thaumicenergistics.block.infusion.provider, Поставщик наполнения
-thaumicenergistics:thaumicenergistics.block.advanced.infusion.provider, Advanced Infusion Provider
+thaumicenergistics:thaumicenergistics.block.advanced.infusion.provider, Улучшенный поставщик наполнения
 thaumicenergistics:thaumicenergistics.block.gear.box, Железная коробка передач
 thaumicenergistics:thaumicenergistics.block.golem.gear.box, Таумическая коробка передач
 thaumicenergistics:thaumicenergistics.block.essentia.cell.workbench, Верстак для ячеек эссенции
 thaumicenergistics:thaumicenergistics.block.arcane.assembler, Магический сборщик
 thaumicenergistics:thaumicenergistics.block.knowledge.inscriber, Высекатель знаний
 thaumicenergistics:thaumicenergistics.block.essentia.vibration.chamber, [WIP]Вибрационная камера эссенции
-thaumicenergistics:thaumicenergistics.block.distillation.encoder, Distillation Pattern Encoder
+thaumicenergistics:thaumicenergistics.block.distillation.encoder, Дистилляционный кодировщик шаблонов
 ThaumicHorizons:synthNode, Эфирный осколок
 ThaumicHorizons:alchemite, Алхимит
 ThaumicHorizons:visDynamo, Вис-генератор
@@ -26095,7 +26445,7 @@ ThaumicHorizons:crystalTH:15, Чёрный кристалл
 ThaumicHorizons:crystalDeep, Глубинный кристалл
 ThaumicHorizons:leviathanTH, Сингулярные останки
 ThaumicHorizons:slotTH, Слот для ключ-камня
-ThaumicHorizons:portalTH, Безымянный блок, сообщите автору мода.
+ThaumicHorizons:portalTH, tile.null.name
 ThaumicHorizons:gatewayTH, Планарные врата
 ThaumicHorizons:spawnerEgg:0, Призвать существо - Хроматическая овца
 ThaumicHorizons:spawnerEgg:1, Призвать существо - Самостригущаяся овца
@@ -26217,144 +26567,179 @@ TravellersGear:simpleGear:6, Именной свиток
 TravellersGear:simpleGear:6, Именной свиток
 TravellersGear:simpleGear:6, Именной свиток
 TravellersGear:armorstand, Стойка для брони
-WarpTheory:blockVanish, Безымянный блок, сообщите автору мода.
+WarpTheory:blockVanish, tile.null.name
 WarpTheory:item.warptheory.cleanserminor:0, Нечистая слеза
 WarpTheory:item.warptheory.cleanser:0, Чистая слеза
 WarpTheory:item.warptheory.amulet:0, Талисман очищения
 WarpTheory:item.warptheory.portableshower:0, item.warptheory.portableshower.name
 WarpTheory:item.warptheory.something:0, Кусок мяса
 WarpTheory:item.warptheory.paper:0, Магическая лакмусовая бумажка
-WitchingGadgets:item.WG_Material:0, Yarn
-WitchingGadgets:item.WG_Material:1, Golden Thread
-WitchingGadgets:item.WG_Material:2, Thaumium Thread
-WitchingGadgets:item.WG_Material:3, Cloth of Spacious Folds
-WitchingGadgets:item.WG_Material:4, Golden Fabric
-WitchingGadgets:item.WG_Material:5, Bewitched Fleece
-WitchingGadgets:item.WG_Material:6, Wolf Pelt
-WitchingGadgets:item.WG_Material:7, Arcane Abacus
-WitchingGadgets:item.WG_Material:8, Gemcutter's Tools
-WitchingGadgets:item.WG_Material:9, Iconographic Plate
-WitchingGadgets:item.WG_Material:10, Developed Iconograph
-WitchingGadgets:item.WG_Material:11, Guiding Thread
-WitchingGadgets:item.WG_Material:12, Powerless Pearl
-WitchingGadgets:item.WG_Material:13, Gemstone Dust
+WitchingGadgets:item.WG_Material:0, Пряжа
+WitchingGadgets:item.WG_Material:1, Золотая нить
+WitchingGadgets:item.WG_Material:2, Таумиевая нить
+WitchingGadgets:item.WG_Material:3, Ткань просторных складок
+WitchingGadgets:item.WG_Material:4, Золотая ткань
+WitchingGadgets:item.WG_Material:5, Заколдованный флис
+WitchingGadgets:item.WG_Material:6, Шкура волка
+WitchingGadgets:item.WG_Material:7, Аркановые счеты
+WitchingGadgets:item.WG_Material:8, Инструменты огранщика
+WitchingGadgets:item.WG_Material:9, Иконографическая тарелка
+WitchingGadgets:item.WG_Material:10, Развитая иконография
+WitchingGadgets:item.WG_Material:11, Направляющая нить
+WitchingGadgets:item.WG_Material:12, Бессильная жемчужина
+WitchingGadgets:item.WG_Material:13, Драгоценная пыль
 WitchingGadgets:item.WG_Material:18, Золотая монета
-WitchingGadgets:item.WG_Bag:0, Bag of Tricks
-WitchingGadgets:item.WG_Bag:1, Voidlinked Bag
-WitchingGadgets:item.WG_Bag:2, Enderlinked Bag
-WitchingGadgets:item.WG_Bag:3, Hungry Bag
-WitchingGadgets:item.WG_ThaumiumShears, Thaumium Shears
-WitchingGadgets:item.WG_AdvancedRobeChest, Bewitched Robe
-WitchingGadgets:item.WG_AdvancedRobeLegs, Bewitched Leggings
-WitchingGadgets:item.WG_MagicFood:0, Sweetwart
-WitchingGadgets:item.WG_MagicFood:1, Nethercake
-WitchingGadgets:item.WG_Cloak:0, Cloak
-WitchingGadgets:item.WG_Cloak:1, Spectral Mantle
-WitchingGadgets:item.WG_Cloak:2, Cloak of Voluminous Pockets
-WitchingGadgets:item.WG_Cloak:3, Wolven Cloak
-WitchingGadgets:item.WG_Kama:0, Kama
-WitchingGadgets:item.WG_Kama:1, Spectral Kama
-WitchingGadgets:item.WG_Kama:2, Kama of Voluminous Pockets
-WitchingGadgets:item.WG_Kama:3, Wolven Kama
-WitchingGadgets:item.WG_InfusedGem, Infused Gem
-WitchingGadgets:item.WG_Baubles:0, Seraph's Shoulders
-WitchingGadgets:item.WG_Baubles:1, Steadfast Spaulders
-WitchingGadgets:item.WG_Baubles:2, Berserker's Bracers
-WitchingGadgets:item.WG_Baubles:3, Vambraces of Steady Progression
-WitchingGadgets:item.WG_Baubles:4, Title: Crimson Cult
-WitchingGadgets:item.WG_Baubles:4, Title: Crimson Cult
-WitchingGadgets:item.WG_Baubles:4, Title: Crimson Cult
-WitchingGadgets:item.WG_Baubles:5, Ring of the Covetous Coin
-WitchingGadgets:item.WG_Baubles:6, Band of the Sniper
-WitchingGadgets:item.WG_ScanCamera, Thaumic Iconograph Box
-WitchingGadgets:item.WG_PrimordialGlove, Primordial Gauntlet
-WitchingGadgets:item.WG_PrimordialHammer, Primordial Warhammer
-WitchingGadgets:item.WG_PrimordialAxe, Primordial Greataxe
-WitchingGadgets:item.WG_PrimordialSword, Primordial Claymore
-WitchingGadgets:item.WG_PrimordialHelm, Primordial Helm
-WitchingGadgets:item.WG_PrimordialChest, Primordial Cuirass
-WitchingGadgets:item.WG_PrimordialLegs, Primordial Greaves
-WitchingGadgets:item.WG_PrimordialBoots, Primordial Boots
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_CrystalFlask:0, Crystal Capsule
-WitchingGadgets:item.WG_Cluster:0, Native Алюминиевый Cluster
-WitchingGadgets:item.WG_Cluster:1, Native Кобальтовый Cluster
-WitchingGadgets:item.WG_Cluster:6, Native Цинковый Cluster
-WitchingGadgets:WG_WallMirror, Mirror on the Wall
-WitchingGadgets:WG_VoidWalkway, Void Walkway
-WitchingGadgets:WG_StoneDevice:0, Ethereal Wall
-WitchingGadgets:WG_StoneDevice:1, Magical Lock
-WitchingGadgets:WG_StoneDevice:2, Obsidian Plate
-WitchingGadgets:WG_StoneDevice:3, Obsidian Rune
-WitchingGadgets:WG_StoneDevice:6, Sarcophagus
-WitchingGadgets:WG_StoneDevice:7, Ageing Stone
-WitchingGadgets:WG_WoodenDevice:0, Spinning Wheel
-WitchingGadgets:WG_WoodenDevice:2, Thaumic Stone Extruder
-WitchingGadgets:WG_WoodenDevice:3, Cutting Table
-WitchingGadgets:WG_WoodenDevice:4, Thaumic Sauna Stove
-WitchingGadgets:WG_WoodenDevice:5, Aspect Library
-WitchingGadgets:WG_MetalDevice:0, Essentia Pump
-WitchingGadgets:WG_MetalDevice:1, Arcane Terrestrial Reformer
-WitchingGadgets:WG_MetalDevice:2, Terrestrial Focus: Plains
-WitchingGadgets:WG_MetalDevice:3, Terrestrial Focus: Cold Taiga
-WitchingGadgets:WG_MetalDevice:4, Terrestrial Focus: Desert
-WitchingGadgets:WG_MetalDevice:5, Terrestrial Focus: Jungle
-WitchingGadgets:WG_MetalDevice:6, Terrestrial Focus: Hell
-WitchingGadgets:WG_MetalDevice:7, Void metal Block
-WitchingGadgets:WG_MetalDevice:8, Terrestrial Focus: Tainted Lands
-WitchingGadgets:WG_MetalDevice:9, Terrestrial Focus: Mushroom Island
-WitchingGadgets:WG_RoseVine, Rose Vines
-WitchingGadgets:WG_CustomAir, Glimmer of Light
+WitchingGadgets:item.WG_ThaumiumShears, Таумиумные ножницы
+WitchingGadgets:item.WG_AdvancedRobeChest, Заколдованная роба
+WitchingGadgets:item.WG_AdvancedRobeLegs, Зачарованные поножи
+WitchingGadgets:item.WG_MagicFood:0, Сладкий нарост
+WitchingGadgets:item.WG_MagicFood:1, Адский пирог
+WitchingGadgets:item.WG_AdvancedScribingTools, Светящяяся чернильница
+WitchingGadgets:item.WG_Baubles:0, Seraph's Charm
+WitchingGadgets:item.WG_Baubles:1, Steadfast Charm
+WitchingGadgets:item.WG_Baubles:2, Наручи берсерка
+WitchingGadgets:item.WG_Baubles:3, Наручи неуклонного прогресса
+WitchingGadgets:item.WG_Baubles:4, Кольцо жадной монеты
+WitchingGadgets:item.WG_Baubles:5, Название: Багровый культ
+WitchingGadgets:item.WG_Baubles:5, Название: Багровый культ
+WitchingGadgets:item.WG_Baubles:5, Название: Багровый культ
+WitchingGadgets:item.WG_Baubles:6, Кольцо снайпера
+WitchingGadgets:item.WG_Baubles:7, Empty Leather Charm
+WitchingGadgets:item.WG_Baubles:8, Leather Vambraces
+WitchingGadgets:item.WG_ScanCamera, Коробка таумической иконографии
+WitchingGadgets:item.WG_Bag:0, Сумка уловок
+WitchingGadgets:item.WG_Bag:1, Связанная с Бездной сумка
+WitchingGadgets:item.WG_Bag:2, Связанная с Эндером сумка
+WitchingGadgets:item.WG_Bag:3, Голодная сумка
+WitchingGadgets:item.WG_Cloak:0, Плащ
+WitchingGadgets:item.WG_Cloak:1, Призрачная мантия
+WitchingGadgets:item.WG_Cloak:2, Плащ объемных карманов
+WitchingGadgets:item.WG_Cloak:3, Плащ волка
+WitchingGadgets:item.WG_Kama:0, Кама
+WitchingGadgets:item.WG_Kama:1, Призрачная Кама
+WitchingGadgets:item.WG_Kama:2, Кама объемных карманов
+WitchingGadgets:item.WG_Kama:3, Кама Волка
+WitchingGadgets:item.WG_PrimordialGlove, Первобытная перчатка
+WitchingGadgets:item.WG_PrimordialHammer, Первобытный боевой молот
+WitchingGadgets:item.WG_PrimordialAxe, Первобытный большой топор
+WitchingGadgets:item.WG_PrimordialSword, Первобытный клеймор
+WitchingGadgets:item.WG_PrimordialHelm, Первобытный шлем
+WitchingGadgets:item.WG_PrimordialChest, Первозданная кираса
+WitchingGadgets:item.WG_PrimordialLegs, Первобытные поножи
+WitchingGadgets:item.WG_PrimordialBoots, Первобытные сапоги
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_CrystalFlask:0, Хрустальная капсула
+WitchingGadgets:item.WG_InfusedGem, Наполненный самоцвет
+WitchingGadgets:WG_WallMirror, Зеркало на стене
+WitchingGadgets:WG_VoidWalkway, Дорога пустоты
+WitchingGadgets:WG_StoneDevice:0, Бесплотная стена
+WitchingGadgets:WG_StoneDevice:1, Камень старения
+WitchingGadgets:WG_WoodenDevice:0, Прялка
+WitchingGadgets:WG_WoodenDevice:1, Таумический Генератор снега
+WitchingGadgets:WG_WoodenDevice:2, Экструдер таумик камня
+WitchingGadgets:WG_WoodenDevice:3, Стол для резки
+WitchingGadgets:WG_WoodenDevice:4, Таумическая печь для сауны
+WitchingGadgets:WG_WoodenDevice:5, Библиотека аспектов
+WitchingGadgets:WG_WoodenDevice:6, Таумический Генаратор льда
+WitchingGadgets:WG_MetalDevice:0, Помпа для эссенции
+WitchingGadgets:WG_MetalDevice:1, Блок из пустотного металла
+WitchingGadgets:WG_MetalDevice:2, Аркановый земной реформатор
+WitchingGadgets:WG_MetalDevice:3, Фокус Земли: Равнины
+WitchingGadgets:WG_MetalDevice:4, Фокус Земли: Холодная тайга
+WitchingGadgets:WG_MetalDevice:5, Фокус Земли: Пустыня
+WitchingGadgets:WG_MetalDevice:6, Фокус Земли: Джунгли
+WitchingGadgets:WG_MetalDevice:7, Фокус Земли: Ад
+WitchingGadgets:WG_MetalDevice:8, Фокус Земли: Зараженные земли
+WitchingGadgets:WG_MetalDevice:9, Фокус Земли:: Грибной остров
+WitchingGadgets:WG_MetalDevice:10, Фокус терроформирования: Река
+WitchingGadgets:WG_MetalDevice:11, Фокус терроформирования: Океан
+WitchingGadgets:WG_MetalDevice:12, Фокус терроформирования: Край
+WitchingGadgets:WG_MetalDevice:13, Фокус терроформирования: Магический лес
+WitchingGadgets:WG_RoseVine, Плетистая роза
+WitchingGadgets:WG_CustomAir, Мерцание света
+harvestthenether:netherLog, Nether Log
+harvestthenether:netherLeaves, Nether Leaves
+harvestthenether:netherPlanks, Nether Planks
+harvestthenether:netherSapling, Ignis Fruit Sapling
+harvestthenether:ignisFruit, Ignis Fruit
+harvestthenether:netherBed, Nether Bed
+harvestthenether:netherGarden, Nether Garden
+harvestthenether:bloodleafCrop, Blood Leaf Crop
+harvestthenether:fleshrootCrop, Flesh Root Crop
+harvestthenether:marrowberryCrop, Marrow Berry Crop
+harvestthenether:glowFlower, Glow Flower
+harvestthenether:glowflowerCrop, Glow Flower Crop
+harvestthenether:quartzingotItem, Quartz Ingot
+harvestthenether:quartzhelmItem, Quartz Helm
+harvestthenether:quartzchestItem, Quartz Chest
+harvestthenether:quartzleggingsItem, Quartz Leggings
+harvestthenether:quartzbootsItem, Quartz Boots
+harvestthenether:Quartz Axe, Quartz Axe
+harvestthenether:Quartz Hoe, Quartz Hoe
+harvestthenether:Quartz Pickaxe, Quartz Pickaxe
+harvestthenether:Quartz Shovel, Quartz Shovel
+harvestthenether:Quartz Sword, Quartz Sword
+harvestthenether:ignisfruitItem, Ignis Fruit
+harvestthenether:netherbedItem, Nether Bed
+harvestthenether:bloodleafItem, Blood Leaf
+harvestthenether:fleshrootItem, Flesh Root
+harvestthenether:marrowberryItem, Marrow Berry
+harvestthenether:bloodleafseedItem, Blood Leaf Seed
+harvestthenether:fleshrootseedItem, Flesh Root Seed
+harvestthenether:marrowberryseedItem, Marrow Berry Seed
+harvestthenether:glowflowerseedItem, Glow Flower Seed

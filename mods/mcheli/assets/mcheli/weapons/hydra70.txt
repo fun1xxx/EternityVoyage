@@ -16,6 +16,6 @@ Round = 19
 ;TrajectoryParticle = fireworksSpark
 
 MaxAmmo = 19
-SuppliedNum = 4
+SuppliedNum = 19
 Item =  3, iron_ingot
 Item =  3, gunpowder

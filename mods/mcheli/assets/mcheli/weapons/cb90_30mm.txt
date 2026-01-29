@@ -17,5 +17,5 @@ SetCartridge = cartridge, 0,   0, 0, 3.50, -0.04, 0.50
 
 MaxAmmo = 320
 SuppliedNum = 80
-Item =  8, hbm:item.ingot_steel
-Item =  12, hbm:item.cordite
+Item =  8, iron_ingot
+Item =  8, gunpowder

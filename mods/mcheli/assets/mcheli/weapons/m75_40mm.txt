@@ -19,6 +19,6 @@ Gravity = -0.03
 Accuracy = 4.0
 
 MaxAmmo = 300
-SuppliedNum = 20
-Item =  3, hbm:item.ingot_steel
-Item =  5, hbm:item.cordite
+SuppliedNum = 50
+Item =  3, iron_ingot
+Item =  3, gunpowder

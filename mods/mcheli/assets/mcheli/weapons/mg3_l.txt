@@ -14,6 +14,6 @@ SoundPitch = 1.0
 Sound = gun_l1_snd
 
 MaxAmmo = 1200
-SuppliedNum = 400
-Item =  1, hbm:item.ingot_steel
-Item =  1, hbm:item.cordite
+SuppliedNum = 200
+Item =  2, iron_ingot
+Item =  2, gunpowder

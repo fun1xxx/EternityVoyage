@@ -18,6 +18,6 @@ ModelBullet = crv7
 ModelBomblet = cbc
 
 MaxAmmo = 38
-SuppliedNum = 8
+SuppliedNum = 19
 Item =  3, iron_ingot
 Item =  4, gunpowder

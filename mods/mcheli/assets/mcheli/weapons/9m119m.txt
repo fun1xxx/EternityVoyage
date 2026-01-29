@@ -13,6 +13,7 @@ Group = MainGun
 DamageFactor = tank, 1.2
 
 MaxAmmo = 10
-SuppliedNum = 2
-Item =  4, hbm:item.ingot_steel
-Item =  8, hbm:item.cordite
+SuppliedNum = 5
+Item =  3, iron_ingot
+Item =  2, gunpowder
+Item =  1, redstone

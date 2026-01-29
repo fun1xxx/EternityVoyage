@@ -17,7 +17,7 @@ DisableSmoke = true
 Piercing  = 1
 
 MaxAmmo = 48
-SuppliedNum = 6
+SuppliedNum = 12
 Item =  4, iron_ingot
 Item =  4, gunpowder
 Item =  4, redstone

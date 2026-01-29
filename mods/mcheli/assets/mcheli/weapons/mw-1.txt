@@ -19,6 +19,6 @@ ModelBullet = cbc
 ModelBomblet = cbc
 
 MaxAmmo = 50
-SuppliedNum = 10
+SuppliedNum = 25
 Item =  3, iron_ingot
 Item =  3, gunpowder

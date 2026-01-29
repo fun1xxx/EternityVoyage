@@ -14,5 +14,5 @@ Sound = rocket_snd
 
 MaxAmmo = 20
 SuppliedNum = 20
-Item =  8, iron_ingot
-Item =  6, gunpowder
+Item =  4, iron_ingot
+Item =  3, gunpowder

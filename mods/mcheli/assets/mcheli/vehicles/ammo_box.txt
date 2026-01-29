@@ -1,0 +1,24 @@
+DisplayName = Ammo Box
+AddDisplayName = ja_JP, 弾薬
+MaxHp = 20
+MaxFuel = 5000
+HideEntity = true
+MinRotationPitch = 90
+MaxRotationPitch =-90
+DamageFactor = 2
+CameraPosition = 0.0, 1.00, 0.0
+AmmoSupplyRange = 15
+;RepairOtherVehicles = 30, 25
+CanRide = false
+ThirdPersonDist = 12
+
+AddTexture = ammo_box_3
+AddTexture = ammo_box_4
+AddTexture = ammo_box_5
+AddTexture = ammo_box_6
+
+AddSeat = 0.00, -0.5, 0.00
+:AddRack = 0.00,  0.3, 0.00
+
+;Creative only
+;AddRecipe = "XXX",  "XIX",  "XXX",  X, iron_block, I, iron_ingot

@@ -14,7 +14,7 @@ ModelBullet = aim9x
 Sound = missile_1_snd
 
 MaxAmmo = 8
-SuppliedNum = 2
+SuppliedNum = 4
 Item =  1, iron_ingot
 Item =  1, gunpowder
 Item =  1, redstone

@@ -1,11 +1,11 @@
 DisplayName = Growler ITV
 AddDisplayName = ja_JP, グラウラーITV
 ItemID = 28766
-MaxHp = 160
+MaxHp = 120
 ThrottleUpDown = 10.0
 Speed = 0.6
 MobilityYawOnGround = 6.0
-StepHeight = 2.5
+StepHeight = 1.5
 Sound = prop
 MinRotationPitch = -90
 MaxRotationPitch = 90
@@ -16,6 +16,7 @@ DamageFactor   = 0.85
 EnableNightVision = false
 MaxFuel           = 1200
 FuelConsumption   = 1.0
+ThirdPersonDist = 4
 
 OnGroundPitchFactor = 15.0
 OnGroundRollFactor  = 5.2
@@ -53,6 +54,8 @@ AddPartWheel     = -0.68,  0.19, -1.10
 AddPartWheel     =  0.68,  0.19, -1.10
 
 InventorySize = 9
+
+AddRecipe = " G ",  "III",  "RIR",   G, glass, I, iron_ingot, R, redstone
 
 ;ヘッドライト
 AddFixedSearchLight =  0.52, 0.90, 1.76,   0x50FFFFFF,   0x00FFFFC0,    27.0, 15.0,  -5,  0

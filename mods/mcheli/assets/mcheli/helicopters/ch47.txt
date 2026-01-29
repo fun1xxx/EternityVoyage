@@ -1,7 +1,7 @@
 DisplayName = CH47 chnuke
 AddDisplayName = ja_JP, CH47 チヌーク
 ItemID = 28811
-MaxHp = 500
+MaxHp = 300
 EnableNightVision = true
 Float = true
 Speed = 0.5
@@ -45,6 +45,8 @@ AddWeapon = m134_r50,   1.2859, 1.971, -1.5192,  0.0, 0.0, false, 5, -90,-70, 70
 
 AddRepellingHook =  0.60, 2.75, -14.21, 30
 AddRepellingHook = -0.60, 2.75, -14.21, 30
+
+AddRecipe = " X ",  "XCX",  "X X",  X, iron_block, C, chest
 
 InventorySize = 54
 

@@ -1,0 +1,79 @@
+﻿DisplayName = Su-47 Berkut
+AddDisplayName = ja_JP, Su-47 ベールクト
+ItemID = 28741
+MaxHp = 210
+OnGroundPitch = 3
+EnableNightVision = true
+EnableEntityRadar = true
+EnableEjectionSeat = true
+Speed = 1.20
+FlareType = 4
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 1400
+FuelConsumption = 1.0
+ThirdPersonDist = 28
+MotionFactor = 0.968
+SubmergedDamageHeight = 2
+
+MobilityPitch  = 	1.00
+MobilityRoll   = 	2.01
+MobilityYaw    = 	0.25
+ThrottleUpDown = 	0.41
+
+; M = Military(軍用機).  F = Fighter(戦闘機)
+Category = M.F
+
+AddSeat = 0.00,  2.16,  0.57
+
+AddPartCanopy = 0, 3.71, -0.52, -1,0,0,  45
+
+;Front
+AddPartLG =  0.00,  1.74,  0.10,  -1,0,0, 94
+;Left
+AddPartLG =  0.00,  2.05, -8.37, -1,0,0,  95, 0,0,1, -20
+;Right
+AddPartLG =  0.00,  2.05, -8.37, -1,0,0,  95, 0,0,1,  20
+
+AddPartLGRev =  -0.44,  1.53, -0.24, 0,0,-1,  89.95
+
+AddPartLGRev =  1.86,  2.19, -5.61, 0,0,1, 65
+
+AddPartLGRev = -1.86,  2.19, -5.61, 0,0,-1, 65
+
+AddPartLG =  0.00,  1.97, 0.93, 1,0,0, 45
+
+AddPartWeaponBay = r73m2 / r77-1, 0.47, 1.60, -3.04, 0,0,1, 90
+AddPartWeaponBay = r73m2 /r77-1, -0.47, 1.60, -3.04, 0,0,-1, 90
+
+AddPartWeaponMissile = r73m2,    false,  false,  false,  0.21,  1.00, -3.52
+AddPartWeaponMissile = r73m2,    false,  false,  false, -0.21,  1.00, -3.52
+AddPartWeaponMissile = r77-1,    false,  false,  false,  0.21,  1.00, -3.52
+AddPartWeaponMissile = r77-1,    false,  false,  false, -0.21,  1.00, -3.52
+
+AddWeapon = gsh-30-1,  1.22,  3.15, -2.52,   0.2,  0.2
+AddWeapon = r73m2,     0.21,  1.00, -3.52,   0.0,  0.0
+AddWeapon = r73m2,    -0.21,  1.00, -3.52,   0.0,  0.0
+AddWeapon = r77-1,     0.21,  1.00, -3.52,   0.0,  0.0
+AddWeapon = r77-1,    -0.21,  1.00, -3.52,   0.0,  0.0
+
+AddWeapon = targeting_pod_ph75s,   0.0, 3.1, 0.6,    0.0, 0.0
+
+
+AddRecipe = "BGB",  "CDC",  "IPI",    G, glass,  D,diamond_block,  B, iron_block,  C, coal_block,  I, iron_ingot,  P, gunpowder
+
+BoundingBox =  0.00, 1.90,  3.80,    1.2, 1.2
+BoundingBox =  0.00, 2.15,  2.20,    1.6, 1.6
+BoundingBox =  0.00, 2.57,   0.41,   1.6, 2.2
+BoundingBox =  0.00, 2.50,  -1.47,   1.6, 1.7
+BoundingBox =  0.00, 2.45,  -4.10,   3.6, 1.6
+BoundingBox =  0.00, 2.40,  -8.00,   3.6, 1.5
+BoundingBox =  0.00, 2.40, -11.85,   3.6, 1.5
+BoundingBox =  0.00, 2.60, -14.60,   2.8, 1.2
+
+BoundingBox =  3.60, 2.75,  -9.25,   3.5, 0.4,  0.9
+BoundingBox = -3.60, 2.75,  -9.25,   3.5, 0.4,  0.9
+BoundingBox =  6.85, 2.75,  -7.70,   2.2, 0.2,  0.8
+BoundingBox = -6.85, 2.75,  -7.70,   2.2, 0.2,  0.8
+BoundingBox =  3.00, 2.61, -15.35,   2.5, 0.2,  0.9
+BoundingBox = -3.00, 2.61, -15.35,   2.5, 0.2,  0.9

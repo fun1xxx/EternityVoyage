@@ -15,6 +15,6 @@ MaxHeatCount = 150
 Sound = gun_l2_snd
 
 MaxAmmo = 1200
-SuppliedNum = 200
+SuppliedNum = 600
 Item =  5, iron_ingot
 Item =  5, gunpowder

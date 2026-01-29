@@ -12,6 +12,6 @@ ReloadTime = 110
 Round = 7
 
 MaxAmmo = 14
-SuppliedNum = 2
-Item =  3, hbm:item.ingot_steel
-Item =  6, hbm:item.cordite
+SuppliedNum = 7
+Item =  1, iron_ingot
+Item =  2, gunpowder

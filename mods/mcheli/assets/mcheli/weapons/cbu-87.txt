@@ -17,5 +17,5 @@ ModelBomblet = cbc
 
 MaxAmmo = 4
 SuppliedNum = 2
-Item =  14, hbm:item.ingot_steel
-Item =  16, hbm:item.cordite
+Item =  4, iron_ingot
+Item =  4, gunpowder

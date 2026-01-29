@@ -15,5 +15,5 @@ Round = 6
 
 MaxAmmo = 12
 SuppliedNum = 6
-Item =  12, hbm:item.ingot_steel
-Item =  14, hbm:item.cordite
+Item =  3, iron_ingot
+Item =  3, gunpowder

@@ -19,5 +19,6 @@ Piercing  = 1
 
 MaxAmmo = 2
 SuppliedNum = 1
-Item =  8, hbm:item.ingot_steel
-Item =  9, hbm:item.cordite
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  1, redstone

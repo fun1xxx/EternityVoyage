@@ -14,5 +14,5 @@ Sound = missile_4_snd
 
 MaxAmmo = 20
 SuppliedNum = 20
-Item =  8, iron_ingot
-Item =  7, gunpowder
+Item =  4, iron_ingot
+Item =  3, gunpowder

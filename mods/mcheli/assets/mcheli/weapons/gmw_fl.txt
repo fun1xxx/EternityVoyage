@@ -1,7 +1,7 @@
 DisplayName = H&K GMW [M1001 Flechette]
 Type = Rocket
 ModelBullet = mk19bullet
-Power = 6
+Power = 8
 Acceleration = 3.0
 Flaming = false
 Sight = None
@@ -9,13 +9,13 @@ SoundVolume = 2
 Gravity = -0.02
 Accuracy = 2.0
 Sound = mk19_l_snd
-HeatCount = 55
+HeatCount = 35
 MaxHeatCount = 180
 Delay = 10
 Round = 30
 ReloadTime = 180
 
-Bomblet = 8
+Bomblet = 10
 BombletSTime = 1
 BombletDiff = 0.2
 ModelBomblet = flechette
@@ -39,6 +39,6 @@ AddMuzzleFlashSmoke =  3.2,  1,   3.0,  1.0,  5,  180,220,217,214
 CameraRotationSpeedPitch = 0.3
 
 MaxAmmo = 60
-SuppliedNum = 10
-Item =  2, hbm:item.plate_steel
-Item =  1, hbm:item.cordite
+SuppliedNum = 60
+Item =  3, iron_ingot
+Item =  3, gunpowder

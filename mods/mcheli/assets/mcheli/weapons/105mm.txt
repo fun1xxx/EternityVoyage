@@ -25,6 +25,6 @@ AddMuzzleFlashSmoke = 10.2, 10,  11.0,  6.0, 35,  200,190,170,150
 RecoilBufCount = 40, 5
 
 MaxAmmo = 100
-SuppliedNum = 5
-Item =  3, hbm:item.ingot_steel
-Item =  2, hbm:item.cordite
+SuppliedNum = 20
+Item =  3, iron_ingot
+Item =  2, gunpowder

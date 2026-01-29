@@ -1,0 +1,127 @@
+﻿DisplayName = B-2A Spirit
+AddDisplayName = ja_JP, B-2A スピリット
+ItemID = 28738
+MaxHp  = 700
+EnableNightVision  = true
+EnableEntityRadar  = true
+EnableEjectionSeat = true
+Speed = 1.00
+FlareType = 2
+ParticlesScale = 0.7
+EnableSeaSurfaceParticle = true
+MaxFuel         = 4800
+FuelConsumption = 2.0
+CameraPosition  = 0.0, 2.66, 3.78
+EnableGunnerMode = true
+ConcurrentGunnerMode = true
+AutoPilotRot = 0
+Stealth = 0.2
+ThirdPersonDist = 40
+SubmergedDamageHeight = 3
+MotionFactor = 0.965
+
+
+MobilityPitch  = 	0.30
+MobilityRoll   = 	0.38
+MobilityYaw    = 	0.20
+ThrottleUpDown = 	0.18
+
+MinRotationPitch = -60
+MaxRotationPitch =  60
+MinRotationRoll  = -60
+MaxRotationRoll  =  60
+
+; M = Military(軍用機).  A = Attacker(攻撃機)
+Category = M.A
+
+HUD = plane, plane_gnr
+
+AddSeat       =  0.80,  3.40,  0.28
+AddGunnerSeat = -0.80,  3.40,  0.28, 0.0, 2.66, 3.78, true
+
+; 前輪
+AddPartLG         =   0.00,  2.96,  2.79,  1,0,0,      75
+AddPartLGRev      =   0.00,  2.87,  3.29,  1,0,0,     -60
+AddPartLGHatch    =  -0.65,  1.75,  0.25,  0,0.22,1,  -90
+
+; 後輪
+AddPartLG         =   0.00,  3.05, -7.96,  1,0,0,     -90
+AddPartSlideRotLG =   0.00,  2.74,  3.31,  0.00, 0.00, 0.00, 1,0,0, 0
+AddPartLGRev      =  -7.74,  2.23, -7.02,  0,-0.02,1, -90
+AddPartLGRev      =   7.74,  2.23, -7.02,  0,-0.02,1,  90
+
+; 補助空気口
+AddPartLGRev      =  -5.06,  4.38, -5.57,  0.91, 0.10,1, -45
+AddPartLGRev      =  -4.06,  4.41, -5.57, -0.99,-0.07,1,  45
+AddPartLGRev      =   5.06,  4.38, -5.57, -0.91, 0.10,1,  45
+AddPartLGRev      =   4.06,  4.41, -5.57,  0.99,-0.07,1, -45
+
+; 排気口
+AddPartNozzle =  4.77, 3.34, -13.32, -1,0,0
+AddPartNozzle = -4.77, 3.34, -13.32, -1,0,0
+
+; ウェポンベイ
+AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158 , -2.79, 1.86,-6.56,  0, -0.04, 1.0, -90
+AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158 , -0.15, 1.72,-6.56,  0, -0.04, 1.0,  90
+AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158 ,  2.79, 1.86,-6.56,  0, -0.04, 1.0,  90
+AddPartWeaponBay = mk82_b2/ gbu38 / gbu28 / agm154 / gbu57 /agm158 ,  0.15, 1.72,-6.56,  0, -0.04, 1.0, -90
+
+;武器設定
+;1番席が Mk82、  GBU-28、AGM-154、GBU-57、AGM-158　(無誘導[小]、誘導[中,散,大]、誘導[TV])
+;2番席が         GBU-38、AGM-154、GBU-57、AGM-158　(            誘導[小,散,大]、誘導[TV])
+
+AddWeapon = dummy_bay_closed, 0,0,0,0,0         , true,  2
+AddWeapon = mk82_b2,  1.84,  2.80, -4.27,  0, 0
+AddWeapon = mk82_b2, -1.84,  2.80, -4.27,  0, 0
+AddWeapon = mk82_b2,  1.84,  2.80, -8.57,  0, 0
+AddWeapon = mk82_b2, -1.84,  2.80, -8.57,  0, 0
+
+AddWeapon = gbu38,    1.84,  2.80, -4.27,  0, 0 , false, 2
+AddWeapon = gbu38,   -1.84,  2.80, -4.27,  0, 0 , false, 2
+AddWeapon = gbu38,    1.84,  2.80, -8.57,  0, 0 , false, 2
+AddWeapon = gbu38,   -1.84,  2.80, -8.57,  0, 0 , false, 2
+
+AddWeapon = gbu28,    1.84,  1.80, -6.13,  0, 0
+AddWeapon = gbu28,   -1.84,  1.80, -6.13,  0, 0
+
+AddWeapon = agm154,   1.84,  1.80, -6.13,  0, 0 , true,  2
+AddWeapon = agm154,  -1.84,  1.80, -6.13,  0, 0 , true,  2
+
+AddWeapon = gbu57,    1.84,  1.80, -6.13,  0, 0 , true,  2
+AddWeapon = gbu57,   -1.84,  1.80, -6.13,  0, 0 , true,  2
+
+AddWeapon = agm158,   1.84,  1.80, -6.13,  0, 0 , true,  2
+AddWeapon = agm158,  -1.84,  1.80, -6.13,  0, 0 , true,  2
+
+
+BoundingBox =   0.00, 3.38,   0.45,   2.5, 3.0
+BoundingBox =   0.00, 3.40,  -2.26,   2.5, 3.5
+BoundingBox =   0.00, 3.43,  -4.96,   2.5, 3.4
+BoundingBox =   0.00, 3.40,  -7.59,   2.5, 3.2
+BoundingBox =   0.00, 3.29, -10.21,   2.5, 2.6
+BoundingBox =   0.00, 3.17, -13.36,   3.0, 1.8
+BoundingBox =   0.00, 3.08, -16.79,   3.0, 0.6
+BoundingBox =   3.74, 2.93,  -1.69,   4.0, 1.5
+BoundingBox =  -3.74, 2.93,  -1.69,   4.0, 1.5
+BoundingBox =   3.74, 2.93,  -6.20,   4.0, 2.0
+BoundingBox =  -3.74, 2.93,  -6.20,   4.0, 2.0
+BoundingBox =   3.74, 2.93, -10.49,   4.0, 1.5
+BoundingBox =  -3.74, 2.93, -10.49,   4.0, 1.5
+BoundingBox =   3.74, 2.93, -14.76,   3.0, 0.6,  0.7
+BoundingBox =  -3.74, 2.93, -14.76,   3.0, 0.6,  0.7
+BoundingBox =   9.27, 3.05,  -5.94,   6.0, 1.0,  0.9
+BoundingBox =  -9.27, 3.05,  -5.94,   6.0, 1.0,  0.9
+BoundingBox =   9.27, 3.05, -12.55,   6.0, 0.7,  0.9
+BoundingBox =  -9.27, 3.05, -12.55,   6.0, 0.7,  0.9
+BoundingBox =  15.59, 3.16, -10.12,   6.0, 0.6,  0.8
+BoundingBox = -15.59, 3.16, -10.12,   6.0, 0.6,  0.8
+BoundingBox =  20.80, 3.15, -13.23,   4.0, 0.5,  0.7
+BoundingBox = -20.80, 3.15, -13.23,   4.0, 0.5,  0.7
+BoundingBox =  25.16, 3.13, -16.32,   4.0, 0.5,  0.6
+BoundingBox = -25.16, 3.13, -16.32,   4.0, 0.5,  0.6
+BoundingBox =   4.64, 3.82,  -4.82,   3.0, 1.0,  1.2
+BoundingBox =  -4.64, 3.82,  -4.82,   3.0, 1.0,  1.2
+BoundingBox =   4.64, 3.60,  -8.48,   3.0, 1.0,  1.2
+BoundingBox =  -4.64, 3.60,  -8.48,   3.0, 1.0,  1.2
+
+AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block, T,tnt

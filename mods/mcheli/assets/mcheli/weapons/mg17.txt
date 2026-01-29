@@ -1,0 +1,28 @@
+DisplayName = MG 17 7,92 mm Machine gun
+Type = MachineGun1
+Power = 10
+Acceleration = 10.0
+Explosion = 0
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Delay = 0
+Accuracy = 0.7
+HeatCount = 1
+MaxHeatCount = 150
+ReloadTime = 40
+
+Sound = mg17_snd
+SoundDelay = 0
+SoundVolume = 4
+
+ModelBullet = bullet_atom1
+
+AddMuzzleFlashSmoke = 0.0, 3,  3.0,  0.20, 35,  160,190,170,150
+AddMuzzleFlashSmoke = 1.7, 2,  2.0,  0.05, 30,  160,160,140,120
+AddMuzzleFlashSmoke = 3.5, 1,  1.0,  0.00, 25,  160,160,140,120
+
+MaxAmmo = 1000
+SuppliedNum = 100
+Item =  3, iron_ingot
+Item =  2, gunpowder

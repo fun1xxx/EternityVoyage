@@ -16,6 +16,6 @@ Sound = gun_h2_snd
 SetCartridge = cartridge, 0.0, 0, 0, 3.00, -0.04, 0.40
 
 MaxAmmo = 900
-SuppliedNum = 120
+SuppliedNum = 180
 Item =  2, iron_ingot
 Item =  2, gunpowder

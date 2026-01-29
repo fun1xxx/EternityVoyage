@@ -1,7 +1,7 @@
 DisplayName = UH-1C Iroquois
 AddDisplayName = ja_JP, UH-1C イロコイ
 ItemID = 28821
-MaxHp = 265
+MaxHp = 165
 EnableGunnerMode = true
 EnableNightVision = true
 EnableEntityRadar = true
@@ -52,6 +52,9 @@ AddWeapon = targeting_pod_mob,  0.0, 0.7, 3.0,0.0, 0.0,  true,  2
 AddWeapon = targeting_pod_pv10s,0.0, 0.7, 3.0,0.0, 0.0,  false, 2
 AddWeapon = hydra70_l,   1.91, 0.27, -2.54,   1.0, 0.0,  true,  1,  0,0,0, 0, 30
 AddWeapon = hydra70_l,  -1.91, 0.27, -2.54,  -1.0, 0.0,  true,  1,  0,0,0, 0, 30
+
+AddRecipe = " X ",  "XGX",  "I I",  X, iron_block, G, gunpowder, I, iron_ingot
+
 
 BoundingBox =  0.0, 2.3, -2.0,  2.8, 3.8
 BoundingBox =  0.0, 1.8, -4.5,  2.8, 2.4

@@ -1,0 +1,44 @@
+DisplayName = BK 37 37 mm cannon
+Type = MachineGun1
+Power = 50
+Acceleration = 10.0
+Explosion = 1
+ExplosionBlock = 0
+Flaming = false
+Sight = MoveSight
+Zoom = 0
+Delay = 0
+Accuracy = 0
+
+Sound = bk37_snd
+SoundPitch = 1
+SoundVolume = 4
+SoundDelay = 5
+
+ModelBullet = bullet_atom
+
+;SetCartridge = cartridge, 0.0,  90, 0, 1.0, -0.04, 0.40
+
+;AddMuzzleFlashSmoke = 0.0, 3,  3.0,  0.20, 35,  160,190,170,150
+;AddMuzzleFlashSmoke = 1.7, 2,  2.0,  0.05, 30,  160,160,140,120
+;AddMuzzleFlashSmoke = 3.5, 1,  1.0,  0.00, 25,  160,160,140,120
+
+DisableSmoke = false
+TrajectoryParticle = smoke
+TrajectoryParticleStartTick = 0
+SmokeColor  = 230, 200, 20, 80
+SmokeSize   = 0.5
+SmokeMaxAge = 500
+
+Round = 2
+MaxAmmo = 48
+ReloadTime = 10
+
+;Bomblet = 1
+;BombletSTime = 20
+;BombletDiff = 0
+;ModelBomblet = bullet_atom1
+
+SuppliedNum = 48
+Item =  1, iron_ingot
+Item =  1, gunpowder

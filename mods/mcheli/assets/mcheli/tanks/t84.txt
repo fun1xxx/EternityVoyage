@@ -1,7 +1,7 @@
 DisplayName = T-84 OplotM
 AddDisplayName = ja_JP, T-84 オプロートM
 ItemID = 30100
-MaxHp = 780
+MaxHp = 300
 Speed = 0.65
 Sound = mbt_run
 ThrottleUpDown = 20.0
@@ -13,17 +13,18 @@ Gravity = -0.1
 GravityInWater = -0.1
 DamageFactor = 0.0
 CameraZoom = 3
-CameraPosition = 0.00,  3.50, 0.25, true
+CameraPosition = 0.00,  3.50, 0.25, false
 EnableNightVision = true
 CameraRotationSpeed = 30
 FlareType = 10
 MaxFuel         = 1200
 FuelConsumption = 2.7
-StepHeight = 2
+StepHeight = 1.5
 DefaultFreelook = true
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
 FlareType = 10
+ThirdPersonDist = 8
 
 ; 指定した高さまでの水に触れてもダメージを受けない
 ; 2であれば2ブロックまでダメージ無し
@@ -47,7 +48,7 @@ SetWheelPos =  1.79,  -0.21,  4.14, 3.01, 0.83, -1.11, -3.26
 
 HUD = mbt_hud, mbt_hud
 
-AddGunnerSeat = 0.00,  2.50, 0.25
+AddSeat = 0.00,  2.00, 0.25
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
 MotionFactor = 0.9
@@ -99,6 +100,12 @@ AddTurretWeapon = kba-3_he,   0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -
 AddTurretWeapon = 9M119M,     0.00, 2.08, 6.72,  0.0, 0.0, true,1, 0,-360,360, -90, 90
 AddTurretWeapon = mg7_62mm,  -0.17, 2.25, 2.10,  0.0, 0.0, true,1, 0,-360,360, -50, 5
 
-BoundingBox =  0.0, 1.0,  1.5,   4.0, 2.0,   0.80
-BoundingBox =  0.0, 2.5, -0.5,   3.0, 1.0,   1.00
-BoundingBox =  0.0, 1.0, -1.2,   4.0, 2.0,   1.10
+AddRecipe = "XXX",  "X X",  "III",  X, iron_block,  I, iron_ingot
+
+BoundingBox =  0.0, 3.0, 0.2,   1.4, 1.0,   0.80
+
+BoundingBox =  0.0, 0.7, 2.1,   4.4, 2.0,   0.80
+BoundingBox =  0.8, 2.1, 1.1,   1.9, 1.0,   0.80
+BoundingBox = -0.8, 2.1, 1.1,   1.9, 1.0,   0.80
+BoundingBox =  0.0, 2.0,-1.3,   3.0, 1.0,   1.00
+BoundingBox =  0.0, 0.7,-1.4,   4.0, 2.0,   1.10

@@ -30,6 +30,6 @@ RecoilBufCount = 40, 5
 Group = MainGun
 
 MaxAmmo = 40
-SuppliedNum = 3
-Item =  3, hbm:item.ingot_steel
-Item =  7, hbm:item.cordite
+SuppliedNum = 10
+Item =  2, iron_ingot
+Item =  2, gunpowder

@@ -14,5 +14,6 @@ DamageFactor = tank, 2.0
 
 MaxAmmo = 4
 SuppliedNum = 2
-Item =  16, hbm:item.ingot_steel
-Item =  14, hbm:item.cordite
+Item =  3, iron_ingot
+Item =  3, gunpowder
+Item =  3, redstone

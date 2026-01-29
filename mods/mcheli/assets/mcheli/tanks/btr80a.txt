@@ -1,0 +1,91 @@
+DisplayName = BTR-80A
+MaxHp = 200
+Speed = 0.8
+Sound = vehicle_run
+ThrottleUpDown = 5
+MobilityYawOnGround = 6.5
+MaxFuel = 1000
+FuelConsumption = 0.5
+CameraPosition = 0.0, 4.0, -1.6, true
+EnableNightVision = true
+Gravity = -0.1
+GravityInWater = -0.1
+MinRotationPitch = -15
+MaxRotationPitch = 6
+MobilityRoll = 0
+InventorySize = 27
+StepHeight = 2
+DefaultFreelook = true
+MotionFactor = 0.9
+EnableBack = true
+FlareType = 10
+CameraRotationSpeed = 90
+WeightedCenterZ = 0.0
+
+AddTexture = btr80a_1
+AddTexture = btr80a_2
+AddTexture = btr80a_3
+
+AddPartWeapon 	= mg30mm / pkt7_62, false, true, false, 0.0021, 2.1729, 0.1013
+AddPartWeaponChild    = false, true, 0.3214, 3.024, -0.638, 0.0
+AddWeapon = mg30mm,  0.1, 2.5, 0.0,   0.0, 0.0, false, 2, 0, -360,360, -60, 10
+AddWeapon = pkt7_62,  0.0, 2.5, 0.1013,   0.0, 0.0, false, 2, 0, -360,360, -60, 10
+
+AddPartHatch =  1.3337,  0.4884,  -1.499, 0,0, 1, -60
+AddPartHatch =   1.7415,  1.602,  -1.043, -22.12, 31.49, 0, -90
+AddPartHatch =  -1.3337,  0.4884,  -1.499, 0, 0, 1, 60
+AddPartHatch =  -1.7415,  1.602,  -1.043, 22.12, 31.49, 0, 90
+
+SubmergedDamageHeight = 3
+
+WeightType = Unknown
+
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 0.8
+
+HUD = bnr32_hud, mbt_hud
+
+AddSeat =  0.00, 0.5, 0.5
+AddGunnerSeat =  0.00, 0.5, 1.5,    0.0021,  4.00,  0.1013,  false, -30, 5, false
+
+AddSeat =  -0.82, 0.98, -0.29
+AddSeat =  0.82, 0.98, -0.29
+AddSeat =  0.82, 0.98, -0.29
+AddSeat =  0.533, 0.95, -1.16
+AddSeat =  -0.533, 0.95, -1.16
+AddSeat =  0.533, 0.95, -1.86
+AddSeat =  -0.533, 0.95, -1.86
+AddSeat =  0.533, 0.95, -2.55
+AddSeat =  -0.533, 0.95, -1.86
+
+SetWheelPos =  1.7,  0.35,  1.74, -0.22, -2.685, -4.61
+
+AddPartWheel =    1.5465,  0.414, 1.74, 20
+AddPartWheel =   -1.5465,  0.414, 1.74, 20
+AddPartWheel =    1.5465,  0.414, -0.22, 10
+AddPartWheel =   -1.5465,  0.414, -0.22, 10
+AddPartWheel =    1.5465,  0.414, -2.685
+AddPartWheel =    -1.5465,  0.414, -2.685
+AddPartWheel =    1.5465,  0.414, -4.61
+AddPartWheel =    -1.5465,  0.414, -4.61
+
+
+PartWheelRot = 30
+
+ArmorMinDamage = 9
+ArmorMaxDamage = 500
+ArmorDamageFactor = 1.00
+EnableBack = true
+
+PivotTurnThrottle = 0.2
+
+DamageFactor = 0.0
+
+
+BoundingBox =  0.0, 1.39,  2,   4, 2.0,   0.8
+BoundingBox =  0.0, 1.39,  -2,   4, 2.0,   1.00
+BoundingBox =  0.0, 1.39,  -4.5,   4, 2.0,   1.25
+BoundingBox =  0.0, 2.78,  0.0,   2, 1,   0.5
+
+
+AddRecipe = "XIX",  "XXX",  "III",  X, gold_block,  I, gold_ingot

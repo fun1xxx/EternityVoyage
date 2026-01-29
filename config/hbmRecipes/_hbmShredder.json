@@ -2,6 +2,10 @@
   "comment": "Ingot/block/ore -> dust recipes are generated in post and can therefore not be changed with the config. Non-auto recipes do not use ore dict.",
   "recipes": [
     {
+      "input": ["harvestthenether:netherPlanks"],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:item.crystal_fluorite"],
       "output": ["hbm:item.fluorite",8]
     },
@@ -1326,6 +1330,10 @@
       "output": ["hbm:item.powder_sawdust",4]
     },
     {
+      "input": ["salisarcana:blockCustomPlank",1,32767],
+      "output": ["hbm:item.powder_sawdust"]
+    },
+    {
       "input": ["hbm:tile.deco_pipe_rim"],
       "output": ["hbm:item.powder_steel"]
     },
@@ -1564,6 +1572,10 @@
     {
       "input": ["hbm:item.ore_nitrated",1,1],
       "output": ["hbm:item.ore_enriched",1,1]
+    },
+    {
+      "input": ["harvestthenether:netherSapling"],
+      "output": ["minecraft:stick"]
     },
     {
       "input": ["hbm:item.ore_cleaned",1,14],

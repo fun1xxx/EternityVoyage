@@ -12,7 +12,7 @@ MaxHeatCount = 150
 SoundPitch = 1.0
 Sound = gun_l4_snd
 
-MaxAmmo = 600
-SuppliedNum = 200
-Item =  1, hbm:item.ingot_steel
-Item =  1, hbm:item.cordite
+MaxAmmo = 400
+SuppliedNum = 100
+Item =  2, iron_ingot
+Item =  2, gunpowder

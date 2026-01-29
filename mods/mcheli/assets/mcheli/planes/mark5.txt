@@ -76,6 +76,8 @@ AddTexture = mark5-camo2
 ;AddPartNozzle =  0.73, 0.00, -5.64, -1,0,0
 ;AddPartNozzle = -0.73, 0.00, -5.64, -1,0,0
 
+AddRecipe = "III",  "BBB",  "PIP",   I, iron_ingot,  B, boat , P, piston
+
 
 BoundingBox =  0.0, 0.5,  3.0,  2.5, 1.5
 BoundingBox =  0.0, 0.8,  0.0,  3.0, 3.0

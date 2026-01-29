@@ -1,7 +1,7 @@
 DisplayName = M26
 AddDisplayName = ja_JP, M26 パーシング
 ItemID = 30997
-MaxHp = 680
+MaxHp = 300
 Speed = 0.6
 Sound = tank
 ThrottleUpDown = 6.0
@@ -96,4 +96,4 @@ BoundingBox =  0.00,  0.87, -2.04,  3.8,  1.7, 1.1
 MaxFuel         = 600
 FuelConsumption = 2.0
 
-StepHeight = 2
+StepHeight = 1.2

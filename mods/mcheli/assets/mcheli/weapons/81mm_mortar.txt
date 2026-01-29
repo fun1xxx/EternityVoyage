@@ -1,7 +1,7 @@
 DisplayName = 81mm Mortar
 Type = Rocket
 Power = 35
-Explosion = 3
+Explosion = 4
 ExplosionBlock = 2
 Acceleration = 4.0
 SoundVolume = 4.0
@@ -30,6 +30,6 @@ AddMuzzleFlashSmoke   =             3.2,     10,    6.0,  3.0,       25,  220,16
 AddMuzzleFlashSmoke   =             2.2,      5,    6.0,  4.0,       35,  200,190,170,150
 
 MaxAmmo = 57
-SuppliedNum = 3
-Item =  2, hbm:item.plate_steel
-Item =  3, hbm:item.cordite
+SuppliedNum = 19
+Item =  3, iron_ingot
+Item =  3, gunpowder

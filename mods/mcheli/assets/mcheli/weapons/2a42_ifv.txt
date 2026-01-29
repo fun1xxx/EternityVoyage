@@ -25,6 +25,6 @@ BulletColor        = 200, 255, 100, 100
 ; ’e‚ÌFİ’è(0`255)B‘O‚©‚ç‡‚É Alpha, Red, Green, blue
 
 MaxAmmo = 1800
-SuppliedNum = 60
-Item =  1, hbm:item.ingot_steel
-Item =  1, hbm:item.cordite
+SuppliedNum = 200
+Item =  2, iron_ingot
+Item =  2, gunpowder
