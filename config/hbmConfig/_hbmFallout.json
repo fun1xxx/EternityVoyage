@@ -186,13 +186,13 @@
       "maximumDistancePercent": 5.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",9,1]],
       "maximumDistancePercent": 5.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",9,1]],
       "maximumDistancePercent": 5.0
@@ -290,13 +290,13 @@
       "maximumDistancePercent": 10.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",8,1]],
       "maximumDistancePercent": 10.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",8,1]],
       "maximumDistancePercent": 10.0
@@ -394,13 +394,13 @@
       "maximumDistancePercent": 15.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",7,1]],
       "maximumDistancePercent": 15.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",7,1]],
       "maximumDistancePercent": 15.0
@@ -498,13 +498,13 @@
       "maximumDistancePercent": 20.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",6,1]],
       "maximumDistancePercent": 20.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",6,1]],
       "maximumDistancePercent": 20.0
@@ -602,13 +602,13 @@
       "maximumDistancePercent": 25.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",5,1]],
       "maximumDistancePercent": 25.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",5,1]],
       "maximumDistancePercent": 25.0
@@ -694,13 +694,13 @@
       "maximumDistancePercent": 30.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",4,1]],
       "maximumDistancePercent": 30.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",4,1]],
       "maximumDistancePercent": 30.0
@@ -786,13 +786,13 @@
       "maximumDistancePercent": 35.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",3,1]],
       "maximumDistancePercent": 35.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",3,1]],
       "maximumDistancePercent": 35.0
@@ -878,13 +878,13 @@
       "maximumDistancePercent": 40.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",2,1]],
       "maximumDistancePercent": 40.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",2,1]],
       "maximumDistancePercent": 40.0
@@ -970,13 +970,13 @@
       "maximumDistancePercent": 45.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",1,1]],
       "maximumDistancePercent": 45.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",1,1]],
       "maximumDistancePercent": 45.0
@@ -1056,13 +1056,13 @@
       "maximumDistancePercent": 50.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:deepslate",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]],
       "maximumDistancePercent": 50.0
     },
     {
-      "matchesBlock": "minecraft:air",
+      "matchesBlock": "etfuturum:stone",
       "restrictDepth": true,
       "primarySubstitution": [["hbm:tile.sellafield_slaked",0,1]],
       "maximumDistancePercent": 50.0

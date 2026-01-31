@@ -1,28 +1,28 @@
 {
   "recipes": [
     {
-      "input": "DIESEL_CRACK_REFORM",
-      "hydrogen": ["HYDROGEN",10,1],
-      "output1": ["DIESEL_REFORM",80],
-      "output2": ["SOURGAS",30]
-    },
-    {
       "input": "OIL",
       "hydrogen": ["HYDROGEN",5,1],
       "output1": ["OIL_DS",90],
       "output2": ["SOURGAS",15]
     },
     {
-      "input": "COALOIL",
+      "input": "CBENZ",
       "hydrogen": ["HYDROGEN",10,1],
-      "output1": ["COALGAS",80],
+      "output1": ["XYLENE",50],
+      "output2": ["CHLORINE",40]
+    },
+    {
+      "input": "GAS",
+      "hydrogen": ["HYDROGEN",5,1],
+      "output1": ["PETROLEUM",80],
       "output2": ["SOURGAS",15]
     },
     {
-      "input": "DIESEL_CRACK",
+      "input": "CHLOROETHANE",
       "hydrogen": ["HYDROGEN",10,1],
-      "output1": ["DIESEL",80],
-      "output2": ["SOURGAS",30]
+      "output1": ["VINYL",50],
+      "output2": ["CHLORINE",20]
     },
     {
       "input": "CRACKOIL",
@@ -31,10 +31,28 @@
       "output2": ["SOURGAS",15]
     },
     {
-      "input": "GAS",
-      "hydrogen": ["HYDROGEN",5,1],
-      "output1": ["PETROLEUM",80],
+      "input": "CCL",
+      "hydrogen": ["HYDROGEN",10,1],
+      "output1": ["CHLOROMETHANE",80],
+      "output2": ["HCL",20]
+    },
+    {
+      "input": "DIESEL_CRACK",
+      "hydrogen": ["HYDROGEN",10,1],
+      "output1": ["DIESEL",80],
+      "output2": ["SOURGAS",30]
+    },
+    {
+      "input": "COALOIL",
+      "hydrogen": ["HYDROGEN",10,1],
+      "output1": ["COALGAS",80],
       "output2": ["SOURGAS",15]
+    },
+    {
+      "input": "DIESEL_CRACK_REFORM",
+      "hydrogen": ["HYDROGEN",10,1],
+      "output1": ["DIESEL_REFORM",80],
+      "output2": ["SOURGAS",30]
     }
   ]
 }

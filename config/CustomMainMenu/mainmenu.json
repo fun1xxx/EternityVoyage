@@ -1,146 +1,185 @@
 {
-    "images":
-    {
-        "title":
-        {
-            "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
-            "alignment" : "top_center"
+    "images": {
+        "github": {
+            "image": "modpack:textures/github.png",
+            "hoverImage": "modpack:textures/github2.png",
+            "posX": 160,
+            "posY": -55,
+            "width": 20,
+            "height": 20,
+            "alignment": "column_bottom"
+        }
+    },
+
+    "buttons": {
+        "github": {
+            "text": "",
+            "texture": "modpack:textures/btn.png",
+            "posX": 160,
+            "posY": -55,
+            "width": 20,
+            "height": 20,
+            "imageWidth": 2400,
+            "imageHeight": 2747,
+            "alignment": "column_bottom",
+            "action": {
+                "type": "openLink",
+                "link": "https://github.com/fun1xxx/EternityVoyage"
+            }
+        },
+        "singleplayer": {
+            "text": "menu.ev.singleplayer",
+            "hoverText": "menu.ev.singleplayer.hover",
+            "normalTextColor": 4227327,
+            "hoverTextColor": 16711680,
+            "texture": "modpack:textures/btn4.png",
+            "posX": 0,
+            "posY": -140,
+            "width": 150,
+            "height": 20,
+            "imageWidth": 1000,
+            "imageHeight": 1,
+            "alignment": "column_bottom",
+            "action": {
+                "type": "openGui",
+                "gui": "singleplayer"
+            }
+        },
+        "multiplayer": {
+            "text": "menu.ev.multiplayer",
+            "hoverText": "menu.ev.multiplayer.hover",
+            "normalTextColor": 4227327,
+            "hoverTextColor": 65535,
+            "texture": "modpack:textures/btn4.png",
+            "posX": 0,
+            "posY": -120,
+            "width": 150,
+            "height": 20,
+            "imageWidth": 1000,
+            "imageHeight": 1,
+            "alignment": "column_bottom",
+            "action": {
+                "type": "openGui",
+                "gui": "multiplayer"
+            }
+        },
+        "options": {
+            "text": "menu.ev.options",
+            "normalTextColor": 4227327,
+            "hoverTextColor": 16758315,
+            "texture": "modpack:textures/btn4.png",
+            "posX": 0,
+            "posY": -100,
+            "width": 150,
+            "height": 20,
+            "imageWidth": 1000,
+            "imageHeight": 1,
+            "alignment": "column_bottom",
+            "action": {
+                "type": "openGui",
+                "gui": "options"
+            }
+        },
+        "language": {
+            "text": "menu.ev.language",
+            "normalTextColor": 4227327,
+            "hoverTextColor": 16758315,
+            "texture": "modpack:textures/btn4.png",
+            "posX": 0,
+            "posY": -80,
+            "width": 150,
+            "height": 20,
+            "imageWidth": 1000,
+            "imageHeight": 1,
+            "alignment": "column_bottom",
+            "action": {
+                "type": "openGui",
+                "gui": "languages"
+            }
+        },
+        "mods": {
+            "text": "menu.ev.mods",
+            "normalTextColor": 4227327,
+            "hoverTextColor": 16758315,
+            "texture": "modpack:textures/btn4.png",
+            "posX": 0,
+            "posY": -60,
+            "width": 150,
+            "height": 20,
+            "imageWidth": 1000,
+            "imageHeight": 1,
+            "alignment": "column_bottom",
+            "action": {
+                "type": "openGui",
+                "gui": "mods"
+            }
+        },
+        "quit": {
+            "text": "menu.ev.quit",
+            "hoverText": "menu.ev.quit.hover",
+            "normalTextColor": 16728128,
+            "hoverTextColor": 16711680,
+            "texture": "modpack:textures/btn4.png",
+            "posX": 0,
+            "posY": -40,
+            "width": 150,
+            "height": 20,
+            "imageWidth": 1000,
+            "imageHeight": 1,
+            "alignment": "column_bottom",
+            "action": {
+                "type": "quit"
+            }
+        }
+    },
+    "texts": {
+        "mojang": {
+            "text": "menu.ev.mojang",
+            "posX": 155,
+            "posY": 0,
+            "alignment": "column_bottom"
+        },
+        "forge": {
+            "text": "menu.ev.forge",
+            "posX": 155,
+            "posY": -10,
+            "alignment": "column_bottom"
+        },
+        "version": {
+            "text": "file:modpack:version.txt",
+            "posX": 155,
+            "posY": -20,
+            "alignment": "column_bottom"
+        },
+        "spacemusic": {
+            "text": "menu.ev.music",
+            "posX": 155,
+            "posY": -30,
+            "fontSize": 0.5,
+            "alignment": "column_bottom"
         }
     },
     
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
+    "alignments": {
+        "column_top": {
+            "factorWidth": 0.1,
+            "factorHeight": 0.0
         },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
+        "column_logo": {
+            "factorWidth": 0.1,
+            "factorHeight": 0.05
         },
-        
-        "mods":
-        {
-            "text" : "Mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
+        "column_center": {
+            "factorWidth": 0.1,
+            "factorHeight": 0.5
         },
-            
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        }
-    },
-    
-    "texts":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right"
-        },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -50,
-            "color" : -1,
-            "alignment" : "bottom_left"
+        "column_bottom": {
+            "factorWidth": 0.1,
+            "factorHeight": 0.95
         }
     },
     
     "other": {
-        "splash-text": {
-            "posX": 90,
-            "posY": 70,
-            "color": -256,
-            "alignment": "top_center",
-            "texts": "file:minecraft:texts/splashes.txt"
-        },
         
         "background":
         {
