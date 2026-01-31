@@ -1,4 +1,4 @@
-DisplayName = „P„K„S 7.62„}„}
+DisplayName = PKS 7.62mm
 Type = MachineGun2
 Power = 7
 Acceleration = 8.0

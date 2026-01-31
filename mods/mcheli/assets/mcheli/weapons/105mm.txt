@@ -7,7 +7,6 @@ Explosion = 3
 ExplosionBlock = 3
 Flaming = false
 Sight = MoveSight
-Round = 1
 Delay = 84
 ModeNum = 1
 Piercing  = 0
@@ -25,7 +24,7 @@ AddMuzzleFlashSmoke = 10.2, 10,  11.0,  6.0, 35,  200,190,170,150
 ; RecoilBufCount = 駐退カウント, 後退中のカウント倍率
 RecoilBufCount = 40, 5
 
-MaxAmmo = 30
+MaxAmmo = 100
 SuppliedNum = 20
 Item =  3, iron_ingot
 Item =  2, gunpowder

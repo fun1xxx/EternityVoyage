@@ -1,0 +1,20 @@
+{
+  "javaInstallationsCache": [
+    "C:\\Program Files\\Eclipse Adoptium\\jdk-21.0.8.9-hotspot\\bin\\javaw.exe"
+  ],
+  "javaInstallation": 0,
+  "minMemoryMB": 0,
+  "maxMemoryMB": 8192,
+  "garbageCollector": "G1GC",
+  "customOptions": [],
+  "hideSettingsOnLaunch": false,
+  "forwardLogs": false,
+  "allowDebugger": false,
+  "waitForDebugger": false,
+  "mixinDebug": false,
+  "mixinDebugExport": false,
+  "mixinDebugCount": false,
+  "fmlDebugAts": false,
+  "rfbDumpClasses": false,
+  "rfbDumpPerTransformer": false
+}

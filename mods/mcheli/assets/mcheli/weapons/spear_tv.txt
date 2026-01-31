@@ -1,7 +1,7 @@
 DisplayName = SPEAR 3
 Type = TVMissile
 Power =120
-Acceleration = 1.6
+Acceleration = 2.8
 Explosion = 5
 ExplosionBlock = 3
 Flaming = false

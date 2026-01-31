@@ -1,0 +1,16 @@
+DisplayName = Stuka Siren
+Type = MachineGun1
+Power = 0
+ModelBullet = invisible
+Acceleration = 0.0
+Flaming = false
+Sight = None
+Delay = 65
+ReloadTime = 65
+Sound = stuka_siren_snd
+SoundVolume = 20
+
+
+MaxAmmo = 1000
+SuppliedNum = 1000
+Item =  1, redstone

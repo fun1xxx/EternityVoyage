@@ -36,15 +36,17 @@ key_ae2wct.OpenMagnetFilter:0
 key_ae2wct.SwitchMagnetMode:0
 key_key.toggle_focus.desc:0
 key_key.personalBackpack:0
-key_key.discordRing:45
+key_key.betterquesting.quests:41
 key_key.openCompendium:25
+key_key.discordRing:45
 key_hbm.key.calculator:0
 key_hbm.key.toggleBack:34
 key_hbm.key.toggleMagnet:44
-key_hbm.key.toggleHUD:47
+key_hbm.key.toggleHUD:35
 key_hbm.key.dash:42
 key_hbm.key.trainInv:19
 key_hbm.key.slamkey:29
+key_hbm.key.qmaw:59
 key_hbm.key.reload:19
 key_hbm.key.gunPrimary:-100
 key_hbm.key.gunSecondary:-99
@@ -54,57 +56,84 @@ key_hbm.key.craneMoveDown:208
 key_hbm.key.craneMoveLeft:203
 key_hbm.key.craneMoveRight:205
 key_hbm.key.craneLoad:28
+key_hbm.key.ability:-99
 key_hbm.key.abilityAlt:56
 key_hbm.key.copyToolAlt:56
 key_hbm.key.copyToolCtrl:29
-key_HoloGlasses:76
+key_HoloGlasses:27
+key_openblocks.keybind.vario_switch:0
+key_openblocks.keybind.vario_vol_up:0
+key_openblocks.keybind.vario_vol_down:0
+key_schematica.key.load:181
+key_schematica.key.save:55
+key_schematica.key.control:74
+key_schematica.key.layerInc:0
+key_schematica.key.layerDec:0
 key_key.serverutilities.nbt:0
 key_key.serverutilities.trash:0
 key_key.cameraZoomIn:13
 key_key.cameraZoomOut:12
 key_key.cameraEmitRedstone:19
 key_key.cameraActivateNightVision:49
-key_keys.adventureBackpack.openInventory:48
-key_keys.adventureBackpack.toggleActions:51
+key_keys.adventureBackpack.openInventory:0
+key_keys.adventureBackpack.toggleActions:0
+key_Инвентарь Baubles:0
+key_Change Wand Focus:0
+key_Activate Hover Harness:0
+key_Misc Wand Toggle:0
 key_Reload Shaders:0
 key_Toggle Shaders:0
 key_Shaderpack Selection Screen:0
 key_Print GLSM Debug:0
 key_Zoom:46
-key_Инвентарь Baubles:0
-key_Change Wand Focus:0
-key_Activate Hover Harness:0
-key_Misc Wand Toggle:0
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
+key_waila.keybind.details:42
 key_Automagy.key.focusCrafting:46
 key_botaniamisc.toggleLoki:0
 key_botaniamisc.ringOfLokiClear:0
 key_botaniamisc.ringOfLokiMirror:0
-key_botaniamisc.ringOfLokiSaveSchematic:0
-key_botaniamisc.ringOfLokiOpenUI:0
+key_bbw.key.mode:0
+key_bbw.key.fluidmode:0
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.balance:0
 key_key.craftingtweaks.clear:0
 key_key.craftingtweaks.toggleButtons:0
 key_key.craftingtweaks.compress:37
 key_key.craftingtweaks.decompress:0
-key_key.tarmor:0
-key_key.tgoggles:0
-key_key.tbelt:0
-key_key.tzoom:0
 key_FpsReducer.key.guiOpen:207
 key_ingameinfoxml.key.toggle:0
-key_invtweaks.key.sort:0
+key_key.littletiles.rotateup:0
+key_key.littletiles.rotatedown:0
+key_key.littletiles.rotateright:0
+key_key.littletiles.rotateleft:0
+key_key.littletiles.flip:0
+key_key.littletiles.mark:0
+key_key.littletiles.tool_config:0
 key_Open Mobs Info GUI:0
 key_key.fart.desc:33
 key_key.nutrition:0
 key_key.materialCosts:56
 key_key.clipboardPaste:210
-key_ttmisc.toggleArmor:0
+key_2.1. Increase the reverse:19
+key_2.2. Decrease the reverse:33
+key_2.3. Zero the reverse:47
+key_3.1. Increase the regulator:21
+key_3.2. Decrease the regulator:35
+key_3.3. Zero the regulator:49
+key_1. Toggle brakes:48
+key_4.1. Toggle stoker:22
+key_4.2. Activate sound signal:36
+key_4.3. Toggle headlights:50
+key_5.1. Open workbench:26
+key_5.2. Open furnace:27
+key_6. Toggle debug options:62
+key_7. Toggle track boxes rendering:66
+key_signpic.key.gui:43
+key_key.aspectMenu:23
 key_Change Arcane Lens:0
 key_Activate Morphic Fingers:0
 key_Toggle Spider Climb:0
@@ -114,8 +143,12 @@ key_TG.keybind.activeaAbilities:0
 key_TG.keybind.activeAbility1:0
 key_TG.keybind.activeAbility2:0
 key_TG.keybind.activeAbility3:0
+key_wg.config.activateKey:0
 key_key.fastBlockPlacing.desc:0
 key_key.betterfoliage.gui:66
+key_key.sort_config:37
+key_key.sort:-98
+key_key.dropoff:39
 key_key.control:0
 key_key.cofh.empower:0
 key_key.cofh.multimode:0
@@ -123,6 +156,6 @@ key_key.journeymap.map_toggle:50
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
-key_key.journeymap.minimap_preset:43
+key_key.journeymap.minimap_preset:0
 key_key.journeymap.create_waypoint:40
 key_key.craftpresence.config_keycode.name:0

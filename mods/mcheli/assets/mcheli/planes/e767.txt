@@ -2,10 +2,9 @@ DisplayName = E767
 AddDisplayName = ja_JP, E767
 ItemID = 28747
 MaxHp = 650
-Speed = 0.9
+Speed = 1.00
 Sound = plane
-ThrottleUpDown = 0.30
-AutoPilotRot = -0.50
+AutoPilotRot = 0.0
 CameraPosition = 0.0, 4.0, 5.0
 EnableNightVision = true
 EnableEntityRadar = true
@@ -17,15 +16,21 @@ MaxFuel         = 7000
 FuelConsumption = 1.7
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
+SubmergedDamageHeight = 2
+ThirdPersonDist = 48
+MotionFactor = 0.968
+RotorSpeed = 300
 
 ; M = Military(軍用機).  R = Reconnaissance(偵察機)
 Category = M.R
 
 HUD = plane, plane_gnr, none, none, none, none, none
 
-MobilityYaw = 0.3
-MobilityPitch = 0.3
-MobilityRoll = 0.2
+MobilityPitch  = 	0.17
+MobilityRoll   = 	0.38
+MobilityYaw    = 	0.23
+ThrottleUpDown = 	0.14
+
 MinRotationPitch = -60
 MaxRotationPitch =  60
 MinRotationRoll  = -60
@@ -66,9 +71,49 @@ AddPartLGHatch = -0.30, 1.37,  -23.54,  0,0,1, 90
 
 AddRecipe = " R ",  "DYD",  "III",  Y,mcheli:uav_station, R,redstone_block, I,iron_block, D,diamond
 
+BoundingBox =  0.00,  3.35,   0.29,  2.4, 2.4,  
+BoundingBox =  0.00,  3.63,  -2.80,  3.5, 4.0
+BoundingBox =  0.00,  3.63,  -6.60,  3.5, 4.0
+BoundingBox =  0.00,  3.63, -10.50,  3.5, 4.0
+BoundingBox =  0.00,  3.63, -14.50,  3.5, 4.0
+BoundingBox =  0.00,  3.63, -18.50,  3.5, 4.0
+BoundingBox =  0.00,  3.63, -22.30,  3.5, 4.0
+BoundingBox =  0.00,  3.63, -26.20,  3.5, 4.0
+BoundingBox =  0.00,  3.63, -30.20,  3.5, 4.0
+BoundingBox =  0.00,  3.73, -34.20,  3.5, 3.8
+BoundingBox =  0.00,  4.13, -38.20,  3.0, 3.0
+BoundingBox =  0.00,  4.63, -41.70,  2.0, 2.0
 
-BoundingBox =  0.0, 4.2,  -4.7,  8, 6
-BoundingBox =  0.0, 4.2, -16.7,  8, 6
-BoundingBox =  0.0, 4.2, -35.7,  8, 6
-BoundingBox = -9.5, 4.0, -24.1,  9, 3
-BoundingBox =  9.5, 4.0, -24.1,  9, 3
+BoundingBox =  0.00,  9.85, -31.16,  8.0, 1.1,  0.4
+BoundingBox =  1.07,  7.45, -31.37,  0.5, 3.5,  0.3
+BoundingBox = -1.07,  7.45, -31.37,  0.5, 3.5,  0.3
+
+BoundingBox =  4.82,  2.85, -22.50,  6.0, 0.5,  0.9
+BoundingBox = -4.82,  2.85, -22.50,  6.0, 0.5,  0.9
+BoundingBox =  9.86,  3.39, -24.85,  4.0, 0.4,  0.9
+BoundingBox = -9.86,  3.39, -24.85,  4.0, 0.4,  0.9
+BoundingBox = 13.63,  3.79, -26.60,  3.2, 0.3,  0.8
+BoundingBox =-13.63,  3.79, -26.60,  3.2, 0.3,  0.8
+BoundingBox = 16.58,  4.10, -28.12,  2.5, 0.2,  0.7
+BoundingBox =-16.58,  4.10, -28.12,  2.5, 0.2,  0.7
+BoundingBox = 19.56,  4.41, -29.62,  2.0, 0.2,  0.5
+BoundingBox =-19.56,  4.41, -29.62,  2.0, 0.2,  0.5
+
+BoundingBox =  3.43,  4.55, -43.09,  3.5, 0.4,  0.6
+BoundingBox = -3.43,  4.55, -43.09,  3.5, 0.4,  0.6
+
+BoundingBox =  6.68,  1.35, -17.82,  2.0, 2.0,  1.25
+BoundingBox = -6.68,  1.35, -17.82,  2.0, 2.0,  1.25
+BoundingBox =  6.68,  1.35, -19.81,  1.5, 1.5,  1.25
+BoundingBox = -6.68,  1.35, -19.81,  1.5, 1.5,  1.25
+BoundingBox =  6.68,  1.35, -21.34,  0.8, 0.8,  1.2
+BoundingBox = -6.68,  1.35, -21.34,  0.8, 0.8,  1.2
+
+BoundingBox =  0.00,  7.30, -40.00,  0.6, 3.0,  0.9
+BoundingBox =  0.00,  7.30, -41.33,  0.6, 3.0,  0.9
+BoundingBox =  0.00,  7.30, -42.66,  0.6, 3.0,  0.9
+BoundingBox =  0.00,  7.30, -44.00,  0.6, 3.0,  0.9
+BoundingBox =  0.00, 10.90, -44.00,  0.6, 3.0,  0.9
+BoundingBox =  0.00, 10.90, -46.00,  0.6, 3.0,  0.9
+BoundingBox =  0.00, 10.15, -42.40,  0.6, 1.5,  0.9
+BoundingBox =  0.00,  6.60, -38.50,  0.6, 1.5,  0.9

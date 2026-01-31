@@ -5,7 +5,7 @@ MaxHp = 200
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 0.9
+Speed = 1.0
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -13,6 +13,14 @@ VariableSweepWing = true
 SweepWingSpeed = 1.2
 MaxFuel         = 1200
 FuelConsumption = 1.0
+ThirdPersonDist = 26
+SubmergedDamageHeight = 2
+MotionFactor = 0.968
+
+MobilityPitch  = 	0.70
+MobilityRoll   = 	1.41
+MobilityYaw    = 	0.23
+ThrottleUpDown = 	0.21
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A

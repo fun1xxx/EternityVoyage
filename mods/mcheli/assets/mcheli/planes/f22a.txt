@@ -1,11 +1,11 @@
-DisplayName = F-22A Raptor
+﻿DisplayName = F-22A Raptor
 AddDisplayName = ja_JP, F-22A ラプター
 ItemID = 28726
 MaxHp = 230
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.2
+Speed = 1.20
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -13,16 +13,21 @@ MaxFuel         = 1400
 FuelConsumption = 1.0
 Stealth = 0.3
 CameraPosition = 0.0, 0.70, -2.18
-;CameraPosition = 5.0, 5.70, -22.18, false, 90, 40
-;CameraPosition = 0.0, 5.70, -12.18, false, 30, 40
+CameraPosition = 5.0, 5.70, -22.18, false, 90, 40
+CameraPosition = 0.0, 5.70, -12.18, false, 30, 40
 EnableGunnerMode = true
 AutoPilotRot = 0
+ThirdPersonDist = 24
+SubmergedDamageHeight = 2
+MotionFactor = 0.965
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 
-MobilityRoll = 2.5
-MobilityPitch = 9.5
+MobilityPitch  = 	1.00
+MobilityRoll   = 	2.50
+MobilityYaw    = 	0.25
+ThrottleUpDown = 	0.55
 
 HUD = plane
 
@@ -94,8 +99,16 @@ AddWeapon = targeting_pod_ph75s,  0.00, 3.0, 0.0,    0.0, 0.0
 
 AddRecipe = " Y ",  "XXX",  "DXD",  X, iron_block, Y, glass, D, diamond_block
 
+BoundingBox =  0.00, 2.27, -0.34,  1.8, 2.3
+BoundingBox =  0.00, 2.18,  1.41,  1.6, 1.8
+BoundingBox =  0.00, 2.00,  2.90,  1.2, 1.2
 BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
-BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
-BoundingBox = -2.92, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  2.92, 2.20, -9.60,  4.0, 1.0
-BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5
+BoundingBox =  0.00, 1.90, -6.35,  4.0, 1.8
+BoundingBox =  0.00, 1.99, -9.87,  3.5, 1.5
+BoundingBox =  0.00, 2.04,-12.75,  2.8, 1.2
+BoundingBox = -3.23, 2.09, -9.72,  5.0, 0.5,  0.8
+BoundingBox =  3.23, 2.09, -9.72,  5.0, 0.5,  0.8
+BoundingBox = -2.98, 2.12,-14.55,  3.0, 0.3,  0.7
+BoundingBox =  2.98, 2.12,-14.55,  3.0, 0.3,  0.7
+
+

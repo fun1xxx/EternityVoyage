@@ -5,12 +5,13 @@ Acceleration = 8.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Delay = 3
+Delay = 0
 ;SoundDelay = 3
 ;Accuracy = 2.0
 HeatCount = 1
 MaxHeatCount = 100
-Sound = m12fire
+SoundPitch = 0.8
+Sound = gun_l1_snd
 
 MaxAmmo = 800
 SuppliedNum = 200

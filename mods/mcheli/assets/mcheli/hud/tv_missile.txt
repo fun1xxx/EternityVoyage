@@ -33,3 +33,6 @@ DrawString = -180,  30, "X:%+4.1f",    TVM_POS_X
 DrawString = -180,  40, "Y:%+4.1f",    TVM_POS_Y
 DrawString = -180,  50, "Z:%+4.1f",    TVM_POS_Z
 DrawCenteredString = 0,70, "%3.1f LR", TVM_DIFF
+
+; 武器名 (Weapon name)
+DrawString = -207, 69, "%s",  WPN_NAME

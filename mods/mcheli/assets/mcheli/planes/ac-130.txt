@@ -2,9 +2,8 @@ DisplayName = AC-130H Spectre
 AddDisplayName = ja_JP, AC-130 H スペクター
 ItemID = 28713
 MaxHp = 800
-Speed = 0.8
+Speed = 0.80
 Sound = turboprop
-ThrottleUpDown = 0.3
 AutoPilotRot = -0.60
 CameraPosition = 2.0, 1.40, -4.0
 EnableNightVision = true
@@ -17,15 +16,19 @@ MaxFuel         = 4800
 FuelConsumption = 2.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
+ThirdPersonDist = 28
+RotorSpeed = 150
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
 
 HUD = plane, plane_gnr, none, none, none, none, none
 
-MobilityYaw = 0.4
-MobilityPitch = 0.4
-MobilityRoll = 0.2
+MobilityPitch  = 	0.32
+MobilityRoll   = 	0.27
+MobilityYaw    = 	0.23
+ThrottleUpDown = 	0.20
+
 MinRotationPitch = -60
 MaxRotationPitch =  60
 MinRotationRoll  = -60

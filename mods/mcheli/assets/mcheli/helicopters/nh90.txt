@@ -13,7 +13,6 @@ ArmorDamageFactor = 0.7
 DamageFactor = 0.2
 ; M = Military(軍用機).  M = Multi-Mission(多目的機)
 Category = M.M
-ThirdPersonDist = 16
 
 HUD = heli, heli
 

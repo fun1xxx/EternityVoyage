@@ -7,11 +7,11 @@ Explosion = 3
 Flaming = false
 Sound = rocket_snd
 Sight = MoveSight
-Delay = 7
+Delay = 2
 ReloadTime = 110
-Round = 19
+Round = 14
 
-MaxAmmo = 8
+MaxAmmo = 28
 SuppliedNum = 4
 Item =  3, iron_ingot
 Item =  3, gunpowder
