@@ -1,0 +1,14 @@
+DisplayName = 500kg Bomb
+Type = Bomb
+Power = 300
+Acceleration = 0.1
+Explosion = 70
+ExplosionBlock = 30
+Sight = None
+Delay = 1200
+ModelBullet = bomb
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 2, iron_ingot
+Item =  5, gunpowder

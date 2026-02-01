@@ -1,0 +1,26 @@
+DisplayName = 122 mm Howitzer D-30 "2A18"
+AddDisplayName = ru_Ru, 122-мм Гаубица Д-30 "2А18"
+MaxHp = 200
+HideEntity = true
+MinRotationPitch = -89
+MaxRotationPitch =  5
+DamageFactor = 0.3
+CameraZoom = 4
+CameraPosition = 0.0,  2.2,  0.0
+ThirdPersonDist = 8
+
+HUD = mbt_hud
+
+AddSeat = 0.00,  0.87, 0.00
+
+
+AddPartWeapon = d302A31 / d302A31_1 / d302A31_2, false, true, false,  0.0, 0.0, 0.0, 0 
+AddPartWeaponChild = false, true, 0.06, 0.76, -0.59, 0.0
+AddPartWeaponChild = false, true, 0.06, 0.76, -0.59, 0.5
+AddTurretWeapon = d302A31, -0.01, 0.82, -0.59,  0.0, 0.0, true,1, 0,-360,360, -45, 10
+AddTurretWeapon = d302A31_1, -0.01, 0.82, -0.59,  0.0, 0.0, true,1, 0,-360,360, -45, 10
+AddTurretWeapon = d302A31_2, -0.01, 0.82, -0.59,  0.0, 0.0, true,1, 0,-360,360, -45, 10
+
+AddRecipe = "  I",  "BIG",  "TTT",  T, iron_block,  I, iron_ingot,  G, dye,2,  B, dye,3
+
+BoundingBox =  0.0, 0.8, 0.0,  2.0, 1.5

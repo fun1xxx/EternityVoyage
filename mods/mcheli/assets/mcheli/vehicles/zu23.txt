@@ -1,0 +1,26 @@
+DisplayName = Zu-23-2
+AddDisplayName = ru_Ru, Зу-23-2 "2А13"
+MaxHp = 200
+HideEntity = true
+MinRotationPitch = -89
+MaxRotationPitch =  5
+DamageFactor = 0.3
+CameraZoom = 4
+CameraPosition = 0.0,  1.50,  0.0
+ThirdPersonDist = 8
+
+HUD = mbt_hud
+
+AddSeat = 0.00,  0.87, 0.00
+
+
+AddPartWeapon = zu23BZT \ zu23OFZ, false, true, false,  0.0, 0.0, 0.0, 0 
+AddPartWeaponChild = false, true, 0.0, 0.65, 0.38, 0.0
+AddTurretWeapon = zu23BZT, 0.13, 0.69, 1.5,  0.0, 0.0, true,1, 0,-360,360, -57, 10
+AddTurretWeapon = zu23BZT, -0.13, 0.69, 1.5,  0.0, 0.0, true,1, 0,-360,360, -57, 10
+AddTurretWeapon = zu23OFZ, 0.13, 0.69, 1.5,  0.0, 0.0, true,1, 0,-360,360, -57, 10
+AddTurretWeapon = zu23OFZ, -0.13, 0.69, 1.5,  0.0, 0.0, true,1, 0,-360,360, -57, 10
+
+AddRecipe = "  I",  "BIG",  "TTT",  T, iron_block,  I, iron_ingot,  G, dye,2,  B, dye,3
+
+BoundingBox =  0.0, 0.8, 0.0,  2.0, 1.5

@@ -1,0 +1,14 @@
+DisplayName = 250kg Bomb
+Type = Bomb
+Power = 300
+Acceleration = 0.1
+Explosion = 20
+ExplosionBlock = 15
+Sight = None
+Delay = 1200
+ModelBullet = gbu12
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item = 2, iron_ingot
+Item =  5, gunpowder

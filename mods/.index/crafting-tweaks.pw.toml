@@ -1,0 +1,16 @@
+filename = 'craftingtweaks-mc1.7.10-1.0.88.jar'
+name = 'Crafting Tweaks'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '9b4ff8b2c59cc78ba45c1d648cbd23ad01c53d45'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2457094
+project-id = 233071

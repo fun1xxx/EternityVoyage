@@ -1,0 +1,17 @@
+DisplayName = 9M33M2
+Type = AAMissile
+Power = 120
+Acceleration = 3
+Explosion = 4
+Flaming = false
+Sight = MissileSight
+Delay = 100
+LockTime = 35
+ProximityFuseDist = 1
+Sound = missile_1_snd
+
+MaxAmmo = 6
+SuppliedNum = 6
+Item =  1, iron_ingot
+Item =  1, gunpowder
+Item =  2, redstone

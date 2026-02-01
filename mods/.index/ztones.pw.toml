@@ -1,0 +1,16 @@
+filename = 'Ztones-1.7.10-2.2.1.jar'
+name = 'Ztones'
+side = 'both'
+x-prismlauncher-loaders = []
+x-prismlauncher-mc-versions = [ '1.7.10' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '33a1fbcc7e153037e5092f3b59a61365c6500e96'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 2223720
+project-id = 224369

@@ -1,0 +1,21 @@
+DisplayName = C-13
+Type = Rocket
+Power = 65
+ModelBullet = hydra70
+Acceleration = 4.0
+Explosion = 4
+Sound = s8_Fire
+Flaming = false
+Sight = MoveSight
+Delay = 3
+ReloadTime = 40
+Round = 24
+
+; Particle test
+;TrajectoryParticle = heart
+;TrajectoryParticle = fireworksSpark
+
+MaxAmmo = 24
+SuppliedNum = 12
+Item =  3, iron_ingot
+Item =  3, gunpowder

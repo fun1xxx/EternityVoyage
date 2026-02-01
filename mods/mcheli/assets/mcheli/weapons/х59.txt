@@ -1,0 +1,22 @@
+DisplayName = X-59
+Type = ATMissile
+Power = 300
+Acceleration = 4.0
+Explosion = 6
+Flaming = true
+Sight = MissileSight 
+Delay = 50
+LockTime = 17
+ModeNum = 2
+ProximityFuseDist = 1
+ModelBullet = x59
+Sound = missile_1_snd
+RidableOnly = true
+
+DamageFactor = tank, 4.0
+
+MaxAmmo = 3
+SuppliedNum = 3
+Item =  2, iron_ingot
+Item =  2, gunpowder
+Item =  5, redstone

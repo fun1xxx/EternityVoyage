@@ -1,0 +1,15 @@
+DisplayName = RPG 7V
+Type = Bomb
+Power = 250
+Acceleration = 0.1
+Explosion = 8
+ExplosionBlock = 4
+ExplosionInWater = 0
+Sight = None
+Delay = 5
+Destruct = true
+
+MaxAmmo = 1
+SuppliedNum = 1
+Item =  2, iron_ingot
+Item =  3, gunpowder

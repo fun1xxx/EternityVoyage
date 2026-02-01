@@ -1,0 +1,90 @@
+DisplayName = T-90M "Breakthrough" (Object 188M "Breakthrough-3")
+AddDisplayName = ru_Ru,Т-90М «Прорыв» (Объект 188М «Прорыв-3»)
+MaxHp = 450
+Speed = 0.75
+Sound = T72_Engine
+ThrottleUpDown = 20.0
+MobilityYawOnGround = 4.0
+MinRotationPitch = -30
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 4
+CameraPosition = 0.63,  2.5, 1.3, true
+EnableNightVision = true
+CameraRotationSpeed = 35
+EnableEntityRadar = true
+MaxFuel  = 2400
+FuelConsumption = 2.4
+StepHeight = 1.5
+DefaultFreelook = true
+OnGroundPitchFactor = 2.0
+OnGroundRollFactor  = 1.3
+FlareType = 10
+SubmergedDamageHeight = 3
+HideEntity = true
+WeightType = Unknown
+WeightedCenterZ = 0.0
+SetWheelPos =  1.82,  -0.24,  2.86,  0.70, -0.76, -2.22, -4.14
+HUD = mbt_hud, mbt_gnr
+WeightType = tank
+
+AddTexture = t-90M tex 2
+AddTexture = t-90M tex 3
+AddTexture = t-90M tex 4 z
+
+
+
+WeightType = Tank
+
+
+AddGunnerSeat =  0.00,  2.70,  -0.5,    0.00,  2.70,  -0.5,  false, -30, 5, true
+AddGunnerSeat = 0,  0.5, 0,   -0.70, 2.8, -1.35, false, -35, 35, true
+
+
+MotionFactor = 0.925
+ArmorMinDamage = 14
+ArmorMaxDamage = 600
+ArmorDamageFactor = 0.90
+EnableBack = true
+PivotTurnThrottle = 0.0
+
+AddCrawlerTrack = true, 0.4, 2.0, -0.34/0.0, -0.34/3.0,  0.18/3.9, 0.47/3.9, 0.74/4.0, 0.76/3.9, 0.76/3.6, 0.82/-3.6, 0.73/-3.6, 0.45/-3.5, 0.12/-3.5, 0.06/-3.16, -0.3/-2.58  
+AddCrawlerTrack = true, 0.4, -2.0, -0.34/0.0, -0.34/3.0,  0.18/3.9, 0.47/3.9, 0.74/4.0, 0.76/3.9, 0.76/3.6, 0.82/-3.6, 0.73/-3.6, 0.45/-3.5, 0.12/-3.5, 0.06/-3.16, -0.3/-2.58
+
+AddTrackRoller = 1.61, 0.41, -3.16
+AddTrackRoller = 1.55, 0.54, 3.66
+AddTrackRoller = 1.64, 0.0696, 2.71
+AddTrackRoller = 1.64, 0.0696, 1.72
+AddTrackRoller = 1.64, 0.0696, 0.75
+AddTrackRoller = 1.64, 0.0696, -0.20
+AddTrackRoller = 1.64, 0.0696, -1.21
+AddTrackRoller = 1.64, 0.0696, -2.19
+AddTrackRoller = -1.67, 0.41, -3.16
+AddTrackRoller = -1.63, 0.54, 3.66
+AddTrackRoller = -1.64, 0.0696, 2.71
+AddTrackRoller = -1.64, 0.0696, 1.72
+AddTrackRoller = -1.64, 0.0696, 0.75
+AddTrackRoller = -1.64, 0.0696, -0.20
+AddTrackRoller = -1.64, 0.0696, -1.21
+AddTrackRoller = -1.64, 0.0696, -2.19
+
+
+AddPartWeapon = 2A46M-5_APFSDS / 2A46M-5_HE / 2A46M-5_HEATMP / mg12_7mm_mbt, false, true, false,  0.0, 0.0, 0.0, 0
+AddPartWeaponChild = false, true, -0.02, 1.6, 1.33, 0.0
+AddPartWeaponChild = false, true, -0.52, 2.8, -1.26, 0.0
+AddTurretWeapon = 2A46M-5_APFSDS, 0.0, 1.2, 0.26,  0.0, 0.0, true,1, 0,-360,360, -15, 7
+AddTurretWeapon = 2A46M-5_HE,     0.0, 1.2, 0.26,  0.0, 0.0, true,1, 0,-360,360, -15, 7
+AddTurretWeapon = 2A46M-5_HEATMP,     0.0, 1.2, 0.26,  0.0, 0.0, true,1, 0,-360,360, -15, 7
+AddPartTurretWeapon    = mg12_7mm_mbt,   false, true, true,   -0.70, 2.8, -1.35
+AddPartTurretWeapon    = mg12_7mm_mbt,   false, true, false,  -0.70, 2.3, -1.35
+AddTurretWeapon = mg12_7mm_mbt,   -0.4, 3.0, -1.55,   0.0, 0.0, false, 2, 0, -360,360, -35,35
+AddRecipe = "XXX",  " X ",  "III",  X, iron_block,  I, iron_ingot
+RideRack = c5, 1
+RideRack = c5, 2
+BoundingBox =  0.0, 0.6,  2.2,   4.2, 1.5,  0.70
+BoundingBox =  0.0, 0.5, -2.2,   3.8, 1.5,  1.00
+BoundingBox =  0.0, 1.5, 0.1,   3.0, 1.8,  0.8
+

@@ -1,0 +1,84 @@
+DisplayName = PZH 2000
+AddDisplayName = ru_Ru, PZH 2000
+MaxHp = 200
+Speed = 0.5
+Sound = mbt_run
+ThrottleUpDown = 10.0
+MobilityYawOnGround = 2.0
+MinRotationPitch = -55
+MaxRotationPitch = 6
+MobilityRoll = 0
+Gravity = -0.1
+GravityInWater = -0.1
+DamageFactor = 0.0
+EnableNightVision = false
+CameraRotationSpeed = 20
+MaxFuel  = 2400
+FuelConsumption = 2.4
+StepHeight = 1.5
+CameraPosition = 0.00,  3.92, -2.68, true
+DefaultFreelook = false
+OnGroundPitchFactor = 2.5
+OnGroundRollFactor  = 1.0
+EnableGunnerMode = true
+SubmergedDamageHeight = 4
+EnableEntityRadar = false
+HideEntity = true
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+WeightedCenterZ = 0.0 
+
+AddTexture = 2s1gvozdikZ
+
+SetWheelPos =  2.30,  -0.32, 5.1975, 3.2358, 1.6567, 0.4618,-0.7317,-1.9654
+
+HUD = mbt_hud,vehicle
+
+AddSeat = 0.00, 1.50, -1.3733
+
+MotionFactor = 0.9
+
+ArmorMinDamage = 12
+ArmorMaxDamage = 300
+ArmorDamageFactor = 0.95
+
+EnableBack = true
+
+PivotTurnThrottle = 0.0
+
+AddCrawlerTrack = true, 0.47, -1.6,  -0.29/0.0, -0.29/3.6, 0.2/4.38, 0.46/4.69, 0.75/4.81, 1.1/4.69, 1.14/-4.19, 1.14/-3.9, 1.0/-4.18, 0.71/-4.30, 0.38/-4.18, -0.14/-3.25, -0.29/-2.79, -0.29/-1.84
+AddCrawlerTrack = true, 0.47,  1.6,  -0.29/0.0, -0.29/3.6, 0.2/4.38, 0.46/4.69, 0.75/4.81, 1.1/4.69, 1.14/-4.19, 1.14/-3.9, 1.0/-4.18, 0.71/-4.30, 0.38/-4.18, -0.14/-3.25, -0.29/-2.79, -0.29/-1.84
+
+AddTrackRoller =  -0.0, 0.74 , 4.41
+AddTrackRoller =   0.0, 0.74 , 4.41
+AddTrackRoller =   0.0, 0.21,  3.40
+AddTrackRoller =   0.0, 0.21,  3.42
+AddTrackRoller =  -0.0, 0.21,  2.41
+AddTrackRoller =  -0.0, 0.21,  2.41
+AddTrackRoller =  -0.0, 0.21,  1.42
+AddTrackRoller =  -0.0, 0.21,  1.42
+AddTrackRoller =  -0.0, 0.21,  0.42
+
+AddTrackRoller =    0.0, 0.21,  0.42
+AddTrackRoller =    0.0, 0.21,  -0.83
+AddTrackRoller =    0.0, 0.21,  -0.83
+AddTrackRoller =    0.0, 0.21,  -1.82
+AddTrackRoller =    0.0, 0.21,  -1.82
+AddTrackRoller =    0.0, 0.21,  -2.81
+AddTrackRoller =    0.0, 0.21,  -2.81
+AddTrackRoller =   0.0, 0.70,  -3.84
+AddTrackRoller =   0.0, 0.70,  -3.84
+
+AddPartWeapon = DM121, false, true, false, 0.00, -2.9, -2.68, 0
+AddPartWeaponChild = false, true, 0.0,  2.8, -0.29, 0
+AddPartWeaponChild = false, true, 0.0,  2.8, -0.29, 0.5
+AddWeapon = DM121,   0.00, 1.6796, -1.3733,  0.0, 0.0, true,1, 0,-360,360, -60, 5
+
+BoundingBox =  0.0, 0.65,  2.0, 4.0, 1.5,   0.75
+BoundingBox =  0.0, 1.9,  -0.5, 3.0, 1.0,   1.25
+BoundingBox =  0.0, 0.65, -2.0, 4.0, 1.5,   0.75
+
+EntityWidth  = 0.8
+EntityHeight = 0.8
