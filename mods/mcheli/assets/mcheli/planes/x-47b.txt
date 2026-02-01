@@ -2,7 +2,7 @@ DisplayName = X-47B Pegasus
 AddDisplayName = ja_JP, X-47B ペガサス
 ItemID = 28728
 MaxHp = 100
-Speed = 0.90
+Speed = 0.6
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -12,18 +12,10 @@ EnableGunnerMode = true
 UAV = true
 AutoPilotRot = -0.60
 CameraPosition = 0.0, 1.7, 5.2
+ThrottleUpDown = 0.9
 MaxFuel         = 1000
 FuelConsumption = 1.0
 Stealth = 0.35
-ThirdPersonDist = 24
-SubmergedDamageHeight = 2
-
-;MobilityPitch  = 	0.48
-MobilityPitch  = 	0.9
-MobilityRoll   = 	0.87
-MobilityYaw    = 	0.20
-;ThrottleUpDown = 	0.60
-ThrottleUpDown = 	1.4
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
 Category = M.Q

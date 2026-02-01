@@ -4,18 +4,12 @@ ItemID = 28730
 MaxHp = 100
 Speed = 1.0
 EnableEjectionSeat = true
+ThrottleUpDown = 0.8
 FlareType = 4
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel = 1200
 FuelConsumption = 1.0
-ThirdPersonDist = 18
-SubmergedDamageHeight = 1
-
-MobilityPitch  = 	0.87
-MobilityRoll   = 	1.61
-MobilityYaw    = 	0.23
-ThrottleUpDown = 	0.27
 
 ; M = Military(軍用機).  T = Trainer(練習機)
 Category = M.T

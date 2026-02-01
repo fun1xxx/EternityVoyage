@@ -20,7 +20,6 @@ StepHeight = 1.5
 DefaultFreelook = true
 TurretPosition = 0.0, 0.0, 0.25
 FlareType = 10
-ThirdPersonDist = 8
 
 OnGroundPitchFactor = 2.0
 OnGroundRollFactor  = 1.3
@@ -44,7 +43,7 @@ SetWheelPos =  1.75,  -0.24,  4.85, 3.02, 1.44, -1.54, -2.91
 HUD = mbt_hud, gunner
 ;HUD = ww2tank_hud, ww2tank_hud
 
-AddGunnerSeat = 0.00,  1.50,  0.25,   2.00,  3.50,  0.25, false, -90, 90, true
+AddGunnerSeat = 0.00,  2.50,  0.25,   2.00,  3.50,  0.25, false, -90, 90, true
 AddGunnerSeat = 0.00,  1.00, -1.25,  -0.55,  3.80, -1.16, false, -90, 90, true
 
 ; 地面の滑りやすさ、小さいほど摩擦が大きくなり動きにくくなる
@@ -118,11 +117,11 @@ RideRack = c5, 2
 AddRecipe = "XIX",  " X ",  "III",  X, iron_block,  I, iron_ingot
 
 BoundingBox =  0.0, 1.0,  4.0,  2.1, 2.0, 0.75
-BoundingBox = -0.8, 1.1,  2.5,  2.1, 4.0, 0.75
-BoundingBox =  0.8, 1.1,  2.5,  2.1, 4.0, 0.75
+BoundingBox = -0.8, 1.6,  2.5,  2.1, 4.0, 0.75
+BoundingBox =  0.8, 1.6,  2.5,  2.1, 4.0, 0.75
 
 BoundingBox =  0.0, 1.3, -0.5,  4.0, 3.2, 1.00
-BoundingBox =  0.8, 1.3, -2.8,  2.0, 2.0, 1.20
-BoundingBox = -0.8, 1.3, -2.8,  2.0, 2.0, 1.20
+BoundingBox =  0.8, 1.3, -3.5,  2.0, 2.0, 1.20
+BoundingBox = -0.8, 1.3, -3.5,  2.0, 2.0, 1.20
 
 BoundingBox =  0.0, 3.0,  0.0,  2.0, 1.0, 1.20

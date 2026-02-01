@@ -1,9 +1,9 @@
 DisplayName = 9K118 Sheksna
 Type = TVMissile
-Power = 52
+Power = 200
 Acceleration = 2.0
-Explosion = 4
-Flaming = true
+Explosion = 0
+Flaming = false
 Sight = MoveSight
 Delay = 100
 ModeNum = 2

@@ -1,11 +1,11 @@
-﻿DisplayName = B-2A Spirit
+DisplayName = B-2A Spirit
 AddDisplayName = ja_JP, B-2A スピリット
 ItemID = 28738
 MaxHp  = 700
 EnableNightVision  = true
 EnableEntityRadar  = true
 EnableEjectionSeat = true
-Speed = 1.00
+Speed = 1.0
 FlareType = 2
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -16,16 +16,11 @@ EnableGunnerMode = true
 ConcurrentGunnerMode = true
 AutoPilotRot = 0
 Stealth = 0.2
-ThirdPersonDist = 40
-SubmergedDamageHeight = 3
-MotionFactor = 0.965
 
-
-MobilityPitch  = 	0.30
-MobilityRoll   = 	0.38
-MobilityYaw    = 	0.20
-ThrottleUpDown = 	0.18
-
+ThrottleUpDown = 0.3
+MobilityYaw = 0.5
+MobilityPitch = 0.5
+MobilityRoll = 0.3
 MinRotationPitch = -60
 MaxRotationPitch =  60
 MinRotationRoll  = -60
@@ -93,35 +88,10 @@ AddWeapon = gbu57,   -1.84,  1.80, -6.13,  0, 0 , true,  2
 AddWeapon = agm158,   1.84,  1.80, -6.13,  0, 0 , true,  2
 AddWeapon = agm158,  -1.84,  1.80, -6.13,  0, 0 , true,  2
 
-
-BoundingBox =   0.00, 3.38,   0.45,   2.5, 3.0
-BoundingBox =   0.00, 3.40,  -2.26,   2.5, 3.5
-BoundingBox =   0.00, 3.43,  -4.96,   2.5, 3.4
-BoundingBox =   0.00, 3.40,  -7.59,   2.5, 3.2
-BoundingBox =   0.00, 3.29, -10.21,   2.5, 2.6
-BoundingBox =   0.00, 3.17, -13.36,   3.0, 1.8
-BoundingBox =   0.00, 3.08, -16.79,   3.0, 0.6
-BoundingBox =   3.74, 2.93,  -1.69,   4.0, 1.5
-BoundingBox =  -3.74, 2.93,  -1.69,   4.0, 1.5
-BoundingBox =   3.74, 2.93,  -6.20,   4.0, 2.0
-BoundingBox =  -3.74, 2.93,  -6.20,   4.0, 2.0
-BoundingBox =   3.74, 2.93, -10.49,   4.0, 1.5
-BoundingBox =  -3.74, 2.93, -10.49,   4.0, 1.5
-BoundingBox =   3.74, 2.93, -14.76,   3.0, 0.6,  0.7
-BoundingBox =  -3.74, 2.93, -14.76,   3.0, 0.6,  0.7
-BoundingBox =   9.27, 3.05,  -5.94,   6.0, 1.0,  0.9
-BoundingBox =  -9.27, 3.05,  -5.94,   6.0, 1.0,  0.9
-BoundingBox =   9.27, 3.05, -12.55,   6.0, 0.7,  0.9
-BoundingBox =  -9.27, 3.05, -12.55,   6.0, 0.7,  0.9
-BoundingBox =  15.59, 3.16, -10.12,   6.0, 0.6,  0.8
-BoundingBox = -15.59, 3.16, -10.12,   6.0, 0.6,  0.8
-BoundingBox =  20.80, 3.15, -13.23,   4.0, 0.5,  0.7
-BoundingBox = -20.80, 3.15, -13.23,   4.0, 0.5,  0.7
-BoundingBox =  25.16, 3.13, -16.32,   4.0, 0.5,  0.6
-BoundingBox = -25.16, 3.13, -16.32,   4.0, 0.5,  0.6
-BoundingBox =   4.64, 3.82,  -4.82,   3.0, 1.0,  1.2
-BoundingBox =  -4.64, 3.82,  -4.82,   3.0, 1.0,  1.2
-BoundingBox =   4.64, 3.60,  -8.48,   3.0, 1.0,  1.2
-BoundingBox =  -4.64, 3.60,  -8.48,   3.0, 1.0,  1.2
+BoundingBox =  0.0, 3.5, -1.8,  7.0, 4.0
+BoundingBox =  0.0, 3.5, -8.2,  7.0, 4.0
+BoundingBox =  0.0, 3.0,-14.8,  7.0, 2.0
+BoundingBox =  8.5, 3.2, -9.3, 10.0, 2.3
+BoundingBox = -8.5, 3.2, -9.3, 10.0, 2.3
 
 AddRecipe = "DDG",  "DGT",  "GTI",  I,iron_block, G,gold_block, D,diamond_block, T,tnt

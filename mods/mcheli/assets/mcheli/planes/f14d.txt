@@ -1,26 +1,18 @@
-﻿DisplayName = F-14D Super Tomcat
+DisplayName = F-14D Super Tomcat
 AddDisplayName = ja_JP, F-14D スーパートムキャット
 ItemID = 28714
 MaxHp = 200
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.20
+Speed = 0.9
 FlareType = 4
 VariableSweepWing = true
-SweepWingSpeed = 1.5
+SweepWingSpeed = 1.2
 MaxFuel         = 1200
 FuelConsumption = 1.0
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
-ThirdPersonDist = 24
-SubmergedDamageHeight = 1
-MotionFactor = 0.965
-
-MobilityPitch  = 	0.87
-MobilityRoll   = 	1.88
-MobilityYaw    = 	0.25
-ThrottleUpDown = 	0.39
 
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F

@@ -12,6 +12,7 @@ FlareType = 3
 CameraPosition = 0.0, 0.7, 3.5
 MaxFuel         = 1800
 FuelConsumption = 1.0
+ThirdPersonDist = 20
 
 ; M = Military(軍用機).  S = Antisubmarine(対潜機)
 Category = M.S

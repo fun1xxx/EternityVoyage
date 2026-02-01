@@ -5,16 +5,9 @@ MaxHp = 150
 Speed = 0.78
 Sound = prop
 onGroundPitch = 10.5
+ThrottleUpDown = 0.9
 MaxFuel         = 1200
 FuelConsumption = 1.0
-ThirdPersonDist = 16
-SubmergedDamageHeight = 2
-RotorSpeed = 250
-
-MobilityPitch  = 	1.35
-MobilityRoll   = 	0.94
-MobilityYaw    = 	0.20
-ThrottleUpDown = 	0.71
 
 ; W = WWII.  A = Attacker(攻撃機)
 Category = W.A

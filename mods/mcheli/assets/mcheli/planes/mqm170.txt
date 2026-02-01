@@ -2,7 +2,7 @@ DisplayName = MQM-170 Outlaw(Target drone)
 AddDisplayName = ja_JP, MQM-170アウトロー(標的機)
 ItemID = 28735
 MaxHp = 100
-Speed = 1.0
+Speed = 0.6
 Sound = prop
 onGroundPitch = 0
 UAV = true
@@ -11,7 +11,6 @@ AutoPilotRot = -0.60
 ThrottleUpDown = 1.2
 MaxFuel         = 180
 FuelConsumption = 1.0
-RotorSpeed = 150
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
 Category = M.Q

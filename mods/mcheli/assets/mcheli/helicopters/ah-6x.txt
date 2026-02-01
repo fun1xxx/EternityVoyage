@@ -49,5 +49,6 @@ AddWeapon = targeting_pod_pv30s,   0.0, 0.10, 2.91,   0.0, 0.0
 AddWeapon = targeting_pod_block,   0.0, 0.10, 2.91,   0.0, 0.0
 
 AddRecipe = " Y ",  "YXY",  "RYR",  X, iron_block, Y, iron_ingot, R, redstone
+AddRecipe = "RXR",  X, mcheli:ah-6, R, redstone
 
 BoundingBox =  0.0, 1.7, 0.0,  2.4, 2.5

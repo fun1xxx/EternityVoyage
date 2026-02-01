@@ -1,11 +1,11 @@
-wDisplayName = F-15E Strike Eagle
+DisplayName = F-15E Strike Eagle
 AddDisplayName = ja_JP, F-15E ストライクイーグル
 ItemID = 28740
 MaxHp = 200
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.20
+Speed = 1.1
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
@@ -14,14 +14,6 @@ FuelConsumption = 1.0
 CameraPosition = 0.0, 0.70, 1.6
 EnableGunnerMode = true
 AutoPilotRot = 0
-ThirdPersonDist = 24
-SubmergedDamageHeight = 2
-MotionFactor = 0.968
-
-MobilityPitch  = 	0.87
-MobilityRoll   = 	1.88
-MobilityYaw    = 	0.25
-ThrottleUpDown = 	0.39
 
 ; M = Military(軍用機).  A = Attacker(攻撃機)
 Category = M.A
@@ -103,15 +95,8 @@ SweepWingSpeed = 0.7
 
 AddRecipe = " Y ",  "TAT",  "XDX",  X, iron_block, Y, glass, A, anvil, D, diamond, T, tnt
 
-BoundingBox =  0.00, 2.75, -0.48,  1.5, 2.3
-BoundingBox =  0.00, 2.40, -2.80,  3.0, 1.8
-BoundingBox =  0.00, 2.40,  1.20,  1.5, 1.5
-BoundingBox =  0.00, 2.20,  3.10,  1.2, 1.2
-
-BoundingBox =  0.00, 1.90, -7.10,  5.0, 2.0
-BoundingBox = -3.45, 2.63, -9.77,  4.0, 0.3,  0.8
-BoundingBox =  3.45, 2.63, -9.77,  4.0, 0.3,  0.8
-BoundingBox =  2.90, 2.20, -15.2,  2.5, 0.1,  0.6
-BoundingBox = -2.90, 2.20, -15.2,  2.5, 0.1,  0.6
-BoundingBox =  0.00, 2.15, -11.1,  3.0, 1.5
-BoundingBox =  0.00, 2.30, -13.6,  3.0, 1.1
+BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
+BoundingBox =  0.00, 1.90, -7.60,  5.0, 2.0
+BoundingBox = -2.92, 2.20, -9.60,  4.0, 1.0
+BoundingBox =  2.92, 2.20, -9.60,  4.0, 1.0
+BoundingBox =  0.00, 1.80, -11.8,  3.0, 1.5

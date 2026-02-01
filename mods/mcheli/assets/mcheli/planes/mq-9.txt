@@ -2,7 +2,7 @@ DisplayName = MQ-9 Reaper
 AddDisplayName = ja_JP, MQ-9 リーパー
 ItemID = 28707
 MaxHp = 120
-Speed = 0.60
+Speed = 0.6
 Sound = turboprop
 FlareType = 4
 EnableNightVision = true
@@ -11,17 +11,9 @@ EnableGunnerMode = true
 UAV = true
 AutoPilotRot = -0.60
 CameraPosition = 0.0, 0.9, 0.0
+ThrottleUpDown = 0.8
 MaxFuel         = 1000
 FuelConsumption = 1.0
-ThirdPersonDist = 12
-SubmergedDamageHeight = 2
-RotorSpeed = 400
-
-MobilityPitch  = 	0.70
-MobilityRoll   = 	0.25
-MobilityYaw    = 	0.23
-ThrottleUpDown = 	1.0
-
 
 ; M = Military(軍用機).  Q = Drone(無人航空機)
 Category = M.Q

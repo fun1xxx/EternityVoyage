@@ -1,7 +1,7 @@
 DisplayName = MBDA Meteor
 Type = AAMissile
 Power = 100
-Acceleration = 12
+Acceleration = 8
 Explosion = 6
 Flaming = false
 Sight = MissileSight

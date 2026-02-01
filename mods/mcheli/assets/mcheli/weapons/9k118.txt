@@ -1,6 +1,6 @@
 DisplayName = 9K118 Sheksna
 Type = ATMissile
-Power = 62
+Power = 180
 Acceleration = 4.0
 Explosion = 4
 Flaming = true

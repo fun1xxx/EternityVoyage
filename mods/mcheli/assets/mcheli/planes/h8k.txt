@@ -5,21 +5,18 @@ MaxHp = 280
 Speed = 0.80
 Sound = prop
 Float = true
+ThrottleUpDown = 0.5
 MaxFuel         = 3000
 FuelConsumption = 1.5
-ThirdPersonDist = 32
-RotorSpeed = 350
 
 ; W = WWII.  F = Fighter(戦闘機)
 Category = W.F
 
 HUD = plane_wwii, none, gunner, gunner, gunner, gunner, gunner
 
-MobilityPitch  = 	0.76
-MobilityRoll   = 	0.59
-MobilityYaw    = 	0.20
-ThrottleUpDown = 	0.26
-
+MobilityYaw   = 0.6
+MobilityPitch = 0.6
+MobilityRoll  = 0.3
 MinRotationPitch = -60
 MaxRotationPitch =  60
 MinRotationRoll  = -60

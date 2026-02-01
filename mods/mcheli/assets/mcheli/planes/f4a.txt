@@ -5,26 +5,17 @@ MaxHp = 200
 EnableNightVision = true
 EnableEntityRadar = true
 EnableEjectionSeat = true
-Speed = 1.20
+Speed = 1.08
 FlareType = 3
 ParticlesScale = 0.7
 EnableSeaSurfaceParticle = true
 MaxFuel         = 1100
 FuelConsumption = 1.0
 AutoPilotRot = 0
-MotionFactor = 0.968
 CameraZoom = 2
 ; M = Military(軍用機).  F = Fighter(戦闘機)
 Category = M.F
 onGroundPitch = -2.0
-ThirdPersonDist = 16
-SubmergedDamageHeight = 1
-MotionFactor = 0.965
-
-MobilityPitch  = 	0.78
-MobilityRoll   = 	1.25
-MobilityYaw    = 	0.23
-ThrottleUpDown = 	0.36
 
 HUD = plane, plane_gnr
 
@@ -62,9 +53,9 @@ AddPartWeaponMissile = aim7_f,   false,  false,  false,   -1.1668, 0.9202, -5.37
 AddPartWeaponMissile = mk82,   false,  false,  false,   2.5457, 0.7549, -3.9708
 AddPartWeaponMissile = mk82,   false,  false,  false,   -2.5457, 0.7549, -3.9708
 
-AddWeapon = m61a1_gpod, 0.00, 0.5352, -3.9862,   0.0,-1.0
-AddWeapon = m61a1_gpod, 3.7296, 0.5352, -4.736,   0.5,-1.0
-AddWeapon = m61a1_gpod, -3.7296, 0.5352, -4.736,   -0.5,-1.0
+AddWeapon = m61a1_gpod, 0.00, 0.5352, -3.9862,   0.0,-3.0
+AddWeapon = m61a1_gpod, 3.7296, 0.5352, -4.736,   2.0,-3.0
+AddWeapon = m61a1_gpod, -3.7296, 0.5352, -4.736,   -2.0,-3.0
 AddWeapon = aim7_f,    0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
 AddWeapon = aim7_f,   -0.5343, 0.9202, 0.7853,   0.0, 0.0 , true, 2
 AddWeapon = aim7_f,    1.1668, 0.9202, -5.3736,   0.0, 0.0,true, 2
@@ -74,17 +65,9 @@ AddWeapon = mk82, -2.5457, 0.7549, -3.9708,   0.0, 0.0, true, 2
 
 AddRecipe = " X ",  "XZX",  "ZYZ",  X, iron_block, Y, furnace, Z, iron_ingot, D, diamond_block
 
-BoundingBox =  0.00, 1.65,  0.00,   1.2, 1.5
-BoundingBox =  0.00, 1.80, -1.80,   1.8, 1.8
-BoundingBox =  0.00, 1.80, -3.80,   1.8, 1.8
-BoundingBox =  0.00, 1.80, -5.80,   1.8, 1.8
-BoundingBox =  0.00, 1.80, -7.80,   1.8, 1.8
-BoundingBox =  0.00, 1.80, -9.70,   1.5, 1.7
-BoundingBox =  0.00, 2.20, -11.6,   1.0, 1.0,  0.9
-
-BoundingBox =  2.23, 1.05, -6.70,   2.5, 0.3
-BoundingBox = -2.23, 1.05, -6.70,   2.5, 0.3
-BoundingBox =  1.72, 1.10, -4.50,   1.5, 0.3
-BoundingBox = -1.72, 1.10, -4.50,   1.5, 0.3
-BoundingBox =  4.30, 1.14, -7.75,   1.8, 0.2,  0.8
-BoundingBox = -4.30, 1.14, -7.75,   1.8, 0.2,  0.8
+BoundingBox =  0.00, 1.90, -2.80,  3.0, 2.0
+BoundingBox =  0.00, 1.90, -7.60,  3.5, 2.0
+BoundingBox = -3.8, 0.80, -6.80,  3.8, 1.0
+BoundingBox =  3.8, 0.80, -6.80,  3.8, 1.0
+BoundingBox =  0.00, 2.70, -11.8,  3.0, 3.0
+BoundingBox =  0.00, 1.20, 1.60,  1.5, 1.5

@@ -1,8 +1,8 @@
 DisplayName = Plastic Bomb
 Type = Bomb
-Power = 1
+Power = 200
 Acceleration = 0.1
-Explosion = 4
+Explosion = 7
 ExplosionInWater = 0
 Flaming = true
 Sight = None

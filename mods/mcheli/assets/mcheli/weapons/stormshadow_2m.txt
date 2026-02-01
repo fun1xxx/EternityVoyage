@@ -1,7 +1,7 @@
 DisplayName = Storm Shadow [Piercing 2m]
 Type = TVMissile
 Power = 250
-Acceleration = 2.9
+Acceleration = 1.8
 Explosion = 90
 ExplosionBlock = 25
 Flaming = false

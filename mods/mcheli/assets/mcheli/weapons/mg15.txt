@@ -5,30 +5,14 @@ Acceleration = 8.0
 Explosion = 0
 Flaming = false
 Sight = MoveSight
-Zoom = 0
-Delay = 0
-Accuracy = 1
-;HeatCount = 1
-;MaxHeatCount = 120
+Delay = 1
+HeatCount = 6
+MaxHeatCount = 150
+SoundPitch = 0.9
+SetCartridge = cartridge, 0.1,  90, 0, 1.50, -0.04, 0.40
+Sound = gun_l1_snd
 
-Sound = mg15_snd
-SoundPitch = 0.85
-SoundVolume = 4
-SoundDelay = 1
-
-ModelBullet = bullet_atom1
-
-SetCartridge = cartridge, 0.0,  90, 0, 1.0, -0.04, 0.40
-
-AddMuzzleFlash  =	0.85,     0.1,         0,  150,254,219,184
-AddMuzzleFlashSmoke =	0.80, 1,  0.2,  0.00,  7,   90,160,140,120
-AddMuzzleFlashSmoke =	1.00, 1,  0.5,  0.00, 11,   70,160,140,120
-AddMuzzleFlashSmoke =	1.20, 1,  1.5,  0.00, 15,   50,190,170,100
-
-Round = 75
-MaxAmmo = 1350
-ReloadTime = 120
-
-SuppliedNum = 75
-Item =  1, iron_ingot
-Item =  1, gunpowder
+MaxAmmo = 1000
+SuppliedNum = 200
+Item =  2, iron_ingot
+Item =  2, gunpowder

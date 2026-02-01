@@ -8,6 +8,7 @@ Sight = None
 Delay = 125
 SoundVolume = 10.0
 Sound = cannon_4_snd
+Round = 1
 Accuracy = 0.5
 ModelBullet = bullet105mm
 BulletColor        = 255, 255, 100, 100

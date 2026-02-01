@@ -11,4 +11,4 @@ ReloadTime = 0
 Particle = largesmoke
 TimeFuse = 1
 ModelBullet = dummy
-Sound = l_h_enginesound
+Sound = L_H_EngineSound

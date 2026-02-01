@@ -1,7 +1,7 @@
 DisplayName = BK-27 RevolverCanon
 Type = MachineGun1
 Power = 23
-Acceleration = 12
+Acceleration = 9.9
 Explosion = 1
 ExplosionBlock = 0
 Flaming = false
@@ -13,12 +13,6 @@ HeatCount = 6
 MaxHeatCount = 300
 Sound = bk27_1_snd
 SoundVolume = 7
-
-ModelBullet = bullet_atom
-
-AddMuzzleFlashSmoke =  1.0, 3,  10.0,  0.20, 25,  100,190,190,190
-AddMuzzleFlashSmoke = -1.6, 2,   7.0,  0.17, 17,  160,160,160,160
-AddMuzzleFlashSmoke = -3.5, 1,   5.0,  0.15, 10,  160,160,160,160
 
 MaxAmmo = 375
 SuppliedNum = 75
